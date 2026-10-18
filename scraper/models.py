@@ -23,6 +23,7 @@ class Offer:
     image: str | None = None
     brand: str | None = None
     format: str | None = None
+    unit_raw: str | None = None  # unidad tal como la publica el súper (diagnóstico)
 
     def to_dict(self) -> dict:
         return asdict(self)

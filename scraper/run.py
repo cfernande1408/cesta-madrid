@@ -57,6 +57,7 @@ def load_cesta(path: Path) -> tuple[dict, list[Item]]:
 def _offer_json(offer: Offer) -> dict:
     data = offer.to_dict()
     data.pop("store")
+    data.pop("unit_raw")
     return data
 
 
@@ -86,7 +87,8 @@ def rejected_sample(item: Item, offers: list[Offer], limit: int = 5) -> list[dic
         root = first_word[0][:-1] if len(first_word[0]) > 4 else first_word[0]  # "huevos" → "huevo"
     similar = [o for o in offers if root and root in normalize(o.name) and o not in close]
     return [
-        {"nombre": o.name, "unidad": o.unit, "precio_unidad": o.unit_price, "motivo": _reason(item, o)}
+        {"nombre": o.name, "unidad": o.unit, "precio_unidad": o.unit_price,
+         "unidad_original": o.unit_raw, "motivo": _reason(item, o)}
         for o in (close + similar)[:limit]
     ]
 

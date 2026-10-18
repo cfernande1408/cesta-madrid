@@ -64,14 +64,16 @@ def _price(tile: Tag) -> tuple[float | None, str]:
     return (parse_price_text(text) if text else None), text
 
 
-def _unit_price(tile: Tag) -> tuple[str | None, float | None]:
+def _unit_price(tile: Tag) -> tuple[str | None, float | None, str | None]:
+    raw = None
     for node in tile.select(".unit-price-per-unit"):
         if node.find_parent(class_="strike-through") or "strike-through" in (node.get("class") or []):
             continue
-        unit, value = parse_unit_price_text(_text(node))
+        raw = _text(node)
+        unit, value = parse_unit_price_text(raw)
         if unit is not None:
-            return unit, value
-    return None, None
+            return unit, value, raw
+    return None, None, raw
 
 
 def _image(tile: Tag) -> str | None:
@@ -95,10 +97,11 @@ def parse_results(html: str) -> list[Offer]:
         name, href = _name_and_url(tile)
         if not name:
             continue
-        unit, unit_price = _unit_price(tile)
+        unit, unit_price, unit_raw = _unit_price(tile)
         if "/" in price_text:
             # Producto al peso: el precio publicado ya es por kilo.
             unit, unit_price = parse_unit_price_text(price_text)
+            unit_raw = price_text
         offers[pid] = Offer(
             store="ahorramas",
             product_id=str(pid),
@@ -108,6 +111,7 @@ def parse_results(html: str) -> list[Offer]:
             unit_price=unit_price,
             url=urljoin(BASE_URL, href) if href else f"{BASE_URL}/{pid}.html",
             image=_image(tile),
+            unit_raw=unit_raw,
         )
     return list(offers.values())
 

@@ -86,6 +86,7 @@ def parse_product(raw: dict) -> Offer | None:
         image=raw.get("thumbnail"),
         brand=raw.get("brand"),
         format=_format(raw, pi),
+        unit_raw=f"{pi.get('reference_format')} ({pi.get('reference_price')})",
     )
 
 

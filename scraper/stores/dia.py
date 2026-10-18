@@ -69,6 +69,7 @@ def _parse_item(raw: object) -> Offer | None:
         url=BASE_URL + raw.get("url", f"/p/{pid}"),
         image=BASE_URL + image if image else None,
         brand=raw.get("brand"),
+        unit_raw=prices.get("measure_unit"),
     )
 
 

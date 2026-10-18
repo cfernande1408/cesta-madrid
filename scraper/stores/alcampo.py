@@ -73,6 +73,7 @@ def _parse_product(raw: object) -> Offer | None:
         image=image,
         brand=raw.get("brand"),
         format=raw.get("packSizeDescription"),
+        unit_raw=unit_price_node.get("unitName"),
     )
 
 
