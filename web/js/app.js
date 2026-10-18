@@ -82,11 +82,26 @@ function idsEnLista() {
 
 function masBarato(a) {
   let mejor = null;
-  for (const [superId, oferta] of Object.entries(a.ofertas ?? {})) {
-    if (oferta.unit_price == null) continue;
+  const conPrecio = Object.entries(a.ofertas ?? {}).filter(([, o]) => o.unit_price != null);
+  for (const [superId, oferta] of conPrecio) {
     if (!mejor || oferta.unit_price < mejor.oferta.unit_price) mejor = { superId, oferta };
   }
+  if (mejor) {
+    mejor.empatados = conPrecio
+      .filter(([, o]) => Math.abs(o.unit_price - mejor.oferta.unit_price) < 0.005)
+      .map(([id]) => id);
+    mejor.todos = mejor.empatados.length === conPrecio.length && conPrecio.length > 1;
+  }
   return mejor;
+}
+
+function textoMasBarato(a, mejor) {
+  if (!mejor) return "Sin precios todavía";
+  const precio = formatoPrecioUnidad(mejor.oferta.unit_price, a.unidad);
+  if (mejor.todos) return `Mismo precio en todos: ${precio}`;
+  const nombres = mejor.empatados.map(nombreSuper);
+  const lista = nombres.length > 1 ? `${nombres.slice(0, -1).join(", ")} y ${nombres.at(-1)}` : nombres[0];
+  return `Más barato en ${lista}: ${precio}`;
 }
 
 // ---------- Fechas ----------
@@ -200,7 +215,9 @@ function renderResumen(r) {
           h("span", { class: "barra__total" }, formatoEuros(t.total)),
           t.faltan.length
             ? h("span", { class: "barra__falta" },
-                `Sin precio: ${t.faltan.map((id) => articulo(id)?.nombre ?? id).join(", ")}`)
+                t.faltan.length > 3
+                  ? `Sin precio en ${t.faltan.length} artículos`
+                  : `Sin precio: ${t.faltan.map((id) => articulo(id)?.nombre ?? id).join(", ")}`)
             : null,
         ),
       ),
@@ -257,11 +274,7 @@ function renderLista(r) {
               },
             },
             h("span", { class: "linea__titulo" }, a.nombre),
-            h("span", { class: "linea__mejor" },
-              mejor
-                ? `Más barato en ${nombreSuper(mejor.superId)}: ${formatoPrecioUnidad(mejor.oferta.unit_price, a.unidad)}`
-                : "Sin precios todavía",
-            ),
+            h("span", { class: "linea__mejor" }, textoMasBarato(a, mejor)),
           ),
           h("div", { class: "paso", role: "group", "aria-label": `Cantidad de ${a.nombre}` },
             h("button", {
@@ -295,7 +308,7 @@ function detalle(a, cantidad, detalleId, mejor) {
         h("span", { class: "detalle__producto" }, "No lo hemos encontrado"),
       );
     }
-    const esMejor = mejor && mejor.superId === s.id;
+    const esMejor = mejor && !mejor.todos && mejor.empatados.includes(s.id);
     return h("li", { class: `detalle__super${esMejor ? " detalle__super--mejor" : ""}` },
       h("span", { class: "detalle__nombre" }, s.nombre),
       h("span", { class: "detalle__medida" }, formatoPrecioUnidad(o.unit_price, a.unidad)),
