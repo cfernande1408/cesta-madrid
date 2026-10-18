@@ -1,0 +1,21 @@
+User-agent: * 
+
+Sitemap: https://www.aldi.es/.aldi-nord-sitemap.xml
+
+Disallow: /reg-cat.html
+Disallow: /reg-bal.html
+Disallow: /reg-can.html 
+Disallow: /ua-bot.html
+
+Disallow: /can/
+Disallow: /can.html
+Disallow: /can$
+
+Disallow: /bal/
+Disallow: /bal.html
+Disallow: /bal$
+
+Disallow: /mds/
+
+Disallow: /*?*filters
+Disallow: /*?*jobId=

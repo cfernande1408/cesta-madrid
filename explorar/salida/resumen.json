@@ -1,0 +1,49 @@
+{
+ "robots": {
+  "url": "https://www.aldi.es/robots.txt",
+  "final": "https://www.aldi.es/robots.txt",
+  "status": 200,
+  "tipo": "text/plain; charset=utf-8",
+  "bytes": 332,
+  "server": null
+ },
+ "productos": {
+  "url": "https://www.aldi.es/productos.html",
+  "final": "https://www.aldi.es/productos.html",
+  "status": 200,
+  "tipo": "text/html; charset=utf-8",
+  "bytes": 119894,
+  "server": null
+ },
+ "pistas": {
+  "enlaces_productos": [],
+  "apis": [],
+  "scripts": [
+   "/_next/static/2_txUowqxOtTlCtNXEnST/_buildManifest.js",
+   "/_next/static/2_txUowqxOtTlCtNXEnST/_ssgManifest.js",
+   "/_next/static/chunks/70912-193e9e8be4597eb5.js",
+   "/_next/static/chunks/78186-0228200adb49e421.js",
+   "/_next/static/chunks/98309536-9e7e18e39553a613.js",
+   "/_next/static/chunks/98871-45bd919ec73efc46.js",
+   "/_next/static/chunks/framework-c872435f33ce1657.js",
+   "/_next/static/chunks/main-000f7a24b5f1a28a.js",
+   "/_next/static/chunks/pages/_app-e1519f61303f79ae.js",
+   "/_next/static/chunks/pages/product-overview-fd878cdf3135ec35.js",
+   "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+   "/_next/static/chunks/webpack-5371fa5d62f4d9a4.js",
+   "https://app.usercentrics.eu/browser-ui/latest/bundle.js",
+   "https://assets.adobedtm.com/3414aca5c993/6b26609a1723/launch-8940879f79c2.min.js"
+  ],
+  "data_attrs": [],
+  "precios_en_html": [],
+  "sitemaps": []
+ },
+ "sitemap": {
+  "url": "https://www.aldi.es/sitemap.xml",
+  "final": "https://www.aldi.es/sitemap.xml",
+  "status": 404,
+  "tipo": "text/html; charset=utf-8",
+  "bytes": 66214,
+  "server": null
+ }
+}
