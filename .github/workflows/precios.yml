@@ -41,7 +41,16 @@ jobs:
         run: python -m pytest -q
 
       - name: Descargar precios
-        run: python -m scraper.run
+        env:
+          MENSAJE: ${{ github.event.head_commit.message }}
+        run: |
+          # Un commit con "[solo: aldi dia]" en el mensaje consulta solo esos súper.
+          solo=$(printf '%s' "$MENSAJE" | grep -oP '\[solo: \K[a-z ]+(?=\])' || true)
+          if [ -n "$solo" ]; then
+            python -m scraper.run --solo $solo
+          else
+            python -m scraper.run
+          fi
 
       - name: Guardar datos en el repo
         run: |

@@ -121,7 +121,7 @@ def test_only_flag_skips_other_stores(cesta, tmp_path):
 
 def test_real_cesta_is_valid():
     ajustes, items = load_cesta(ROOT / "cesta.json")
-    assert set(ajustes["supermercados"]) <= {"mercadona", "dia", "alcampo", "ahorramas"}
+    assert set(ajustes["supermercados"]) <= {"mercadona", "dia", "aldi", "alcampo", "ahorramas"}
     assert len(items) >= 30
     assert all(i.unidad in {"kg", "l", "ud"} for i in items)
     assert all(i.cantidad > 0 for i in items)

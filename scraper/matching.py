@@ -83,14 +83,19 @@ class Item:
         return tuple(tokens(self.busqueda))
 
 
+def matches_text(item: Item, text: str) -> bool:
+    """¿El texto (nombre del producto) cumple las palabras exigidas y excluidas?"""
+    name = normalize(text)
+    if not all(contains(name, p) for p in item.required_phrases()):
+        return False
+    return not any(contains(name, p) for p in item.excluir)
+
+
 def accepts(item: Item, offer: Offer) -> bool:
     """¿Sirve esta oferta para este artículo?"""
     if offer.unit != item.unidad or offer.unit_price is None or offer.unit_price <= 0:
         return False
-    name = normalize(offer.name)
-    if not all(contains(name, p) for p in item.required_phrases()):
-        return False
-    return not any(contains(name, p) for p in item.excluir)
+    return matches_text(item, offer.name)
 
 
 def best_offer(item: Item, offers: Iterable[Offer]) -> Offer | None:

@@ -32,13 +32,14 @@ HISTORY_FIELDS = ["fecha", "articulo", "supermercado", "precio_unidad", "unidad"
 
 def build_store(store_id: str, ajustes: dict) -> Store:
     from scraper.stores.ahorramas import Ahorramas
+    from scraper.stores.aldi import Aldi
     from scraper.stores.alcampo import Alcampo
     from scraper.stores.dia import Dia
     from scraper.stores.mercadona import Mercadona
 
     if store_id == "mercadona":
         return Mercadona(warehouse=ajustes.get("almacen_mercadona", "mad1"))
-    factories = {"dia": Dia, "alcampo": Alcampo, "ahorramas": Ahorramas}
+    factories = {"dia": Dia, "alcampo": Alcampo, "ahorramas": Ahorramas, "aldi": Aldi}
     if store_id not in factories:
         raise ValueError(f"Supermercado desconocido: {store_id}")
     return factories[store_id]()

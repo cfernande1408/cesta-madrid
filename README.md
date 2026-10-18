@@ -1,6 +1,6 @@
 # Cesta Madrid
 
-Compara cuánto cuesta vuestra lista de la compra en **Mercadona, Dia, Alcampo y Ahorramás** (Madrid) y dice dónde sale más barata: en un solo súper o repartiendo entre dos.
+Compara cuánto cuesta vuestra lista de la compra en **Mercadona, Dia, Aldi, Alcampo y Ahorramás** (Madrid) y dice dónde sale más barata: en un solo súper o repartiendo entre dos.
 
 **Web:** https://cfernande1408.github.io/cesta-madrid/
 
@@ -15,6 +15,7 @@ Compara cuánto cuesta vuestra lista de la compra en **Mercadona, Dia, Alcampo y
 cesta.json ──► scraper (Actions, diario) ──► web/data/precios.json ──► web (Pages)
                  ├─ Mercadona: catálogo por categorías (almacén mad1)
                  ├─ Dia: buscador JSON
+                 ├─ Aldi: sitemap de productos + fichas candidatas
                  ├─ Alcampo: buscador JSON
                  └─ Ahorramás: resultados de búsqueda en HTML
 ```
@@ -47,9 +48,11 @@ python -m scraper.run --solo dia   # descargar precios de un súper
 python -m http.server -d web       # ver la web en http://localhost:8000
 ```
 
+Un push que toque el scraper o `cesta.json` lanza el workflow **Precios**. Si el mensaje del commit lleva `[solo: aldi dia]`, solo se consultan esos súper (útil para probar uno sin molestar al resto).
+
 ## Avisos
 
-- Son los precios de las **tiendas online**; en tienda física pueden variar algo.
+- Son los precios que cada cadena publica en su web (Aldi no vende online, pero publica su surtido con precios de península); en tienda pueden variar algo.
 - El coste de cada línea es una estimación: precio por kilo/litro/unidad × cantidad.
 - Dia se compara con el precio sin tarjeta Club Dia.
 - El scraper hace pocas peticiones y espaciadas (una vez al día). El `robots.txt` de Mercadona no permite rastrear su `/api`; si prefieres respetarlo, quita `mercadona` de `ajustes.supermercados` en `cesta.json`.

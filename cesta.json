@@ -1,6 +1,6 @@
 {
   "ajustes": {
-    "supermercados": ["mercadona", "dia", "alcampo", "ahorramas"],
+    "supermercados": ["mercadona", "dia", "aldi", "alcampo", "ahorramas"],
     "almacen_mercadona": "mad1"
   },
   "articulos": [
