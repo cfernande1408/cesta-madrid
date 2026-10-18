@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T19:53:55+00:00",
+ "generado": "2026-10-18T20:00:01+00:00",
  "supermercados": {
   "mercadona": {
    "id": "mercadona",
@@ -7,8 +7,8 @@
    "errores": 0,
    "mensaje": null,
    "muestra": null,
-   "encontrados": 33,
-   "duracion_s": 154.0
+   "encontrados": 34,
+   "duracion_s": 154.5
   },
   "dia": {
    "id": "dia",
@@ -27,7 +27,7 @@
    "muestra": null,
    "http": 202,
    "encontrados": 6,
-   "duracion_s": 42.2
+   "duracion_s": 42.1
   },
   "ahorramas": {
    "id": "ahorramas",
@@ -37,52 +37,15 @@
    "muestra": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39",
    "http": 429,
    "encontrados": 29,
-   "duracion_s": 56.2
+   "duracion_s": 45.8
   }
  },
  "articulos": {
   "huevos": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 0,
-    "elegido": null,
-    "descartados": [
-     {
-      "nombre": "Huevos sorpresa de chocolate Hacendado dibujo",
-      "unidad": "kg",
-      "precio_unidad": 31.667,
-      "unidad_original": "kg (31.667)",
-      "motivo": "unidad kg"
-     },
-     {
-      "nombre": "Huevos",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": "dz (2.625)",
-      "motivo": "unidad ?"
-     },
-     {
-      "nombre": "Huevos super grandes XL",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": "dc (4.300)",
-      "motivo": "unidad ?"
-     },
-     {
-      "nombre": "Huevos grandes L",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": "dc (3.050)",
-      "motivo": "unidad ?"
-     },
-     {
-      "nombre": "Huevos grandes L",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": "dc (3.600)",
-      "motivo": "unidad ?"
-     }
-    ]
+    "validos": 7,
+    "elegido": "Huevos"
    },
    "dia": {
     "resultados": 50,
@@ -293,11 +256,6 @@
     "validos": 9,
     "elegido": "Garbanzos cocidos Dia Vegecampo 400 g"
    },
-   "alcampo": {
-    "resultados": 42,
-    "validos": 12,
-    "elegido": "LA COCHURA Garbanzo cocido frasco de 400 g."
-   },
    "ahorramas": {
     "resultados": 13,
     "validos": 6,
@@ -314,11 +272,6 @@
     "resultados": 3,
     "validos": 3,
     "elegido": "Tomate triturado Dia Vegecampo 800 g"
-   },
-   "alcampo": {
-    "resultados": 45,
-    "validos": 13,
-    "elegido": "CELORRIO Tomate triturado 800 gr"
    },
    "ahorramas": {
     "resultados": 13,
@@ -337,11 +290,6 @@
     "validos": 23,
     "elegido": "Tomate frito Dia Vegecampo 3 x 390 g"
    },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 45,
-    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Tomate frito elaborado sin gluten brik de 390 g."
-   },
    "ahorramas": {
     "resultados": 29,
     "validos": 22,
@@ -358,11 +306,6 @@
     "resultados": 19,
     "validos": 18,
     "elegido": "Atún claro en aceite de oliva Dia Mari Marinera 6 x 60 g"
-   },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 49,
-    "elegido": "BAYMAR Atún en aceite de girasol en bolsa 1 kg."
    },
    "ahorramas": {
     "resultados": 18,
@@ -381,11 +324,6 @@
     "validos": 20,
     "elegido": "Café molido natural Dia Cafetería 2 x 250 g"
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 48,
-    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Café molido mezcla 250 g"
-   },
    "ahorramas": {
     "resultados": 24,
     "validos": 16,
@@ -402,11 +340,6 @@
     "resultados": 16,
     "validos": 3,
     "elegido": "Azúcar blanco Dia 1 Kg"
-   },
-   "alcampo": {
-    "resultados": 6,
-    "validos": 4,
-    "elegido": "AZUCARERA Azúcar blanco 1 kg"
    },
    "ahorramas": {
     "resultados": 4,
@@ -425,6 +358,11 @@
     "validos": 3,
     "elegido": "Harina de trigo El Molino de Dia 1 Kg"
    },
+   "alcampo": {
+    "resultados": 33,
+    "validos": 13,
+    "elegido": "PRODUCTO ALCAMPO Harina de trigo 1kg"
+   },
    "ahorramas": {
     "resultados": 7,
     "validos": 4,
@@ -441,6 +379,11 @@
     "resultados": 11,
     "validos": 6,
     "elegido": "Galletas dorada maría Galleteca de Dia 800 g"
+   },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 19,
+    "elegido": "FAMILY BISCUITS Maria Dorada Galletas 800 g."
    },
    "ahorramas": {
     "resultados": 16,
@@ -459,6 +402,11 @@
     "validos": 6,
     "elegido": "Pan de molde blanco El Molino de Dia 820 g"
    },
+   "alcampo": {
+    "resultados": 47,
+    "validos": 12,
+    "elegido": "PRODUCTO ALCAMPO Pan de molde blanco con corteza 1000 g."
+   },
    "ahorramas": {
     "resultados": 51,
     "validos": 18,
@@ -475,6 +423,11 @@
     "resultados": 47,
     "validos": 7,
     "elegido": "Plátano de canarias 1 Kg aprox."
+   },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 25,
+    "elegido": "Plátano Canario IGP extra bolsa."
    },
    "ahorramas": {
     "resultados": 33,
@@ -493,6 +446,11 @@
     "validos": 9,
     "elegido": "Manzana roja dulce 1 Kg"
    },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 22,
+    "elegido": "Manzanas gala 1 kg."
+   },
    "ahorramas": {
     "resultados": 35,
     "validos": 17,
@@ -509,6 +467,11 @@
     "resultados": 50,
     "validos": 6,
     "elegido": "Naranja de mesa malla 1.5 Kg"
+   },
+   "alcampo": {
+    "resultados": 47,
+    "validos": 4,
+    "elegido": "Naranja al peso."
    },
    "ahorramas": {
     "resultados": 48,

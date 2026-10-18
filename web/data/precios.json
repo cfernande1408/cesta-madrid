@@ -1,20 +1,20 @@
 {
- "generado": "2026-10-18T19:53:55+00:00",
+ "generado": "2026-10-18T20:00:01+00:00",
  "supermercados": [
   {
    "id": "mercadona",
    "nombre": "Mercadona",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-10-18T19:53:55+00:00",
-   "encontrados": 33
+   "actualizado": "2026-10-18T20:00:01+00:00",
+   "encontrados": 34
   },
   {
    "id": "dia",
    "nombre": "Dia",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-10-18T19:53:55+00:00",
+   "actualizado": "2026-10-18T20:00:01+00:00",
    "encontrados": 34
   },
   {
@@ -22,15 +22,15 @@
    "nombre": "Alcampo",
    "ok": true,
    "parcial": true,
-   "actualizado": "2026-10-18T19:53:55+00:00",
-   "encontrados": 18
+   "actualizado": "2026-10-18T20:00:01+00:00",
+   "encontrados": 24
   },
   {
    "id": "ahorramas",
    "nombre": "Ahorramás",
    "ok": true,
    "parcial": true,
-   "actualizado": "2026-10-18T19:53:55+00:00",
+   "actualizado": "2026-10-18T20:00:01+00:00",
    "encontrados": 34
   }
  ],
@@ -156,6 +156,18 @@
    "unidad": "ud",
    "cantidad": 12.0,
    "ofertas": {
+    "mercadona": {
+     "product_id": "30167",
+     "name": "Huevos",
+     "price": 5.25,
+     "unit": "ud",
+     "unit_price": 0.2188,
+     "url": "https://tienda.mercadona.es/product/30167/huevos-tamanos-diferentes-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/3a0b8ec917c50794e9aed65bbfea018b.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 24 ud",
+     "fecha": "2026-10-18"
+    },
     "dia": {
      "product_id": "274009",
      "name": "Huevos medianos M Dia 24 unidades",
@@ -1080,6 +1092,18 @@
      "format": null,
      "fecha": "2026-10-18"
     },
+    "alcampo": {
+     "product_id": "835648",
+     "name": "PRODUCTO ALCAMPO Harina de trigo 1kg",
+     "price": 0.72,
+     "unit": "kg",
+     "unit_price": 0.72,
+     "url": "https://www.compraonline.alcampo.es/products/producto-alcampo-harina-de-trigo-1kg/835648",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/44a93866-369f-483c-8cea-708ac4cbd436/300x300.jpg",
+     "brand": "PRODUCTO ALCAMPO ",
+     "format": "1000g",
+     "fecha": "2026-10-18"
+    },
     "ahorramas": {
      "product_id": "88185",
      "name": "Harina de trigo Alipende 2kg",
@@ -1123,6 +1147,18 @@
      "image": "https://www.dia.es/product_images/149293/149293_ISO_0_ES.jpg",
      "brand": "Galleteca de Dia",
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "526872",
+     "name": "FAMILY BISCUITS Maria Dorada Galletas 800 g.",
+     "price": 1.27,
+     "unit": "kg",
+     "unit_price": 1.59,
+     "url": "https://www.compraonline.alcampo.es/products/family-biscuits-maria-dorada-galletas-800-g/526872",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/1aee1ce5-632d-4cf2-92eb-43aaff59a479/300x300.jpg",
+     "brand": "FAMILY BISCUITS",
+     "format": "800g",
      "fecha": "2026-10-18"
     },
     "ahorramas": {
@@ -1170,6 +1206,18 @@
      "format": null,
      "fecha": "2026-10-18"
     },
+    "alcampo": {
+     "product_id": "11739",
+     "name": "PRODUCTO ALCAMPO Pan de molde blanco con corteza 1000 g.",
+     "price": 1.4,
+     "unit": "kg",
+     "unit_price": 1.4,
+     "url": "https://www.compraonline.alcampo.es/products/producto-alcampo-pan-de-molde-blanco-con-corteza-1000-g/11739",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/fb569232-9c35-4111-9205-e95bf666886c/300x300.jpg",
+     "brand": "PRODUCTO ALCAMPO",
+     "format": "1000g",
+     "fecha": "2026-10-18"
+    },
     "ahorramas": {
      "product_id": "86818",
      "name": "Pan de molde Alipende 820g Familiar",
@@ -1213,6 +1261,18 @@
      "image": "https://www.dia.es/product_images/11468/11468_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "55452",
+     "name": "Plátano Canario IGP extra bolsa.",
+     "price": 2.45,
+     "unit": "kg",
+     "unit_price": 2.45,
+     "url": "https://www.compraonline.alcampo.es/products/platano-canario-igp-extra-bolsa/55452",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/9e7215d8-ee89-46f4-a8a5-db4f22e7bc97/300x300.jpg",
+     "brand": "FRUTA",
+     "format": "750g - 1250g",
      "fecha": "2026-10-18"
     },
     "ahorramas": {
@@ -1260,6 +1320,18 @@
      "format": null,
      "fecha": "2026-10-18"
     },
+    "alcampo": {
+     "product_id": "56761",
+     "name": "Manzanas gala 1 kg.",
+     "price": 1.44,
+     "unit": "kg",
+     "unit_price": 1.44,
+     "url": "https://www.compraonline.alcampo.es/products/manzanas-gala-1-kg/56761",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/a513de0c-c791-4276-a662-62b9feb9c259/300x300.jpg",
+     "brand": "FRUTA",
+     "format": "1000g",
+     "fecha": "2026-10-18"
+    },
     "ahorramas": {
      "product_id": "18961",
      "name": "Manzana roja bolsa 1.5kg",
@@ -1303,6 +1375,18 @@
      "image": "https://www.dia.es/product_images/277912/277912_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "53472",
+     "name": "Naranja al peso.",
+     "price": 2.18,
+     "unit": "kg",
+     "unit_price": 2.18,
+     "url": "https://www.compraonline.alcampo.es/products/naranja-al-peso/53472",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/5677250e-b4ab-4e69-be15-636e470e4403/300x300.jpg",
+     "brand": "MIS FRUTAS SELECCIONADAS",
+     "format": "750g - 1250g",
      "fecha": "2026-10-18"
     },
     "ahorramas": {
