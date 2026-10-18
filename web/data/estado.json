@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T19:31:38+00:00",
+ "generado": "2026-10-18T19:39:28+00:00",
  "supermercados": {
   "mercadona": {
    "id": "mercadona",
@@ -7,8 +7,8 @@
    "errores": 0,
    "mensaje": null,
    "muestra": null,
-   "encontrados": 32,
-   "duracion_s": 154.5
+   "encontrados": 33,
+   "duracion_s": 153.7
   },
   "dia": {
    "id": "dia",
@@ -17,17 +17,17 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 50.1
+   "duracion_s": 49.8
   },
   "alcampo": {
    "id": "alcampo",
    "nombre": "Alcampo",
-   "errores": 3,
+   "errores": 1,
    "mensaje": "HTTP 202 en /api/webproductpagews/v6/product-pages/search (se deja de consultar este súper en esta ejecución)",
    "muestra": null,
    "http": 202,
    "encontrados": 6,
-   "duracion_s": 13.5
+   "duracion_s": 42.2
   },
   "ahorramas": {
    "id": "ahorramas",
@@ -35,8 +35,8 @@
    "errores": 0,
    "mensaje": null,
    "muestra": null,
-   "encontrados": 33,
-   "duracion_s": 127.7
+   "encontrados": 34,
+   "duracion_s": 90.1
   }
  },
  "articulos": {
@@ -75,7 +75,7 @@
    },
    "alcampo": {
     "resultados": 48,
-    "validos": 38,
+    "validos": 34,
     "elegido": "L.R. Leche de vaca entera 1l."
    },
    "ahorramas": {
@@ -88,7 +88,34 @@
    "mercadona": {
     "resultados": 4284,
     "validos": 0,
-    "elegido": null
+    "elegido": null,
+    "descartados": [
+     {
+      "nombre": "Macarrón al huevo Hacendado",
+      "unidad": "kg",
+      "precio_unidad": 2.9
+     },
+     {
+      "nombre": "Nidos al huevo Hacendado",
+      "unidad": "kg",
+      "precio_unidad": 2.9
+     },
+     {
+      "nombre": "Spaghetti al huevo Hacendado",
+      "unidad": "kg",
+      "precio_unidad": 2.9
+     },
+     {
+      "nombre": "Pasta fresca tagliatelle al huevo Hacendado",
+      "unidad": "kg",
+      "precio_unidad": 4.8
+     },
+     {
+      "nombre": "Huevos sorpresa de chocolate Hacendado dibujo",
+      "unidad": "kg",
+      "precio_unidad": 31.667
+     }
+    ]
    },
    "dia": {
     "resultados": 50,
@@ -109,35 +136,35 @@
   "yogur-natural": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 4,
+    "validos": 3,
     "elegido": "Yogur natural Hacendado"
    },
    "dia": {
     "resultados": 34,
-    "validos": 4,
-    "elegido": "Yogur natural desnatado Dia Láctea 6 x 125 g"
+    "validos": 3,
+    "elegido": "Yogur natural Dia Láctea 6 x 125 g"
    },
    "alcampo": {
     "resultados": 49,
-    "validos": 25,
+    "validos": 16,
     "elegido": "AUCHAN Yogur natural 4 x 125 g. Producto Alcampo"
    },
    "ahorramas": {
     "resultados": 50,
-    "validos": 12,
+    "validos": 10,
     "elegido": "Yogur Alipende pack 6 natural"
    }
   },
   "mantequilla": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 12,
-    "elegido": "Palomitas de maíz sabor mantequilla Hacendado para microondas"
+    "validos": 9,
+    "elegido": "Rosquillas de mantequilla Hacendado"
    },
    "dia": {
     "resultados": 50,
-    "validos": 11,
-    "elegido": "Palomitas con mantequilla para microondas Fritos Pérez 300 g"
+    "validos": 8,
+    "elegido": "Mantequilla con sal Dia Láctea 250 g"
    },
    "alcampo": {
     "resultados": 49,
@@ -146,7 +173,7 @@
    },
    "ahorramas": {
     "resultados": 24,
-    "validos": 20,
+    "validos": 18,
     "elegido": "Mantequilla Alipende 250g pastilla"
    }
   },
@@ -226,8 +253,8 @@
   "macarrones": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 1,
-    "elegido": "Macarrones Mac & Cheese Bacon Hacendado gratinados"
+    "validos": 5,
+    "elegido": "Macarrón Hacendado"
    },
    "dia": {
     "resultados": 47,
@@ -236,8 +263,8 @@
    },
    "ahorramas": {
     "resultados": 14,
-    "validos": 2,
-    "elegido": "Macarrones Garofalo 500g"
+    "validos": 3,
+    "elegido": "Macarrón rayado Alipende 500g con vegetales"
    }
   },
   "espaguetis": {
@@ -260,25 +287,25 @@
   "lentejas": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 4,
-    "elegido": "Lentejas a la jardinera Hacendado"
+    "validos": 5,
+    "elegido": "Lenteja pardina Hacendado"
    },
    "dia": {
     "resultados": 18,
-    "validos": 10,
+    "validos": 11,
     "elegido": "Lentejas pardinas Dia Vegecampo 1 Kg"
    },
    "ahorramas": {
     "resultados": 16,
-    "validos": 3,
-    "elegido": "Lentejas de la abuela Litoral 425g"
+    "validos": 11,
+    "elegido": "Lenteja Alipende 1kg pardina"
    }
   },
   "garbanzos-cocidos": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 0,
-    "elegido": null
+    "validos": 3,
+    "elegido": "Garbanzo cocido Hacendado"
    },
    "dia": {
     "resultados": 21,
@@ -287,8 +314,8 @@
    },
    "ahorramas": {
     "resultados": 13,
-    "validos": 0,
-    "elegido": null
+    "validos": 6,
+    "elegido": "Garbanzo cocido Alipende 400g"
    }
   },
   "tomate-triturado": {
@@ -430,17 +457,17 @@
   "platanos": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 6,
+    "validos": 3,
     "elegido": "Plátano de Canarias IGP"
    },
    "dia": {
     "resultados": 47,
-    "validos": 13,
-    "elegido": "L-Casei fresa-plátano y coco-piña Dia 12 x 100 g"
+    "validos": 7,
+    "elegido": "Plátano de canarias 1 Kg aprox."
    },
    "ahorramas": {
     "resultados": 33,
-    "validos": 23,
+    "validos": 12,
     "elegido": "Plátano canario bolsa"
    }
   },
@@ -486,8 +513,8 @@
    },
    "dia": {
     "resultados": 50,
-    "validos": 16,
-    "elegido": "Tomate troceado Dia Vegecampo 400 g"
+    "validos": 15,
+    "elegido": "Tomate canario malla 750 g"
    },
    "ahorramas": {
     "resultados": 48,
@@ -559,8 +586,8 @@
    },
    "ahorramas": {
     "resultados": 24,
-    "validos": 16,
-    "elegido": "LOTE 1 kg de pechugas + 1 kg de jamoncitos + 1 kg de contramuslos de pollo"
+    "validos": 10,
+    "elegido": "Pechuga de pollo entera XXL Alipende 1,1kg aproximadamente"
    }
   },
   "carne-picada": {
@@ -576,25 +603,25 @@
    },
    "ahorramas": {
     "resultados": 19,
-    "validos": 2,
-    "elegido": "Carne picada de cerdo para burger meat El Pozo 800g aprox"
+    "validos": 1,
+    "elegido": "Preparado de carne picada de pollo 500g"
    }
   },
   "merluza": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 12,
-    "elegido": "Figuritas de merluza empanadas Hacendado ultracongeladas"
+    "validos": 10,
+    "elegido": "Papilla verduritas con merluza Hero Solo +6 meses"
    },
    "dia": {
     "resultados": 6,
-    "validos": 5,
-    "elegido": "Filetes de merluza empanados Dia Mari Marinera 600 g"
+    "validos": 4,
+    "elegido": "Filetes de merluza Argentina sin piel Dia Mari Marinera 400 g"
    },
    "ahorramas": {
     "resultados": 9,
-    "validos": 8,
-    "elegido": "filetes de merluza al huevo precocinados ultracongelados alipende 600g"
+    "validos": 5,
+    "elegido": "Filete de merluza Antonio&Ricardo sin piel Marca 600g"
    }
   },
   "agua-mineral": {

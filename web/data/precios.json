@@ -1,33 +1,33 @@
 {
- "generado": "2026-10-18T19:31:38+00:00",
+ "generado": "2026-10-18T19:39:28+00:00",
  "supermercados": [
   {
    "id": "mercadona",
    "nombre": "Mercadona",
    "ok": true,
-   "actualizado": "2026-10-18T19:31:38+00:00",
-   "encontrados": 32
+   "actualizado": "2026-10-18T19:39:28+00:00",
+   "encontrados": 33
   },
   {
    "id": "dia",
    "nombre": "Dia",
    "ok": true,
-   "actualizado": "2026-10-18T19:31:38+00:00",
+   "actualizado": "2026-10-18T19:39:28+00:00",
    "encontrados": 34
   },
   {
    "id": "alcampo",
    "nombre": "Alcampo",
    "ok": true,
-   "actualizado": "2026-10-18T19:31:38+00:00",
+   "actualizado": "2026-10-18T19:39:28+00:00",
    "encontrados": 6
   },
   {
    "id": "ahorramas",
    "nombre": "Ahorramás",
    "ok": true,
-   "actualizado": "2026-10-18T19:31:38+00:00",
-   "encontrados": 33
+   "actualizado": "2026-10-18T19:39:28+00:00",
+   "encontrados": 34
   }
  ],
  "articulos": [
@@ -198,13 +198,13 @@
      "format": "Pack-6 0.75 kg"
     },
     "dia": {
-     "product_id": "128591",
-     "name": "Yogur natural desnatado Dia Láctea 6 x 125 g",
-     "price": 0.99,
+     "product_id": "310847",
+     "name": "Yogur natural Dia Láctea 6 x 125 g",
+     "price": 1.0,
      "unit": "kg",
-     "unit_price": 1.32,
-     "url": "https://www.dia.es/yogures-y-postres/yogures-naturales-y-desnatados/p/128591",
-     "image": "https://www.dia.es/product_images/128591/128591_ISO_0_ES.jpg",
+     "unit_price": 1.33,
+     "url": "https://www.dia.es/yogures-y-postres/yogures-naturales-y-desnatados/p/310847",
+     "image": "https://www.dia.es/product_images/310847/310847_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null
     },
@@ -240,25 +240,25 @@
    "cantidad": 0.25,
    "ofertas": {
     "mercadona": {
-     "product_id": "34212",
-     "name": "Palomitas de maíz sabor mantequilla Hacendado para microondas",
-     "price": 1.2,
+     "product_id": "18145",
+     "name": "Rosquillas de mantequilla Hacendado",
+     "price": 2.05,
      "unit": "kg",
-     "unit_price": 4.445,
-     "url": "https://tienda.mercadona.es/product/34212/palomitas-maiz-sabor-mantequilla-hacendado-microondas-paquete",
-     "image": "https://prod-mercadona.imgix.net/images/f8ea8d436cfb80f7e563563cbe8b9316.jpg?fit=crop&h=300&w=300",
+     "unit_price": 6.834,
+     "url": "https://tienda.mercadona.es/product/18145/rosquillas-mantequilla-hacendado-caja",
+     "image": "https://prod-mercadona.imgix.net/images/f73177df7cc426cde2eac92c4fed38a5.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 0.27 kg"
+     "format": "Caja 0.3 kg"
     },
     "dia": {
-     "product_id": "313520",
-     "name": "Palomitas con mantequilla para microondas Fritos Pérez 300 g",
-     "price": 1.3,
+     "product_id": "268200",
+     "name": "Mantequilla con sal Dia Láctea 250 g",
+     "price": 2.05,
      "unit": "kg",
-     "unit_price": 4.33,
-     "url": "https://www.dia.es/aperitivos-y-frutos-secos/snacks-salados/p/313520",
-     "image": "https://www.dia.es/product_images/313520/313520_ISO_0_ES.jpg",
-     "brand": "Fritos Pérez",
+     "unit_price": 8.2,
+     "url": "https://www.dia.es/huevos-leche-y-mantequilla/mantequilla-y-margarina/p/268200",
+     "image": "https://www.dia.es/product_images/268200/268200_ISO_0_ES.jpg",
+     "brand": "Dia Láctea",
      "format": null
     },
     "alcampo": {
@@ -472,15 +472,15 @@
    "cantidad": 0.5,
    "ofertas": {
     "mercadona": {
-     "product_id": "52507",
-     "name": "Macarrones Mac & Cheese Bacon Hacendado gratinados",
-     "price": 2.45,
+     "product_id": "6250",
+     "name": "Macarrón Hacendado",
+     "price": 1.15,
      "unit": "kg",
-     "unit_price": 8.75,
-     "url": "https://tienda.mercadona.es/product/52507/macarrones-con-queso-hacendado-bandeja",
-     "image": "https://prod-mercadona.imgix.net/images/e93d2c0cc2ae06a0f12d6a99af41b383.jpg?fit=crop&h=300&w=300",
+     "unit_price": 1.15,
+     "url": "https://tienda.mercadona.es/product/6250/macarron-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/fb1aa0c038c08e68b8d2c7ac8900b9db.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Bandeja 0.28 kg"
+     "format": "Paquete 1 kg"
     },
     "dia": {
      "product_id": "50973",
@@ -494,13 +494,13 @@
      "format": null
     },
     "ahorramas": {
-     "product_id": "15908",
-     "name": "Macarrones Garofalo 500g",
-     "price": 1.79,
+     "product_id": "49962",
+     "name": "Macarrón rayado Alipende 500g con vegetales",
+     "price": 0.9,
      "unit": "kg",
-     "unit_price": 3.58,
-     "url": "https://www.ahorramas.com/macarrones-garofalo-500g-15908.html",
-     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw77eb77ea/Assets/015908_C1C1/large/f/1/e/1/f1e1d0061e609b342c707b8d7fc9635cc3ebc975_015908_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "unit_price": 1.8,
+     "url": "https://www.ahorramas.com/macarron-rayado-alipende-500g-con-vegetales-49962.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw2f1fdaf2/Assets/049962_C1C1/large/b/2/a/4/b2a42357062525c80e08353d243c2f4307a0f417_049962_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null
     }
@@ -556,15 +556,15 @@
    "cantidad": 1.0,
    "ofertas": {
     "mercadona": {
-     "product_id": "26116",
-     "name": "Lentejas a la jardinera Hacendado",
-     "price": 1.2,
+     "product_id": "5330",
+     "name": "Lenteja pardina Hacendado",
+     "price": 1.85,
      "unit": "kg",
-     "unit_price": 2.858,
-     "url": "https://tienda.mercadona.es/product/26116/lentejas-jardinera-hacendado-bote",
-     "image": "https://prod-mercadona.imgix.net/images/05db4d79096c7f09f2ec753aac21273c.jpg?fit=crop&h=300&w=300",
+     "unit_price": 1.85,
+     "url": "https://tienda.mercadona.es/product/5330/lenteja-pardina-hacendado-categoria-extra-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/80c08ddcd236321ea41242268903726b.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Bote 0.42 kg"
+     "format": "Paquete 1 kg"
     },
     "dia": {
      "product_id": "158",
@@ -578,13 +578,13 @@
      "format": null
     },
     "ahorramas": {
-     "product_id": "4403",
-     "name": "Lentejas de la abuela Litoral 425g",
-     "price": 1.95,
+     "product_id": "77272",
+     "name": "Lenteja Alipende 1kg pardina",
+     "price": 1.85,
      "unit": "kg",
-     "unit_price": 4.59,
-     "url": "https://www.ahorramas.com/lentejas-de-la-abuela-litoral-425g-4403.html",
-     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw9627b628/Assets/04403_C1C1/large/b/0/d/b/b0db83d30981e98f5a65dadc15a8af0c41aacbb7_04403_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "unit_price": 1.85,
+     "url": "https://www.ahorramas.com/lenteja-alipende-1kg-pardina-77272.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw21cd5bb8/Assets/077272_C1C1/large/e/c/b/5/ecb5b376e965e4746e6c850b045ef3fe266f9f3d_077272_C1C1.JPG?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null
     }
@@ -597,6 +597,17 @@
    "unidad": "kg",
    "cantidad": 1.0,
    "ofertas": {
+    "mercadona": {
+     "product_id": "26029",
+     "name": "Garbanzo cocido Hacendado",
+     "price": 0.8,
+     "unit": "kg",
+     "unit_price": 2.0,
+     "url": "https://tienda.mercadona.es/product/26029/garbanzo-cocido-hacendado-tarro",
+     "image": "https://prod-mercadona.imgix.net/images/b8b807948038c4b64791632f799e9bd8.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Tarro 0.57 kg"
+    },
     "dia": {
      "product_id": "1232",
      "name": "Garbanzos cocidos Dia Vegecampo 400 g",
@@ -606,6 +617,17 @@
      "url": "https://www.dia.es/arroz-pastas-y-legumbres/garbanzos-y-alubias/p/1232",
      "image": "https://www.dia.es/product_images/1232/1232_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "60125",
+     "name": "Garbanzo cocido Alipende 400g",
+     "price": 0.8,
+     "unit": "kg",
+     "unit_price": 2.0,
+     "url": "https://www.ahorramas.com/garbanzo-cocido-alipende-400g-60125.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
+     "brand": null,
      "format": null
     }
    }
@@ -965,14 +987,14 @@
      "format": "Pieza 0.16 kg"
     },
     "dia": {
-     "product_id": "101846",
-     "name": "L-Casei fresa-plátano y coco-piña Dia 12 x 100 g",
-     "price": 2.25,
+     "product_id": "11468",
+     "name": "Plátano de canarias 1 Kg aprox.",
+     "price": 2.79,
      "unit": "kg",
-     "unit_price": 1.88,
-     "url": "https://www.dia.es/yogures-y-postres/yogures-liquidos/p/101846",
-     "image": "https://www.dia.es/product_images/101846/101846_ISO_0_ES.jpg",
-     "brand": "Dia",
+     "unit_price": 2.79,
+     "url": "https://www.dia.es/frutas/platanos-y-bananas/p/11468",
+     "image": "https://www.dia.es/product_images/11468/11468_ISO_0_ES.jpg",
+     "brand": null,
      "format": null
     },
     "ahorramas": {
@@ -1091,14 +1113,14 @@
      "format": "Malla 2 kg"
     },
     "dia": {
-     "product_id": "10687",
-     "name": "Tomate troceado Dia Vegecampo 400 g",
-     "price": 0.68,
+     "product_id": "272686",
+     "name": "Tomate canario malla 750 g",
+     "price": 1.99,
      "unit": "kg",
-     "unit_price": 1.7,
-     "url": "https://www.dia.es/aceites-salsas-y-especias/salsas-de-tomate-y-pasta/p/10687",
-     "image": "https://www.dia.es/product_images/10687/10687_ISO_0_ES.jpg",
-     "brand": "Dia Vegecampo",
+     "unit_price": 2.65,
+     "url": "https://www.dia.es/verduras/tomates-pimientos-y-pepinos/p/272686",
+     "image": "https://www.dia.es/product_images/272686/272686_ISO_0_ES.jpg",
+     "brand": null,
      "format": null
     },
     "ahorramas": {
@@ -1270,12 +1292,12 @@
      "format": null
     },
     "ahorramas": {
-     "product_id": "42219",
-     "name": "LOTE 1 kg de pechugas + 1 kg de jamoncitos + 1 kg de contramuslos de pollo",
-     "price": 5.49,
+     "product_id": "26211",
+     "name": "Pechuga de pollo entera XXL Alipende 1,1kg aproximadamente",
+     "price": 6.82,
      "unit": "kg",
-     "unit_price": 5.49,
-     "url": "https://www.ahorramas.com/lote-1-kg-de-pechugas-1-kg-de-jamoncitos-1-kg-de-contramuslos-de-pollo-42219.html",
+     "unit_price": 6.2,
+     "url": "https://www.ahorramas.com/pechuga-de-pollo-entera-xxl-alipende-11kg-aproximadamente-26211.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw14342ed1/images/weight.svg",
      "brand": null,
      "format": null
@@ -1312,13 +1334,13 @@
      "format": null
     },
     "ahorramas": {
-     "product_id": "73355",
-     "name": "Carne picada de cerdo para burger meat El Pozo 800g aprox",
-     "price": 4.99,
+     "product_id": "10810",
+     "name": "Preparado de carne picada de pollo 500g",
+     "price": 3.99,
      "unit": "kg",
-     "unit_price": 6.24,
-     "url": "https://www.ahorramas.com/carne-picada-de-cerdo-para-burger-meat-el-pozo-800g-aprox-73355.html",
-     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwac7be182/Assets/073355_C1C1/large/a/2/9/e/a29ecd135a1110adfd3bf7dfde8fb53d5a925a1f_073355_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "unit_price": 7.98,
+     "url": "https://www.ahorramas.com/preparado-de-carne-picada-de-pollo-500g-10810.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
      "brand": null,
      "format": null
     }
@@ -1332,34 +1354,34 @@
    "cantidad": 0.5,
    "ofertas": {
     "mercadona": {
-     "product_id": "63159",
-     "name": "Figuritas de merluza empanadas Hacendado ultracongeladas",
-     "price": 3.75,
+     "product_id": "9280",
+     "name": "Papilla verduritas con merluza Hero Solo +6 meses",
+     "price": 1.8,
      "unit": "kg",
-     "unit_price": 7.5,
-     "url": "https://tienda.mercadona.es/product/63159/figuritas-merluza-empanadas-hacendado-ultracongeladas-paquete",
-     "image": "https://prod-mercadona.imgix.net/images/7f7e0f9d7f09a4d5d07ae4a2d4da46fd.jpg?fit=crop&h=300&w=300",
+     "unit_price": 7.66,
+     "url": "https://tienda.mercadona.es/product/9280/papilla-verduritas-con-merluza-hero-baby-8-meses-tarrito",
+     "image": "https://prod-mercadona.imgix.net/images/ff64697398b8e860ec176a9f98a74beb.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 0.5 kg"
+     "format": "Tarrito 0.235 kg"
     },
     "dia": {
-     "product_id": "293946",
-     "name": "Filetes de merluza empanados Dia Mari Marinera 600 g",
-     "price": 4.59,
+     "product_id": "17384",
+     "name": "Filetes de merluza Argentina sin piel Dia Mari Marinera 400 g",
+     "price": 3.49,
      "unit": "kg",
-     "unit_price": 7.6542,
-     "url": "https://www.dia.es/pescados-y-mariscos/rebozado/p/293946",
-     "image": "https://www.dia.es/product_images/293946/293946_ISO_0_ES.jpg",
+     "unit_price": 8.73,
+     "url": "https://www.dia.es/pescados-y-mariscos/congelado/p/17384",
+     "image": "https://www.dia.es/product_images/17384/17384_ISO_0_ES.jpg",
      "brand": "Dia Mari Marinera",
      "format": null
     },
     "ahorramas": {
-     "product_id": "97730",
-     "name": "filetes de merluza al huevo precocinados ultracongelados alipende 600g",
-     "price": 5.15,
+     "product_id": "96687",
+     "name": "Filete de merluza Antonio&Ricardo sin piel Marca 600g",
+     "price": 5.6,
      "unit": "kg",
-     "unit_price": 8.58,
-     "url": "https://www.ahorramas.com/filetes-de-merluza-al-huevo-precocinados-ultracongelados-alipende-600g-97730.html",
+     "unit_price": 9.33,
+     "url": "https://www.ahorramas.com/filete-de-merluza-antonioricardo-sin-piel-marca-600g-96687.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw71c00e6f/images/attributes/congelado.svg",
      "brand": null,
      "format": null
