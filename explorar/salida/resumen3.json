@@ -1,0 +1,92 @@
+{
+ "hoja_huevos": {
+  "url": "https://www.aldi.es/productos/lacteos-y-huevos/huevos.html",
+  "final": "https://www.aldi.es/productos/lacteos-y-huevos/huevos.html",
+  "status": 200,
+  "bytes": 69598,
+  "page": "/product-overview/[...categories]",
+  "api": [
+   {
+    "nombre": "PRODUCT_MGNL_CATEGORY_SIBLINGS_GET",
+    "req": {
+     "categoryPath": "/productos/lacteos-y-huevos/huevos",
+     "locale": "es",
+     "region": "pen"
+    },
+    "tipo_res": "list",
+    "muestra_res": "[{\"categoryKey\": \"leche-y-bebidas-vegetales\", \"navigationTitle\": \"Leche y bebidas vegetales\", \"teaserTitle\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserText\": \"Leche y bebidas vegetales en ALDI: calidad y frescura cada día. Visita tu supermercado más cercano y ahorra en tu compra diaria.\", \"teaserImageBig\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-leches-270x202.jpg\", \"teaserImageSmall\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-leches-270x202.jpg\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/leche-y-bebidas-vegetales\"}, \"title\": \"Leche y bebidas vegetales\", \"marketingCategory\": false, \"children\": [], \"teaserImageAltText\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserImageTitle\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserImageSmallAltText\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserImageSmallTitle\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"hideInCategory\": false}, {\"categoryKey\": \"yogures-y-postres-lacteos\", \"navigationTitle\": \"Yogures y postres lácteos\", \"teaserTitle\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserText\": \"Yogures y postres lácteos en ALDI: variedad, calidad y buen precio. Acércate a tu supermercado y descubre nuestro surtido lácteo.\", \"teaserImageBig\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-yogurt-270x202.jpg\", \"teaserImageSmall\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-yogurt-270x202.jpg\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/yogures-y-postres-lacteos\"}, \"title\": \"Yogures y postres lácteos\", \"marketingCategory\": false, \"children\": [], \"teaserImageAltText\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserImageTitle\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserImageSmallAltText\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserImageSmallT"
+   },
+   {
+    "nombre": "PRODUCT_MGNL_CATEGORY_PARENT_GET",
+    "req": {
+     "categoryPath": "huevos",
+     "locale": "es",
+     "region": "pen"
+    },
+    "tipo_res": "dict",
+    "muestra_res": "{\"success\": true, \"data\": {\"current\": {\"categoryName\": \"Huevos\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/huevos\"}, \"categoryKey\": \"huevos\"}, \"parent\": {\"categoryName\": \"Lácteos y huevos\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos\"}, \"categoryKey\": \"lacteos-y-huevos\"}}}"
+   }
+  ],
+  "precios_en_html": []
+ },
+ "hoja_leche": {
+  "url": "https://www.aldi.es/productos/lacteos-y-huevos/leche-y-bebidas-vegetales.html",
+  "final": "https://www.aldi.es/productos/lacteos-y-huevos/leche-y-bebidas-vegetales.html",
+  "status": 200,
+  "bytes": 119128,
+  "page": "/product-overview/[...categories]",
+  "api": [
+   {
+    "nombre": "PRODUCT_MGNL_CATEGORY_SIBLINGS_GET",
+    "req": {
+     "categoryPath": "/productos/lacteos-y-huevos/leche-y-bebidas-vegetales",
+     "locale": "es",
+     "region": "pen"
+    },
+    "tipo_res": "list",
+    "muestra_res": "[{\"categoryKey\": \"huevos\", \"navigationTitle\": \"Huevos\", \"teaserTitle\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserText\": \"Huevos frescos en ALDI: calidad y buen precio cada día. Acércate a tu supermercado más cercano y encuentra huevos frescos a precios bajos.\", \"teaserImageBig\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-huevos-270x202.jpg\", \"teaserImageSmall\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-huevos-270x202.jpg\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/huevos\"}, \"title\": \"Huevos\", \"marketingCategory\": false, \"children\": [], \"teaserImageAltText\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserImageTitle\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserImageSmallAltText\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserImageSmallTitle\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"hideInCategory\": false}, {\"categoryKey\": \"yogures-y-postres-lacteos\", \"navigationTitle\": \"Yogures y postres lácteos\", \"teaserTitle\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserText\": \"Yogures y postres lácteos en ALDI: variedad, calidad y buen precio. Acércate a tu supermercado y descubre nuestro surtido lácteo.\", \"teaserImageBig\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-yogurt-270x202.jpg\", \"teaserImageSmall\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-yogurt-270x202.jpg\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/yogures-y-postres-lacteos\"}, \"title\": \"Yogures y postres lácteos\", \"marketingCategory\": false, \"children\": [], \"teaserImageAltText\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserImageTitle\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserImageSmallAltText\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"teaserImageSmallTitle\": \"Yogures y postres lácteos. Calidad a precios bajos - ALDI\", \"hideInCategory\": false}, {\"categoryKey\": \"mantequill"
+   },
+   {
+    "nombre": "PRODUCT_MGNL_CATEGORY_PARENT_GET",
+    "req": {
+     "categoryPath": "leche-y-bebidas-vegetales",
+     "locale": "es",
+     "region": "pen"
+    },
+    "tipo_res": "dict",
+    "muestra_res": "{\"success\": true, \"data\": {\"current\": {\"categoryName\": \"Leche y bebidas vegetales\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/leche-y-bebidas-vegetales\"}, \"categoryKey\": \"leche-y-bebidas-vegetales\"}, \"parent\": {\"categoryName\": \"Lácteos y huevos\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos\"}, \"categoryKey\": \"lacteos-y-huevos\"}}}"
+   }
+  ],
+  "precios_en_html": []
+ },
+ "producto": {
+  "url": "https://www.aldi.es/producto/naranja-de-mesa-994500.html",
+  "final": "https://www.aldi.es/producto/naranja-de-mesa-994500.html",
+  "status": 200,
+  "bytes": 73028,
+  "page": "/product-detail/[product]",
+  "api": [
+   {
+    "nombre": "PAGE_MGNL_GET",
+    "req": {
+     "pageSlug": "recordatorio",
+     "locale": "es"
+    },
+    "tipo_res": "dict",
+    "muestra_res": "{\"@name\": \"recordatorio\", \"@path\": \"/spain/recordatorio\", \"@id\": \"fde88ed6-3599-4738-a0ef-5b9858e49b44\", \"@nodeType\": \"mgnl:page\", \"analyticsPageType\": \"Products:Product Overview Page\", \"highlightInNavigation\": false, \"description\": \"Crea y gestiona tu lista de la compra en ALDI España: añade productos desde las ofertas semanales o el catálogo para planificar tus compras y ahorrar tiempo en tu visita al supermercado.\", \"disableUsercentrics\": false, \"hideInSearch\": false, \"title\": \"Recordatorio productos\", \"metaTitle\": \"Recordatorio productos – ALDI España\", \"robots\": \"index,follow\", \"mgnl:template\": \"aldi-nord-foundation:pages/formPage\", \"navigationTitle\": \"Recordatorio\", \"masterContent\": \"true\", \"mgnl:lastModified\": \"2026-05-26T07:26:30.347Z\", \"hideInNavigation\": false, \"@canonical\": {\"es\": \"/spain/recordatorio\"}, \"@hrefLangTag\": {\"es-can\": \"/spain-can/recordatorio\", \"es-bal\": \"/spain-bal/recordatorio\", \"es\": \"/spain/recordatorio\"}, \"@headerFooter\": \"/spain\", \"@ancestors\": [{\"label\": \"Inicio\", \"path\": \"/spain\", \"hideInNavigation\": false}], \"componentList\": [\"reminderForm\"], \"openContent\": {\"0\": {\"@name\": \"0\", \"@path\": \"/spain/recordatorio/openContent/0\", \"@id\": \"127eb66a-308e-42d9-8263-05e61a5e5957\", \"@nodeType\": \"mgnl:component\", \"successHeadline\": \"¡Gracias! El aviso se ha activado correctamente.\", \"submitButtonLabel\": \"ENVIAR\", \"confirmMailBottomText\": \"Debes confirmar tu correo electrónico\", \"formHeadline\": \"Aviso de disponibilidad ALDI\", \"hintsHeadline\": \"¿Te avisamos cuando el producto esté disponible?\", \"subTitle\": \"Aviso de disponibilidad\", \"mgnl:template\": \"aldi-nord-foundation:components/reminderForm\", \"errorMessage\": \"¡Vaya! Ha ocurrido un error, inténtalo de nuevo por favor.\", \"confirmMailHeadline\": \"Confirmación\", \"masterContent\": \"true\", \"showCaptcha\": true, \"confirmMailText\": \"Por favor, confirma tu correo electrónico.\", \"richText\": {\"richTextContent\": [{\"type\": \"p\", \"children\": [{\"type\": \"text\", \"text\": \"Al registrarte por primera vez para usar nuestro servicio de recordatorio gratuito, deberás autenticarte a través de una autentificación “Double opt-in”. Ten en cuenta el siguiente procedimiento: Introduce tu dirección de correo electrónico y haz clic en \\\"Activar recordatorio \\\". Recibirás un enlace de activación después de unos minutos. En el siguiente paso accederás al enlace recibido y activarás el servicio de recordatorio. No se requerirá más autenticación para sus usos posteriores.\"}]}, {\"type\": \"text\", \"text\": \" \"}, {\"type\": \"p\", \"c"
+   },
+   {
+    "nombre": "PRODUCT_DETAIL_GET",
+    "req": {
+     "productIds": [
+      "994500"
+     ],
+     "locale": "es"
+    },
+    "tipo_res": "dict",
+    "muestra_res": "{\"products\": [{\"objectID\": \"994500\", \"name\": \"Naranja de mesa\", \"productSlug\": \"naranja-de-mesa-994500\", \"assets\": [{\"type\": \"primary\", \"url\": \"https://s7g10.scene7.com/is/image/aldinord/9945_granel_0_1_es_es_naranja_2025_cw52\", \"title\": \"Naranja de mesa | ALDI Supermercados\", \"altText\": \"Naranja de mesa | ALDI Supermercados\", \"isAiGenerated\": false}, {\"type\": \"gallery\", \"url\": \"https://s7g10.scene7.com/is/image/aldinord/9945_granel_0_0_es_es_naranja_2025_cw52\", \"title\": \"Naranja de mesa | ALDI Supermercados\", \"altText\": \"Naranja de mesa | ALDI Supermercados\", \"isAiGenerated\": false}, {\"type\": \"certificate\", \"url\": \"https://s7g10.scene7.com/is/image/aldinord/01_A_Origen_nacional\", \"title\": \"Origen nacional | ALDI Supermercados\", \"altText\": \"Origen nacional | ALDI Supermercados\", \"isAiGenerated\": false}], \"shortDescription\": \"Origen: España\\nVariedad: Navelina\\nCategoría: I\", \"shortDescriptionFormatted\": [{\"type\": \"text\", \"text\": \"Origen: España\"}, {\"type\": \"br\"}, {\"type\": \"text\", \"text\": \"Variedad: Navelina\"}, {\"type\": \"br\"}, {\"type\": \"text\", \"text\": \"Categoría: I\"}], \"longDescription\": \"El precio puede variar para las tiendas ubicadas en las Islas Baleares.\\nEl precio puede variar para las tiendas ubicadas en las Islas Canarias.\\nPor razones climatológicas puede no encontrarse disponible este artículo en tienda.\", \"longDescriptionFormatted\": [{\"type\": \"text\", \"text\": \"El precio puede variar para las tiendas ubicadas en las Islas Baleares.\"}, {\"type\": \"br\"}, {\"type\": \"text\", \"text\": \"El precio puede variar para las tiendas ubicadas en las Islas Canarias.\"}, {\"type\": \"br\"}, {\"type\": \"text\", \"text\": \"Por razones climatológicas puede no encontrarse disponible este artículo en tienda.\"}], \"metaTitle\": \"Naranja de mesa - ALDI\", \"metaDescription\": \"Naranja de mesa. Así de fácil, así de ALDI. Visita tu supermercado ALDI más cercano y descubre todas nuestras ofertas y surtido de productos.\", \"salesUnit\": \"precio kg (a granel)\", \"isAvailable\": true, \"isComingSoon\": false, \"isRecall\": false, \"isFreezing\": false, \"categoryIDs\": [\"frutas\"], \"mainCategoryID\": \"frutas\", \"currentPrice\": {\"priceValue\": 1.69, \"strikePrice\": {\"strikePriceValue\": 2.45}, \"basePrice\": [{\"basePriceValue\": 1.69, \"basePriceScale\": \"kg\"}], \"priceTagLabels\": {\"promoText1\": \"-31%\"}, \"validFrom\": 1792360800, \"validUntil\": 1792969199}, \"promotionPrices\": [{\"validFrom\": 1792360800, \"validUntil\": 1792969199, \"priceValue\": 1.69, \"strikePrice\": {\"strikePriceValue\": 2.45}, \"basePrice\": [{\"basePriceValue\": "
+   }
+  ],
+  "precios_en_html": []
+ }
+}
