@@ -1,11 +1,10 @@
-"""Sonda temporal: cómo sirve aldi.es su catálogo. Guarda muestras en explorar/salida/."""
+"""Sonda temporal (2): páginas de categoría y búsqueda de aldi.es. Guarda muestras en explorar/salida/."""
 
 import json
 import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urljoin
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from scraper.stores.base import BROWSER_HEADERS  # noqa: E402
@@ -23,51 +22,59 @@ client = httpx.Client(
 resumen = {}
 
 
-def fetch(nombre, url):
+def next_data(html):
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return None
+    return json.loads(m.group(1))
+
+
+def analizar(nombre, url):
     time.sleep(2)
     try:
         r = client.get(url)
     except Exception as exc:
         resumen[nombre] = {"url": url, "error": repr(exc)}
         return None
-    texto = r.text
-    resumen[nombre] = {
-        "url": url,
-        "final": str(r.url),
-        "status": r.status_code,
-        "tipo": r.headers.get("content-type"),
-        "bytes": len(texto),
-        "server": r.headers.get("server"),
-    }
-    (OUT / f"{nombre}.txt").write_text(texto[:300_000], encoding="utf-8")
-    return texto
+    info = {"url": url, "final": str(r.url), "status": r.status_code, "bytes": len(r.text)}
+    (OUT / f"{nombre}.txt").write_text(r.text[:400_000], encoding="utf-8")
+    d = next_data(r.text) if "html" in (r.headers.get("content-type") or "") else None
+    if d:
+        info["page"] = d.get("page")
+        pp = d["props"].get("pageProps", {})
+        api = pp.get("apiData")
+        if isinstance(api, str):
+            try:
+                api = json.loads(api)
+            except ValueError:
+                api = None
+        llamadas = []
+        for entry in api or []:
+            if isinstance(entry, list) and len(entry) == 2 and isinstance(entry[1], dict):
+                res = entry[1].get("res")
+                llamadas.append({
+                    "nombre": entry[0],
+                    "req": entry[1].get("req"),
+                    "tipo_res": type(res).__name__,
+                    "muestra_res": json.dumps(res, ensure_ascii=False)[:2500],
+                })
+        info["api"] = llamadas
+    info["precios_en_html"] = re.findall(r"\d+,\d{2}\s*€", r.text)[:10]
+    resumen[nombre] = info
+    return r.text
 
 
-robots = fetch("robots", f"{BASE}/robots.txt")
-home = fetch("productos", f"{BASE}/productos.html") or ""
+analizar("cat_lacteos", f"{BASE}/productos/lacteos-y-huevos.html")
+analizar("cat_leche", f"{BASE}/productos/lacteos-y-huevos/leche.html")
+analizar("buscar", f"{BASE}/buscar.html?query=leche")
+sitemap = analizar("sitemap_nord", f"{BASE}/.aldi-nord-sitemap.xml") or ""
+locs = re.findall(r"<loc>([^<]+)</loc>", sitemap)
+resumen["sitemap_locs"] = {"total": len(locs), "muestra": locs[:30],
+                           "con_producto": [x for x in locs if "/producto" in x][:30]}
+for i, sub in enumerate([x for x in locs if x.endswith(".xml")][:3]):
+    sm = analizar(f"sitemap_sub_{i}", sub) or ""
+    sublocs = re.findall(r"<loc>([^<]+)</loc>", sm)
+    resumen[f"sitemap_sub_{i}"]["locs"] = {"total": len(sublocs), "muestra": sublocs[:20]}
 
-# Enlaces a categorías y pistas de API en la página de productos.
-enlaces = sorted(set(re.findall(r'href="(/[^"]*productos[^"]*)"', home)))
-apis = sorted(set(re.findall(r'["\'](https?://[^"\']*(?:api|graphql|algolia|search)[^"\']*)["\']', home, re.I)))
-scripts = sorted(set(re.findall(r'<script[^>]+src="([^"]+)"', home)))
-datos = re.findall(r'data-[a-z-]*(?:product|price|config|api)[a-z-]*="([^"]{0,300})', home, re.I)
-precios = re.findall(r"\d+,\d{2}\s*€", home)
-resumen["pistas"] = {
-    "enlaces_productos": enlaces[:80],
-    "apis": apis[:40],
-    "scripts": scripts[:40],
-    "data_attrs": datos[:20],
-    "precios_en_html": precios[:20],
-}
-
-# Primera categoría que parezca de alimentación: ¿lleva precios en el HTML?
-for i, enlace in enumerate([e for e in enlaces if e.count("/") >= 2][:3]):
-    html = fetch(f"categoria_{i}", urljoin(BASE, enlace)) or ""
-    resumen[f"categoria_{i}"]["precios_en_html"] = re.findall(r"\d+,\d{2}\s*€", html)[:15]
-    resumen[f"categoria_{i}"]["json_ld"] = len(re.findall(r"application/ld\+json", html))
-
-sitemap = fetch("sitemap", f"{BASE}/sitemap.xml") or ""
-resumen["pistas"]["sitemaps"] = re.findall(r"<loc>([^<]+)</loc>", sitemap)[:40]
-
-(OUT / "resumen.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=1), encoding="utf-8")
-print(json.dumps(resumen, ensure_ascii=False, indent=1)[:5000])
+(OUT / "resumen2.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=1), encoding="utf-8")
+print(json.dumps(resumen, ensure_ascii=False, indent=1)[:6000])
