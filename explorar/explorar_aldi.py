@@ -64,9 +64,22 @@ def analizar(nombre, url):
     return r.text
 
 
-analizar("hoja_huevos", f"{BASE}/productos/lacteos-y-huevos/huevos.html")
-analizar("hoja_leche", f"{BASE}/productos/lacteos-y-huevos/leche-y-bebidas-vegetales.html")
-analizar("producto", f"{BASE}/producto/naranja-de-mesa-994500.html")
+html = (OUT / "producto.txt").read_text(encoding="utf-8") if (OUT / "producto.txt").exists() else ""
+home = (OUT / "productos.txt").read_text(encoding="utf-8")
+chunks = sorted(set(re.findall(r'src="(/_next/static/[^"]+\.js)"', home + html)))
+hallazgos = {}
+patron = re.compile(r".{0,160}(algolia|ALGOLIA|x-algolia|/api/[a-zA-Z0-9/_-]+|PRODUCT_[A-Z_]+|searchClient|indexName|appId|apiKey).{0,200}")
+for src in chunks:
+    time.sleep(1)
+    try:
+        js = client.get(BASE + src).text
+    except Exception as exc:
+        hallazgos[src] = repr(exc)
+        continue
+    trozos = [m.group(0) for m in patron.finditer(js)]
+    if trozos:
+        hallazgos[src] = trozos[:40]
+resumen["js"] = hallazgos
 
-(OUT / "resumen3.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=1), encoding="utf-8")
+(OUT / "resumen4.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=1), encoding="utf-8")
 print(json.dumps(resumen, ensure_ascii=False, indent=1)[:6000])
