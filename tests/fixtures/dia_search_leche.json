@@ -1,0 +1,57 @@
+{
+  "cart": {"postal_code": "28041"},
+  "pagination": {"page_number": 1, "page_size": 50, "total_pages": 1},
+  "total_items": 5,
+  "search_items": [
+    {
+      "brand": "Dia Láctea",
+      "display_name": "Leche semidesnatada Dia Láctea pack 6 x 1 L",
+      "image": "/product_images/504P6/504P6_ISO_0_ES.jpg",
+      "l2_category_description": "Leche",
+      "object_id": "504P6",
+      "prices": {
+        "currency": "EUR",
+        "is_club_price": false,
+        "is_promo_price": false,
+        "measure_unit": "LITRO",
+        "price": 4.98,
+        "price_per_unit": 0.83,
+        "strikethrough_price": 4.98
+      },
+      "url": "/huevos-leche-y-mantequilla/leche/p/504P6"
+    },
+    {
+      "brand": "Central Lechera Asturiana",
+      "display_name": "Leche semidesnatada Central Lechera Asturiana brik 1 L",
+      "image": "/product_images/16065/16065_ISO_0_ES.jpg",
+      "object_id": "16065",
+      "prices": {
+        "is_club_price": true,
+        "measure_unit": "LITRO",
+        "price": 1.00,
+        "price_per_unit": 1.00,
+        "strikethrough_price": 1.25
+      },
+      "url": "/huevos-leche-y-mantequilla/leche/p/16065"
+    },
+    {
+      "brand": "Dia Láctea",
+      "display_name": "Leche entera Dia Láctea brik 1 L",
+      "image": "/product_images/1/1_ISO_0_ES.jpg",
+      "object_id": "1",
+      "prices": {"is_club_price": false, "measure_unit": "LITRO", "price": 0.89, "price_per_unit": 0.89},
+      "url": "/huevos-leche-y-mantequilla/leche/p/1"
+    },
+    {
+      "brand": "Dia",
+      "display_name": "Batido de cacao Dia 200 ml",
+      "object_id": "300",
+      "prices": {"is_club_price": false, "measure_unit": "100 ML.", "price": 0.45, "price_per_unit": 0.225},
+      "url": "/desayunos/batidos/p/300"
+    },
+    {
+      "display_name": "Producto roto sin precios",
+      "object_id": "999"
+    }
+  ]
+}

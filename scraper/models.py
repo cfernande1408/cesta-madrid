@@ -22,6 +22,7 @@ class Offer:
     url: str
     image: str | None = None
     brand: str | None = None
+    format: str | None = None
 
     def to_dict(self) -> dict:
         return asdict(self)

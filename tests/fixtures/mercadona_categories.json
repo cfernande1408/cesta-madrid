@@ -1,0 +1,26 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 18,
+      "name": "Huevos, leche y mantequilla",
+      "order": 10,
+      "is_extended": false,
+      "categories": [
+        {"id": 77, "name": "Huevos", "order": 1, "layout": 1, "published": true, "is_extended": false},
+        {"id": 72, "name": "Leche y bebidas vegetales", "order": 2, "layout": 1, "published": true, "is_extended": false}
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Aceite, especias y salsas",
+      "order": 1,
+      "is_extended": false,
+      "categories": [
+        {"id": 112, "name": "Aceite, vinagre y sal", "order": 1, "layout": 1, "published": true, "is_extended": false}
+      ]
+    }
+  ]
+}

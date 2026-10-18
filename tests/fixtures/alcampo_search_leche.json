@@ -1,0 +1,55 @@
+{
+  "productGroups": [
+    {
+      "decoratedProducts": [
+        {
+          "retailerProductId": "54180",
+          "name": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo.",
+          "brand": "PRODUCTO ALCAMPO",
+          "packSizeDescription": "6000ml",
+          "price": {"amount": "5.28", "currency": "EUR"},
+          "unitPrice": {"price": {"amount": "0.88", "currency": "EUR"}, "unitName": "PER_LITRE"},
+          "available": true,
+          "image": {"src": "https://www.compraonline.alcampo.es/images-v3/x/y/300x300.jpg"}
+        },
+        {
+          "retailerProductId": "90610",
+          "name": "CENTRAL LECHERA ASTURIANA Leche desnatada 1 l.",
+          "brand": "CENTRAL LECHERA ASTURIANA",
+          "price": {"amount": "1.29", "currency": "EUR"},
+          "unitPrice": {"price": {"amount": "1.29", "currency": "EUR"}, "unitName": "PER_LITRE"},
+          "available": true,
+          "image": {"src": "https://www.compraonline.alcampo.es/images-v3/a/b/300x300.jpg"}
+        },
+        {
+          "retailerProductId": "77777",
+          "name": "PULEVA Leche semidesnatada 1 l.",
+          "price": {"amount": "1.19", "currency": "EUR"},
+          "unitPrice": {"price": {"amount": "1.19", "currency": "EUR"}, "unitName": "PER_LITRE"},
+          "available": false,
+          "image": {"src": "https://example.com/z.jpg"}
+        }
+      ]
+    },
+    {
+      "decoratedProducts": [
+        {
+          "retailerProductId": "54180",
+          "name": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo.",
+          "price": {"amount": "5.28"},
+          "unitPrice": {"price": {"amount": "0.88"}, "unitName": "PER_LITRE"},
+          "available": true,
+          "image": {"src": "https://example.com/dup.jpg"}
+        },
+        {
+          "retailerProductId": "88888",
+          "name": "Leche sin unidad de medida",
+          "price": {"amount": "2.00"},
+          "available": true,
+          "image": {"src": "https://example.com/n.jpg"}
+        }
+      ]
+    }
+  ],
+  "metadata": {}
+}

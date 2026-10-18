@@ -1,0 +1,86 @@
+{
+  "id": 72,
+  "name": "Leche y bebidas vegetales",
+  "order": 2,
+  "layout": 1,
+  "published": true,
+  "is_extended": false,
+  "categories": [
+    {
+      "id": 420,
+      "name": "Leche semidesnatada y desnatada",
+      "order": 1,
+      "products": [
+        {
+          "id": "10381",
+          "slug": "leche-semidesnatada-hacendado-pack-6",
+          "limit": 999,
+          "badges": {"is_water": false, "requires_age_check": false},
+          "packaging": "Pack-6",
+          "published": true,
+          "share_url": "https://tienda.mercadona.es/product/10381/leche-semidesnatada-hacendado-pack-6",
+          "thumbnail": "https://prod-mercadona.imgix.net/images/abc.jpg?fit=crop&h=300&w=300",
+          "categories": [{"id": 18, "name": "Huevos, leche y mantequilla", "level": 0, "order": 10}],
+          "display_name": "Leche semidesnatada Hacendado",
+          "price_instructions": {
+            "iva": 4,
+            "is_new": false,
+            "is_pack": true,
+            "pack_size": 1.0,
+            "unit_name": null,
+            "unit_size": 6.0,
+            "bulk_price": "0.94",
+            "unit_price": "5.64",
+            "approx_size": false,
+            "size_format": "l",
+            "total_units": 6,
+            "unit_selector": true,
+            "bunch_selector": false,
+            "price_decreased": false,
+            "reference_price": "0.940",
+            "reference_format": "L",
+            "previous_unit_price": null
+          }
+        },
+        {
+          "id": "10380",
+          "packaging": "Brick",
+          "published": true,
+          "share_url": "https://tienda.mercadona.es/product/10380/leche-semidesnatada-hacendado-brick",
+          "thumbnail": "https://prod-mercadona.imgix.net/images/def.jpg",
+          "display_name": "Leche semidesnatada Hacendado",
+          "price_instructions": {
+            "unit_size": 1.0,
+            "size_format": "l",
+            "unit_price": "0.96",
+            "reference_price": "0.960",
+            "reference_format": "L"
+          }
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "name": "Leche entera",
+      "order": 2,
+      "categories": [
+        {
+          "id": 9999,
+          "name": "Nivel anidado",
+          "products": [
+            {
+              "id": "10400",
+              "packaging": "Brick",
+              "display_name": "Leche entera Hacendado",
+              "price_instructions": {"unit_price": "0.99", "reference_price": "0.990", "reference_format": "L"}
+            },
+            {
+              "id": "10401",
+              "display_name": "Producto sin precio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
