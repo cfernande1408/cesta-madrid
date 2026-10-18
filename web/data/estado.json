@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T19:39:28+00:00",
+ "generado": "2026-10-18T19:47:22+00:00",
  "supermercados": {
   "mercadona": {
    "id": "mercadona",
@@ -8,7 +8,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 33,
-   "duracion_s": 153.7
+   "duracion_s": 154.7
   },
   "dia": {
    "id": "dia",
@@ -36,10 +36,59 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 90.1
+   "duracion_s": 60.0
   }
  },
  "articulos": {
+  "huevos": {
+   "mercadona": {
+    "resultados": 4284,
+    "validos": 0,
+    "elegido": null,
+    "descartados": [
+     {
+      "nombre": "Huevos sorpresa de chocolate Hacendado dibujo",
+      "unidad": "kg",
+      "precio_unidad": 31.667,
+      "motivo": "unidad kg"
+     },
+     {
+      "nombre": "Huevos",
+      "unidad": null,
+      "precio_unidad": null,
+      "motivo": "unidad ?"
+     },
+     {
+      "nombre": "Huevos super grandes XL",
+      "unidad": null,
+      "precio_unidad": null,
+      "motivo": "unidad ?"
+     },
+     {
+      "nombre": "Huevos grandes L",
+      "unidad": null,
+      "precio_unidad": null,
+      "motivo": "unidad ?"
+     },
+     {
+      "nombre": "Huevos grandes L",
+      "unidad": null,
+      "precio_unidad": null,
+      "motivo": "unidad ?"
+     }
+    ]
+   },
+   "dia": {
+    "resultados": 50,
+    "validos": 10,
+    "elegido": "Huevos medianos M Dia 24 unidades"
+   },
+   "ahorramas": {
+    "resultados": 19,
+    "validos": 14,
+    "elegido": "Huevos de gallinas sueltas en el gallinero Alipende 24u \"clase m\""
+   }
+  },
   "leche-semidesnatada": {
    "mercadona": {
     "resultados": 4284,
@@ -50,11 +99,6 @@
     "resultados": 35,
     "validos": 21,
     "elegido": "Leche semidesnatada Dia Láctea 1 L"
-   },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 38,
-    "elegido": "L.R. Leche de vaca semidesnatada 1 l."
    },
    "ahorramas": {
     "resultados": 27,
@@ -73,64 +117,10 @@
     "validos": 19,
     "elegido": "Leche entera Dia Láctea 1 L"
    },
-   "alcampo": {
-    "resultados": 48,
-    "validos": 34,
-    "elegido": "L.R. Leche de vaca entera 1l."
-   },
    "ahorramas": {
     "resultados": 22,
     "validos": 15,
     "elegido": "Leche entera Alipende 1L"
-   }
-  },
-  "huevos": {
-   "mercadona": {
-    "resultados": 4284,
-    "validos": 0,
-    "elegido": null,
-    "descartados": [
-     {
-      "nombre": "Macarrón al huevo Hacendado",
-      "unidad": "kg",
-      "precio_unidad": 2.9
-     },
-     {
-      "nombre": "Nidos al huevo Hacendado",
-      "unidad": "kg",
-      "precio_unidad": 2.9
-     },
-     {
-      "nombre": "Spaghetti al huevo Hacendado",
-      "unidad": "kg",
-      "precio_unidad": 2.9
-     },
-     {
-      "nombre": "Pasta fresca tagliatelle al huevo Hacendado",
-      "unidad": "kg",
-      "precio_unidad": 4.8
-     },
-     {
-      "nombre": "Huevos sorpresa de chocolate Hacendado dibujo",
-      "unidad": "kg",
-      "precio_unidad": 31.667
-     }
-    ]
-   },
-   "dia": {
-    "resultados": 50,
-    "validos": 10,
-    "elegido": "Huevos medianos M Dia 24 unidades"
-   },
-   "alcampo": {
-    "resultados": 48,
-    "validos": 29,
-    "elegido": "LOS FRESQUITOS Huevos de gallinas en jaulas acondicionadas de categoría A y clase M 10 uds."
-   },
-   "ahorramas": {
-    "resultados": 19,
-    "validos": 14,
-    "elegido": "Huevos de gallinas sueltas en el gallinero Alipende 24u \"clase m\""
    }
   },
   "yogur-natural": {
@@ -144,11 +134,6 @@
     "validos": 3,
     "elegido": "Yogur natural Dia Láctea 6 x 125 g"
    },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 16,
-    "elegido": "AUCHAN Yogur natural 4 x 125 g. Producto Alcampo"
-   },
    "ahorramas": {
     "resultados": 50,
     "validos": 10,
@@ -158,18 +143,13 @@
   "mantequilla": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 9,
-    "elegido": "Rosquillas de mantequilla Hacendado"
+    "validos": 7,
+    "elegido": "Mantequilla con sal Hacendado"
    },
    "dia": {
     "resultados": 50,
     "validos": 8,
     "elegido": "Mantequilla con sal Dia Láctea 250 g"
-   },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 34,
-    "elegido": "HARMONY Pastilla de mantequilla con sal 250 g."
    },
    "ahorramas": {
     "resultados": 24,
@@ -188,11 +168,6 @@
     "validos": 11,
     "elegido": "Queso mozzarella rallado Dia Láctea 200 g"
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 44,
-    "elegido": "OGGI Queso rallado en hilo, especial para gratinar 200 g."
-   },
    "ahorramas": {
     "resultados": 16,
     "validos": 6,
@@ -209,6 +184,11 @@
     "resultados": 21,
     "validos": 15,
     "elegido": "Aceite de oliva virgen extra Dia La Almazara del Olivar 3 L"
+   },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 50,
+    "elegido": "FINCA CASA NUEVA Aceite de oliva virgen extra 5 l."
    },
    "ahorramas": {
     "resultados": 27,
@@ -227,6 +207,11 @@
     "validos": 6,
     "elegido": "Aceite refinado de girasol Diasol 5 L"
    },
+   "alcampo": {
+    "resultados": 18,
+    "validos": 14,
+    "elegido": "PRODUCTO ALCAMPO Aceite de girasol garrafa de 5 l."
+   },
    "ahorramas": {
     "resultados": 3,
     "validos": 3,
@@ -243,6 +228,11 @@
     "resultados": 7,
     "validos": 5,
     "elegido": "Arroz redondo J.Sendra Dia Arrozona 1 Kg"
+   },
+   "alcampo": {
+    "resultados": 37,
+    "validos": 16,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg."
    },
    "ahorramas": {
     "resultados": 9,
@@ -261,10 +251,15 @@
     "validos": 5,
     "elegido": "Macarrones Dia Al Diante 1 Kg"
    },
+   "alcampo": {
+    "resultados": 49,
+    "validos": 14,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Pasta macarrón paquete 1 kg."
+   },
    "ahorramas": {
     "resultados": 14,
-    "validos": 3,
-    "elegido": "Macarrón rayado Alipende 500g con vegetales"
+    "validos": 2,
+    "elegido": "Macarrones Garofalo 500g"
    }
   },
   "espaguetis": {
@@ -277,6 +272,11 @@
     "resultados": 50,
     "validos": 9,
     "elegido": "Espagueti Dia Al Diante 1 Kg"
+   },
+   "alcampo": {
+    "resultados": 48,
+    "validos": 30,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Pasta spaguetti paquete 1 kg"
    },
    "ahorramas": {
     "resultados": 13,
@@ -294,6 +294,11 @@
     "resultados": 18,
     "validos": 11,
     "elegido": "Lentejas pardinas Dia Vegecampo 1 Kg"
+   },
+   "alcampo": {
+    "resultados": 49,
+    "validos": 33,
+    "elegido": "RUBIO GARCIA Lenteja tipo castellana 1 kg"
    },
    "ahorramas": {
     "resultados": 16,
@@ -610,8 +615,8 @@
   "merluza": {
    "mercadona": {
     "resultados": 4284,
-    "validos": 10,
-    "elegido": "Papilla verduritas con merluza Hero Solo +6 meses"
+    "validos": 9,
+    "elegido": "Medallones de merluza del Cabo Hacendado ultracongelados"
    },
    "dia": {
     "resultados": 6,

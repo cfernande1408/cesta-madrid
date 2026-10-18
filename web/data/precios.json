@@ -1,32 +1,36 @@
 {
- "generado": "2026-10-18T19:39:28+00:00",
+ "generado": "2026-10-18T19:47:22+00:00",
  "supermercados": [
   {
    "id": "mercadona",
    "nombre": "Mercadona",
    "ok": true,
-   "actualizado": "2026-10-18T19:39:28+00:00",
+   "parcial": false,
+   "actualizado": "2026-10-18T19:47:22+00:00",
    "encontrados": 33
   },
   {
    "id": "dia",
    "nombre": "Dia",
    "ok": true,
-   "actualizado": "2026-10-18T19:39:28+00:00",
+   "parcial": false,
+   "actualizado": "2026-10-18T19:47:22+00:00",
    "encontrados": 34
   },
   {
    "id": "alcampo",
    "nombre": "Alcampo",
    "ok": true,
-   "actualizado": "2026-10-18T19:39:28+00:00",
-   "encontrados": 6
+   "parcial": true,
+   "actualizado": "2026-10-18T19:47:22+00:00",
+   "encontrados": 12
   },
   {
    "id": "ahorramas",
    "nombre": "Ahorramás",
    "ok": true,
-   "actualizado": "2026-10-18T19:39:28+00:00",
+   "parcial": false,
+   "actualizado": "2026-10-18T19:47:22+00:00",
    "encontrados": 34
   }
  ],
@@ -47,7 +51,8 @@
      "url": "https://tienda.mercadona.es/product/10382/leche-semidesnatada-hacendado-brick",
      "image": "https://prod-mercadona.imgix.net/images/da2348eb6ffa595fbfdbe66367bcad3c.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Brik 1 l"
+     "format": "Brik 1 l",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "504",
@@ -58,7 +63,8 @@
      "url": "https://www.dia.es/huevos-leche-y-mantequilla/leche/p/504",
      "image": "https://www.dia.es/product_images/504/504_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "alcampo": {
      "product_id": "99235",
@@ -69,7 +75,8 @@
      "url": "https://www.compraonline.alcampo.es/products/l-r-leche-de-vaca-semidesnatada-1-l/99235",
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/350c21b5-ea36-4936-bb32-ae878be05aac/300x300.jpg",
      "brand": "L.R.",
-     "format": "1000ml"
+     "format": "1000ml",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "70865",
@@ -80,7 +87,8 @@
      "url": "https://www.ahorramas.com/leche-semidesnatada-alipende-1l-70865.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw1cfa46e2/Assets/070865_C1C1/large/6/a/c/5/6ac5a10ef60ef3710971cc99ff7ca3a7e46c48e4_070865_C1C1.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -100,7 +108,8 @@
      "url": "https://tienda.mercadona.es/product/10380/leche-entera-hacendado-brick",
      "image": "https://prod-mercadona.imgix.net/images/a731a91252722a3a9cb5856ae8f7d282.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Brik 1 l"
+     "format": "Brik 1 l",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "608",
@@ -111,7 +120,8 @@
      "url": "https://www.dia.es/huevos-leche-y-mantequilla/leche/p/608",
      "image": "https://www.dia.es/product_images/608/608_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "alcampo": {
      "product_id": "99232",
@@ -122,7 +132,8 @@
      "url": "https://www.compraonline.alcampo.es/products/l-r-leche-de-vaca-entera-1l/99232",
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/2228d0d2-cadd-4294-ac70-0f22dc4a455f/300x300.jpg",
      "brand": "L.R.",
-     "format": "1000ml"
+     "format": "1000ml",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "70864",
@@ -133,7 +144,8 @@
      "url": "https://www.ahorramas.com/leche-entera-alipende-1l-70864.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwb05c7aee/Assets/070864_C1C1/large/0/0/7/c/007c861a185377521b2ef9106f90bf2d62b68398_070864_C1C1.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -153,7 +165,8 @@
      "url": "https://www.dia.es/huevos-leche-y-mantequilla/huevos/p/274009",
      "image": "https://www.dia.es/product_images/274009/274009_ISO_0_ES.jpg",
      "brand": "Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "alcampo": {
      "product_id": "99261",
@@ -164,7 +177,8 @@
      "url": "https://www.compraonline.alcampo.es/products/los-fresquitos-huevos-de-gallinas-en-jaulas-acondicionadas-de-categoria-a-y-clase-m-10-uds/99261",
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/b4f1a8fc-a353-496c-a801-36cefa3a9388/300x300.jpg",
      "brand": "LOS FRESQUITOS",
-     "format": "10 por envase"
+     "format": "10 por envase",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "31201",
@@ -175,7 +189,8 @@
      "url": "https://www.ahorramas.com/huevos-de-gallinas-sueltas-en-el-gallinero-alipende-24u-clase-m-31201.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw7ec27f26/Assets/031201_C1C1/large/2/d/1/4/2d14283e270bda9f894744c2a6e777d1e0b9e6a2_031201_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -195,7 +210,8 @@
      "url": "https://tienda.mercadona.es/product/22313/yogur-natural-hacendado-pack-6",
      "image": "https://prod-mercadona.imgix.net/images/0689561ce98dba5c0b3ad43e69be0f5f.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Pack-6 0.75 kg"
+     "format": "Pack-6 0.75 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "310847",
@@ -206,7 +222,8 @@
      "url": "https://www.dia.es/yogures-y-postres/yogures-naturales-y-desnatados/p/310847",
      "image": "https://www.dia.es/product_images/310847/310847_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "alcampo": {
      "product_id": "51414",
@@ -217,7 +234,8 @@
      "url": "https://www.compraonline.alcampo.es/products/auchan-yogur-natural-4-x-125-g-producto-alcampo/51414",
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/9a5a424b-2e1a-4bdd-863b-c75e12087d18/300x300.jpg",
      "brand": "PRODUCTO ALCAMPO",
-     "format": "500g"
+     "format": "500g",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "88166",
@@ -228,7 +246,8 @@
      "url": "https://www.ahorramas.com/yogur-alipende-pack-6-natural-88166.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw4c7a1b5d/Assets/088166_C1C1/large/0/d/c/c/0dcc8756efd603193e100bfef462ce2edd646bef_088166_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -240,15 +259,16 @@
    "cantidad": 0.25,
    "ofertas": {
     "mercadona": {
-     "product_id": "18145",
-     "name": "Rosquillas de mantequilla Hacendado",
+     "product_id": "20722",
+     "name": "Mantequilla con sal Hacendado",
      "price": 2.05,
      "unit": "kg",
-     "unit_price": 6.834,
-     "url": "https://tienda.mercadona.es/product/18145/rosquillas-mantequilla-hacendado-caja",
-     "image": "https://prod-mercadona.imgix.net/images/f73177df7cc426cde2eac92c4fed38a5.jpg?fit=crop&h=300&w=300",
+     "unit_price": 8.2,
+     "url": "https://tienda.mercadona.es/product/20722/mantequilla-con-sal-hacendado-pastilla",
+     "image": "https://prod-mercadona.imgix.net/images/4c4ad20a9ebac8f92af9581840223d6f.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Caja 0.3 kg"
+     "format": "Pastilla 0.25 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "268200",
@@ -259,7 +279,8 @@
      "url": "https://www.dia.es/huevos-leche-y-mantequilla/mantequilla-y-margarina/p/268200",
      "image": "https://www.dia.es/product_images/268200/268200_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "alcampo": {
      "product_id": "627997",
@@ -270,7 +291,8 @@
      "url": "https://www.compraonline.alcampo.es/products/harmony-pastilla-de-mantequilla-con-sal-250-g/627997",
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/e27baba7-bf81-4009-904d-42a46214aff7/300x300.jpg",
      "brand": "HARMONY",
-     "format": "250g"
+     "format": "250g",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "49516",
@@ -281,7 +303,8 @@
      "url": "https://www.ahorramas.com/mantequilla-alipende-250g-pastilla-49516.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw2f12d7ea/Assets/049516_C1C1/large/f/3/7/e/f37ebc33e982fc96d0694535a783c2b04eb544ae_049516_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -301,7 +324,8 @@
      "url": "https://tienda.mercadona.es/product/23622/queso-rallado-especial-fundir-mezcla-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/aa127a068121be5a0a5dfd543ddb2fa0.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 0.4 kg"
+     "format": "Paquete 0.4 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "13096",
@@ -312,7 +336,8 @@
      "url": "https://www.dia.es/quesos/rallado/p/13096",
      "image": "https://www.dia.es/product_images/13096/13096_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "alcampo": {
      "product_id": "86109",
@@ -323,7 +348,8 @@
      "url": "https://www.compraonline.alcampo.es/products/oggi-queso-rallado-en-hilo-especial-para-gratinar-200-g/86109",
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/0e63bbee-3df4-4a24-aca2-516bb0030337/300x300.jpg",
      "brand": "OGGI",
-     "format": "200g"
+     "format": "200g",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "86932",
@@ -334,7 +360,8 @@
      "url": "https://www.ahorramas.com/queso-emmental-rallado-alipende-200g-86932.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -354,7 +381,8 @@
      "url": "https://tienda.mercadona.es/product/4717/aceite-oliva-virgen-extra-hacendado-garrafa",
      "image": "https://prod-mercadona.imgix.net/images/cd149804838dc230dad3c2a314cf2286.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Garrafa 3 l"
+     "format": "Garrafa 3 l",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "266129",
@@ -365,7 +393,20 @@
      "url": "https://www.dia.es/aceites-salsas-y-especias/aceites/p/266129",
      "image": "https://www.dia.es/product_images/266129/266129_ISO_0_ES.jpg",
      "brand": "Dia La Almazara del Olivar",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "513741",
+     "name": "FINCA CASA NUEVA Aceite de oliva virgen extra 5 l.",
+     "price": 18.95,
+     "unit": "l",
+     "unit_price": 3.79,
+     "url": "https://www.compraonline.alcampo.es/products/finca-casa-nueva-aceite-de-oliva-virgen-extra-5-l/513741",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/9126d28a-978a-417b-b8ec-82699f68d6ff/300x300.jpg",
+     "brand": "FINCA CASA NUEVA",
+     "format": "5000ml",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "87330",
@@ -376,7 +417,8 @@
      "url": "https://www.ahorramas.com/aceite-de-oliva-virgen-extra-coosur-5l-87330.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw7418461f/Assets/087330_C1C1/large/4/1/f/4/41f4642c70a1aaa4310c958dc1d4bb85a282e5ba_087330_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -396,7 +438,8 @@
      "url": "https://tienda.mercadona.es/product/4041/aceite-girasol-refinado-02o-hacendado-garrafa",
      "image": "https://prod-mercadona.imgix.net/images/e6398afba1d032d2e1c0489fd727d2f6.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Garrafa 5 l"
+     "format": "Garrafa 5 l",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "49894",
@@ -407,7 +450,20 @@
      "url": "https://www.dia.es/aceites-salsas-y-especias/aceites/p/49894",
      "image": "https://www.dia.es/product_images/49894/49894_ISO_0_ES.jpg",
      "brand": "Diasol",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "19821",
+     "name": "PRODUCTO ALCAMPO Aceite de girasol garrafa de 5 l.",
+     "price": 8.59,
+     "unit": "l",
+     "unit_price": 1.72,
+     "url": "https://www.compraonline.alcampo.es/products/producto-alcampo-aceite-de-girasol-garrafa-de-5-l/19821",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/d1ebd77d-afcc-4533-8a5d-ae0e55a95ae2/300x300.jpg",
+     "brand": "PRODUCTO ALCAMPO",
+     "format": "5000ml",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "84582",
@@ -418,7 +474,8 @@
      "url": "https://www.ahorramas.com/aceite-de-girasol-alipende-garrafa-5l-84582.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw4e519e75/Assets/084582_C1C1/large/d/a/0/c/da0c4d208dba6eabc274cbcf4476612ad43a6614_084582_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -438,7 +495,8 @@
      "url": "https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/0daf43fb5761b823ce83c985930c97c9.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1 kg"
+     "format": "Paquete 1 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "310496",
@@ -449,7 +507,20 @@
      "url": "https://www.dia.es/arroz-pastas-y-legumbres/arroz/p/310496",
      "image": "https://www.dia.es/product_images/310496/310496_ISO_0_ES.jpg",
      "brand": "Dia Arrozona",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "204978",
+     "name": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg.",
+     "price": 1.05,
+     "unit": "kg",
+     "unit_price": 1.05,
+     "url": "https://www.compraonline.alcampo.es/products/producto-economico-alcampo-arroz-redondo-de-categoria-primera-1-kg/204978",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/c13661cb-cde3-4fbc-8aef-aa137164ed5f/300x300.jpg",
+     "brand": "PRODUCTO ECONOMICO ALCAMPO",
+     "format": "1000g",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "69384",
@@ -460,7 +531,8 @@
      "url": "https://www.ahorramas.com/arroz-alipende-1kg-redondo-69384.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwb974719d/Assets/069384_C1C1/large/3/9/1/8/3918d18f84284acb4a06196730868e7e70759200_069384_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -480,7 +552,8 @@
      "url": "https://tienda.mercadona.es/product/6250/macarron-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/fb1aa0c038c08e68b8d2c7ac8900b9db.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1 kg"
+     "format": "Paquete 1 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "50973",
@@ -491,18 +564,32 @@
      "url": "https://www.dia.es/arroz-pastas-y-legumbres/macarrones-espaguetis-y-pastas-secas/p/50973",
      "image": "https://www.dia.es/product_images/50973/50973_ISO_0_ES.jpg",
      "brand": "Dia Al Diante",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "27254",
+     "name": "PRODUCTO ECONÓMICO ALCAMPO Pasta macarrón paquete 1 kg.",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://www.compraonline.alcampo.es/products/producto-economico-alcampo-pasta-macarron-paquete-1-kg/27254",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/781726cc-e2a0-44f9-a303-fe0d2d4e159b/300x300.jpg",
+     "brand": "PRODUCTO ECONÓMICO ALCAMPO",
+     "format": "1000g",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
-     "product_id": "49962",
-     "name": "Macarrón rayado Alipende 500g con vegetales",
-     "price": 0.9,
+     "product_id": "15908",
+     "name": "Macarrones Garofalo 500g",
+     "price": 1.79,
      "unit": "kg",
-     "unit_price": 1.8,
-     "url": "https://www.ahorramas.com/macarron-rayado-alipende-500g-con-vegetales-49962.html",
-     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw2f1fdaf2/Assets/049962_C1C1/large/b/2/a/4/b2a42357062525c80e08353d243c2f4307a0f417_049962_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "unit_price": 3.58,
+     "url": "https://www.ahorramas.com/macarrones-garofalo-500g-15908.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw77eb77ea/Assets/015908_C1C1/large/f/1/e/1/f1e1d0061e609b342c707b8d7fc9635cc3ebc975_015908_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -522,7 +609,8 @@
      "url": "https://tienda.mercadona.es/product/6245/spaghetti-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/a88886e2672bdbcf24be02cb8ecddf2f.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1 kg"
+     "format": "Paquete 1 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "52208",
@@ -533,7 +621,20 @@
      "url": "https://www.dia.es/arroz-pastas-y-legumbres/macarrones-espaguetis-y-pastas-secas/p/52208",
      "image": "https://www.dia.es/product_images/52208/52208_ISO_0_ES.jpg",
      "brand": "Dia Al Diante",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "28148",
+     "name": "PRODUCTO ECONÓMICO ALCAMPO Pasta spaguetti paquete 1 kg",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://www.compraonline.alcampo.es/products/producto-economico-alcampo-pasta-spaguetti-paquete-1-kg/28148",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/79986629-b504-42d6-a56c-aff39e315d1b/300x300.jpg",
+     "brand": "PRODUCTO ECONÓMICO ALCAMPO",
+     "format": "1000g",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "73146",
@@ -544,7 +645,8 @@
      "url": "https://www.ahorramas.com/spaghetti-alipende-1kg-73146.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw0a3ccc80/Assets/073146_C1C1/large/e/4/c/2/e4c29e96b042e54121e440708c4afcf532cdbfc8_073146_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -564,7 +666,8 @@
      "url": "https://tienda.mercadona.es/product/5330/lenteja-pardina-hacendado-categoria-extra-paquete",
      "image": "https://prod-mercadona.imgix.net/images/80c08ddcd236321ea41242268903726b.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1 kg"
+     "format": "Paquete 1 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "158",
@@ -575,7 +678,20 @@
      "url": "https://www.dia.es/arroz-pastas-y-legumbres/lentejas/p/158",
      "image": "https://www.dia.es/product_images/158/158_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "212313",
+     "name": "RUBIO GARCIA Lenteja tipo castellana 1 kg",
+     "price": 1.69,
+     "unit": "kg",
+     "unit_price": 1.69,
+     "url": "https://www.compraonline.alcampo.es/products/rubio-garcia-lenteja-tipo-castellana-1-kg/212313",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/e2955402-deca-4ecb-93ca-52f5f3e43870/300x300.jpg",
+     "brand": "RUBIO",
+     "format": "1000g",
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "77272",
@@ -586,7 +702,8 @@
      "url": "https://www.ahorramas.com/lenteja-alipende-1kg-pardina-77272.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw21cd5bb8/Assets/077272_C1C1/large/e/c/b/5/ecb5b376e965e4746e6c850b045ef3fe266f9f3d_077272_C1C1.JPG?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -606,7 +723,8 @@
      "url": "https://tienda.mercadona.es/product/26029/garbanzo-cocido-hacendado-tarro",
      "image": "https://prod-mercadona.imgix.net/images/b8b807948038c4b64791632f799e9bd8.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Tarro 0.57 kg"
+     "format": "Tarro 0.57 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "1232",
@@ -617,7 +735,8 @@
      "url": "https://www.dia.es/arroz-pastas-y-legumbres/garbanzos-y-alubias/p/1232",
      "image": "https://www.dia.es/product_images/1232/1232_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "60125",
@@ -628,7 +747,8 @@
      "url": "https://www.ahorramas.com/garbanzo-cocido-alipende-400g-60125.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -648,7 +768,8 @@
      "url": "https://tienda.mercadona.es/product/16043/tomate-triturado-hacendado-freir-bote",
      "image": "https://prod-mercadona.imgix.net/images/117a2a2230b103f17b50e07a73a8fc38.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Bote 0.8 kg"
+     "format": "Bote 0.8 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "13105",
@@ -659,7 +780,8 @@
      "url": "https://www.dia.es/aceites-salsas-y-especias/salsas-de-tomate-y-pasta/p/13105",
      "image": "https://www.dia.es/product_images/13105/13105_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "95858",
@@ -670,7 +792,8 @@
      "url": "https://www.ahorramas.com/tomate-triturado-sin-gluten-categoria-extra-alipende-800-g-95858.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -690,7 +813,8 @@
      "url": "https://tienda.mercadona.es/product/17132/tomate-frito-hacendado-pack-3",
      "image": "https://prod-mercadona.imgix.net/images/e589c8259daf4b9335098fb9ade7ee09.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Pack-3 1.2 kg"
+     "format": "Pack-3 1.2 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "128657",
@@ -701,7 +825,8 @@
      "url": "https://www.dia.es/aceites-salsas-y-especias/salsas-de-tomate-y-pasta/p/128657",
      "image": "https://www.dia.es/product_images/128657/128657_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "54138",
@@ -712,7 +837,8 @@
      "url": "https://www.ahorramas.com/tomate-frito-origen-nacional-sin-gluten-alipende-p3-400g-54138.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -732,7 +858,8 @@
      "url": "https://tienda.mercadona.es/product/18086/atun-aceite-girasol-hacendado-lata",
      "image": "https://prod-mercadona.imgix.net/images/2c06dcbb4643e6b4447d5d064c4eb6a5.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Lata 0.9 kg"
+     "format": "Lata 0.9 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "262432",
@@ -743,7 +870,8 @@
      "url": "https://www.dia.es/conservas-caldos-y-cremas/atun-y-bonito/p/262432",
      "image": "https://www.dia.es/product_images/262432/262432_ISO_0_ES.jpg",
      "brand": "Dia Mari Marinera",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "83612",
@@ -754,7 +882,8 @@
      "url": "https://www.ahorramas.com/atun-claro-alipende-pack-6-en-aceite-girasol-83612.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw96b44289/Assets/083612_C1C1/large/8/5/2/c/852c18fe279723303233cf82a5e5734024519d20_083612_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -774,7 +903,8 @@
      "url": "https://tienda.mercadona.es/product/13700/cafe-molido-natural-fuerte-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/cd28fdbaf0215b0189a06883c7e5262f.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 0.5 kg"
+     "format": "Paquete 0.5 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "218159",
@@ -785,7 +915,8 @@
      "url": "https://www.dia.es/cafe-cacao-e-infusiones/cafe-molido/p/218159",
      "image": "https://www.dia.es/product_images/218159/218159_ISO_0_ES.jpg",
      "brand": "Dia Cafetería",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "48072",
@@ -796,7 +927,8 @@
      "url": "https://www.ahorramas.com/cafe-molido-alipende-250g-mezcla-50-50-48072.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw660f4fff/Assets/048072_C1C1/large/2/9/5/6/29569cc87642f4822e9f15101677449755870b40_048072_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -816,7 +948,8 @@
      "url": "https://tienda.mercadona.es/product/19897/azucar-blanco-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/782bc97fd2960e24b4505e25b384a2d4.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1 kg"
+     "format": "Paquete 1 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "81798",
@@ -827,7 +960,8 @@
      "url": "https://www.dia.es/bolleria-reposteria-y-azucar/azucar-miel-y-edulcorantes/p/81798",
      "image": "https://www.dia.es/product_images/81798/81798_ISO_0_ES.jpg",
      "brand": "Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "54770",
@@ -838,7 +972,8 @@
      "url": "https://www.ahorramas.com/azucar-blanco-azucarera-1kg-54770.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw840b0cd5/Assets/054770_C1C1/large/1/0/3/7/10376488c51a4e63d0c608231db344b48bbb27d2_054770_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -858,7 +993,8 @@
      "url": "https://tienda.mercadona.es/product/29106/harina-trigo-grande-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/0b290f38cd41af97c0c02d623a6ae539.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 5 kg"
+     "format": "Paquete 5 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "505",
@@ -869,7 +1005,8 @@
      "url": "https://www.dia.es/bolleria-reposteria-y-azucar/harinas-y-levaduras/p/505",
      "image": "https://www.dia.es/product_images/505/505_ISO_0_ES.jpg",
      "brand": "El Molino de Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "88185",
@@ -880,7 +1017,8 @@
      "url": "https://www.ahorramas.com/harina-de-trigo-alipende-2kg-88185.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw6929549f/Assets/088185_C1C1/large/5/4/4/8/5448cc0d3a19d41b57d72f30394dca19557fcb18_088185_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -900,7 +1038,8 @@
      "url": "https://tienda.mercadona.es/product/14102/galletas-maria-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/11fb16cd4d93c1d07149041ae474faff.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 0.8 kg"
+     "format": "Paquete 0.8 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "149293",
@@ -911,7 +1050,8 @@
      "url": "https://www.dia.es/galletas-cereales-y-mermeladas/galletas-clasicas-y-digestive/p/149293",
      "image": "https://www.dia.es/product_images/149293/149293_ISO_0_ES.jpg",
      "brand": "Galleteca de Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "38118",
@@ -922,7 +1062,8 @@
      "url": "https://www.ahorramas.com/galletas-maria-oro-de-cuetara-600g-33-38118.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwdfac0dbe/Assets/038118_C1C1/large/4/d/d/3/4dd3d140072c3c518f86d52addb95975ad4c2ba5_038118_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -942,7 +1083,8 @@
      "url": "https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete",
      "image": "https://prod-mercadona.imgix.net/images/f26045084b08d8792979df13779e97d3.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 0.82 kg"
+     "format": "Paquete 0.82 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "77955",
@@ -953,7 +1095,8 @@
      "url": "https://www.dia.es/panaderia/pan-de-molde-y-especiales/p/77955",
      "image": "https://www.dia.es/product_images/77955/77955_ISO_0_ES.jpg",
      "brand": "El Molino de Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "86818",
@@ -964,7 +1107,8 @@
      "url": "https://www.ahorramas.com/pan-de-molde-alipende-820g-familiar-86818.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw4962756c/Assets/086818_C1C1/large/f/7/b/8/f7b8b77152d0cf5fc415bf9de365f1e1c834b743_086818_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -984,7 +1128,8 @@
      "url": "https://tienda.mercadona.es/product/3819/platano-canarias-igp-pieza",
      "image": "https://prod-mercadona.imgix.net/images/e4a37940916985bf5ca166e266580c37.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Pieza 0.16 kg"
+     "format": "Pieza 0.16 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "11468",
@@ -995,7 +1140,8 @@
      "url": "https://www.dia.es/frutas/platanos-y-bananas/p/11468",
      "image": "https://www.dia.es/product_images/11468/11468_ISO_0_ES.jpg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "44078",
@@ -1006,7 +1152,8 @@
      "url": "https://www.ahorramas.com/platano-canario-bolsa-44078.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw14342ed1/images/weight.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1026,7 +1173,8 @@
      "url": "https://tienda.mercadona.es/product/3269/manzanas-golden-bolsa",
      "image": "https://prod-mercadona.imgix.net/images/022fa8e1cd6c9d9ee18a41ed06d71c35.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "1.55 kg"
+     "format": "1.55 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "11466",
@@ -1037,7 +1185,8 @@
      "url": "https://www.dia.es/frutas/manzanas-y-peras/p/11466",
      "image": "https://www.dia.es/product_images/11466/11466_ISO_0_ES.jpg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "18961",
@@ -1048,7 +1197,8 @@
      "url": "https://www.ahorramas.com/manzana-roja-bolsa-1.5kg-18961.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwa93ec391/Assets/018961_C1C1/large/d/6/d/8/d6d8a38e3f675a3b020e812eca7ebc7abea8b953_018961_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1068,7 +1218,8 @@
      "url": "https://tienda.mercadona.es/product/3277/naranjas-malla",
      "image": "https://prod-mercadona.imgix.net/images/57b7fbaaf28231102addf8f7eb4f14b8.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Malla 3 kg"
+     "format": "Malla 3 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "277912",
@@ -1079,7 +1230,8 @@
      "url": "https://www.dia.es/frutas/naranjas-mandarinas-y-limones/p/277912",
      "image": "https://www.dia.es/product_images/277912/277912_ISO_0_ES.jpg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "68728",
@@ -1090,7 +1242,8 @@
      "url": "https://www.ahorramas.com/naranja-de-mesa-malla-3kg-68728.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw22da27f0/Assets/068728_C1C1/large/6/7/b/4/67b4accfded365c262b1ae895bf5d4eaaf82e95c_068728_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1110,7 +1263,8 @@
      "url": "https://tienda.mercadona.es/product/69971/tomates-malla",
      "image": "https://prod-mercadona.imgix.net/images/8d8b0344fdd594338795d6d4e7f496aa.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Malla 2 kg"
+     "format": "Malla 2 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "272686",
@@ -1121,7 +1275,8 @@
      "url": "https://www.dia.es/verduras/tomates-pimientos-y-pepinos/p/272686",
      "image": "https://www.dia.es/product_images/272686/272686_ISO_0_ES.jpg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "39076",
@@ -1132,7 +1287,8 @@
      "url": "https://www.ahorramas.com/tomate-rojo-rama-39076.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw14342ed1/images/weight.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1152,7 +1308,8 @@
      "url": "https://tienda.mercadona.es/product/69099/patatas-malla",
      "image": "https://prod-mercadona.imgix.net/images/a66b8d4177a91f7f219903267291e071.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Malla 5 kg"
+     "format": "Malla 5 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "296356",
@@ -1163,7 +1320,8 @@
      "url": "https://www.dia.es/verduras/patatas-y-zanahorias/p/296356",
      "image": "https://www.dia.es/product_images/296356/296356_ISO_0_ES.jpg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "68080",
@@ -1174,7 +1332,8 @@
      "url": "https://www.ahorramas.com/patata-malla-5kg-68080.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw352d467f/Assets/068080_C1C1/large/0/a/f/c/0afc557bcb083d0c4a2141cea9f824810b9e54de_068080_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1194,7 +1353,8 @@
      "url": "https://tienda.mercadona.es/product/69089/cebollas-malla",
      "image": "https://prod-mercadona.imgix.net/images/d950590e426dca5e9531e1ff2809edb4.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Malla 1 kg"
+     "format": "Malla 1 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "191535",
@@ -1205,7 +1365,8 @@
      "url": "https://www.dia.es/verduras/ajos-cebollas-y-puerros/p/191535",
      "image": "https://www.dia.es/product_images/191535/191535_ISO_0_ES.jpg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "99248",
@@ -1216,7 +1377,8 @@
      "url": "https://www.ahorramas.com/cebolla-2k-99248.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwab7f9721/Assets/099248/large/7/3/f/4/73f4a2697f584582980a64ca6607b5e73d096e09_f530c406bffe1a73577e974a87f6d73aab709553_099248.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1236,7 +1398,8 @@
      "url": "https://tienda.mercadona.es/product/69586/zanahorias-paquete",
      "image": "https://prod-mercadona.imgix.net/images/b41923237e0611a8847a8b3c38e8abea.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1 kg"
+     "format": "Paquete 1 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "11421",
@@ -1247,7 +1410,8 @@
      "url": "https://www.dia.es/verduras/patatas-y-zanahorias/p/11421",
      "image": "https://www.dia.es/product_images/11421/11421_ISO_0_ES.jpg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "68717",
@@ -1258,7 +1422,8 @@
      "url": "https://www.ahorramas.com/zanahoria-1kg-68717.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwf97e1408/Assets/068717_C1C1/large/c/f/2/b/cf2bddba02844faf456125d5c8dbe2653763c2f2_068717_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1278,7 +1443,8 @@
      "url": "https://tienda.mercadona.es/product/30006/pechugas-pollo-enteras-congeladas-paquete",
      "image": "https://prod-mercadona.imgix.net/images/fea380fa4ffc015ccfd6e774ff0986bd.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1.2 kg"
+     "format": "Paquete 1.2 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "261371",
@@ -1289,7 +1455,8 @@
      "url": "https://www.dia.es/carnes/pollo/p/261371",
      "image": "https://www.dia.es/product_images/261371/261371_ISO_0_ES.jpg",
      "brand": "Selección de Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "26211",
@@ -1300,7 +1467,8 @@
      "url": "https://www.ahorramas.com/pechuga-de-pollo-entera-xxl-alipende-11kg-aproximadamente-26211.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw14342ed1/images/weight.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1320,7 +1488,8 @@
      "url": "https://tienda.mercadona.es/product/2867/preparado-carne-picada-cerdo-bandeja",
      "image": "https://prod-mercadona.imgix.net/images/2781547566ca8d299f1e2e0d9cdccd4f.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Bandeja 0.5 kg"
+     "format": "Bandeja 0.5 kg",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "261238",
@@ -1331,7 +1500,8 @@
      "url": "https://www.dia.es/carnes/hamburguesas-carne-picada-y-albondigas/p/261238",
      "image": "https://www.dia.es/product_images/261238/261238_ISO_0_ES.jpg",
      "brand": "Selección de Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "10810",
@@ -1342,7 +1512,8 @@
      "url": "https://www.ahorramas.com/preparado-de-carne-picada-de-pollo-500g-10810.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1354,15 +1525,16 @@
    "cantidad": 0.5,
    "ofertas": {
     "mercadona": {
-     "product_id": "9280",
-     "name": "Papilla verduritas con merluza Hero Solo +6 meses",
-     "price": 1.8,
+     "product_id": "26761",
+     "name": "Medallones de merluza del Cabo Hacendado ultracongelados",
+     "price": 4.5,
      "unit": "kg",
-     "unit_price": 7.66,
-     "url": "https://tienda.mercadona.es/product/9280/papilla-verduritas-con-merluza-hero-baby-8-meses-tarrito",
-     "image": "https://prod-mercadona.imgix.net/images/ff64697398b8e860ec176a9f98a74beb.jpg?fit=crop&h=300&w=300",
+     "unit_price": 9.0,
+     "url": "https://tienda.mercadona.es/product/26761/medallones-merluza-cabo-hacendado-ultracongelados-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/c302f174c1c3f7c88c397bd6a67472d7.jpeg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Tarrito 0.235 kg"
+     "format": "Paquete",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "17384",
@@ -1373,7 +1545,8 @@
      "url": "https://www.dia.es/pescados-y-mariscos/congelado/p/17384",
      "image": "https://www.dia.es/product_images/17384/17384_ISO_0_ES.jpg",
      "brand": "Dia Mari Marinera",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "96687",
@@ -1384,7 +1557,8 @@
      "url": "https://www.ahorramas.com/filete-de-merluza-antonioricardo-sin-piel-marca-600g-96687.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw71c00e6f/images/attributes/congelado.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1404,7 +1578,8 @@
      "url": "https://tienda.mercadona.es/product/28482/agua-mineral-grande-aguadoy-mineralizacion-debil-garrafa",
      "image": "https://prod-mercadona.imgix.net/images/e9984763951d5050c403b877a78dcd34.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Garrafa 8 l"
+     "format": "Garrafa 8 l",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "38657",
@@ -1415,7 +1590,8 @@
      "url": "https://www.dia.es/agua-y-refrescos/agua/p/38657",
      "image": "https://www.dia.es/product_images/38657/38657_ISO_0_ES.jpg",
      "brand": "Dia",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "64183",
@@ -1426,7 +1602,8 @@
      "url": "https://www.ahorramas.com/agua-mineral-natural-teleno-15l-64183.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw1af894b6/Assets/064183_C1C1/large/c/a/f/8/caf8e224207e896241dfc0bebff9e71df3d7106d_064183_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1446,7 +1623,8 @@
      "url": "https://tienda.mercadona.es/product/47835/papel-higienico-doble-hoja-bosque-verde-paquete",
      "image": "https://prod-mercadona.imgix.net/images/8629429b287c46d53db4df0f83fee72a.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Paquete 1 ud"
+     "format": "Paquete 1 ud",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "276676",
@@ -1457,7 +1635,8 @@
      "url": "https://www.dia.es/limpieza-y-hogar/papel-higienico-cocina-y-servilletas/p/276676",
      "image": "https://www.dia.es/product_images/276676/276676_ISO_0_ES.jpg",
      "brand": "Dia La Llama",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "73039",
@@ -1468,7 +1647,8 @@
      "url": "https://www.ahorramas.com/papel-higienico-lanta-12-rollos-73039.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dwa83c48d0/images/attributes/bioEcoOrganico.svg",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   },
@@ -1488,7 +1668,8 @@
      "url": "https://tienda.mercadona.es/product/42441/lavavajillas-mano-bosque-verde-botella",
      "image": "https://prod-mercadona.imgix.net/images/3e62ec30bdde1f0ec0cb84da981affcd.jpg?fit=crop&h=300&w=300",
      "brand": null,
-     "format": "Botella 1.3 l"
+     "format": "Botella 1.3 l",
+     "fecha": "2026-10-18"
     },
     "dia": {
      "product_id": "151954",
@@ -1499,7 +1680,8 @@
      "url": "https://www.dia.es/limpieza-y-hogar/lavavajillas/p/151954",
      "image": "https://www.dia.es/product_images/151954/151954_ISO_0_ES.jpg",
      "brand": "Flota",
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     },
     "ahorramas": {
      "product_id": "43268",
@@ -1510,7 +1692,8 @@
      "url": "https://www.ahorramas.com/lavavajillas-lanta-13l-43268.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwc690b427/Assets/043268_C1C1/large/e/5/9/d/e59d8b766f807e8f09bbcf549793a9cc4e52a316_043268_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
-     "format": null
+     "format": null,
+     "fecha": "2026-10-18"
     }
    }
   }
