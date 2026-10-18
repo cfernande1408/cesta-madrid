@@ -64,17 +64,9 @@ def analizar(nombre, url):
     return r.text
 
 
-analizar("cat_lacteos", f"{BASE}/productos/lacteos-y-huevos.html")
-analizar("cat_leche", f"{BASE}/productos/lacteos-y-huevos/leche.html")
-analizar("buscar", f"{BASE}/buscar.html?query=leche")
-sitemap = analizar("sitemap_nord", f"{BASE}/.aldi-nord-sitemap.xml") or ""
-locs = re.findall(r"<loc>([^<]+)</loc>", sitemap)
-resumen["sitemap_locs"] = {"total": len(locs), "muestra": locs[:30],
-                           "con_producto": [x for x in locs if "/producto" in x][:30]}
-for i, sub in enumerate([x for x in locs if x.endswith(".xml")][:3]):
-    sm = analizar(f"sitemap_sub_{i}", sub) or ""
-    sublocs = re.findall(r"<loc>([^<]+)</loc>", sm)
-    resumen[f"sitemap_sub_{i}"]["locs"] = {"total": len(sublocs), "muestra": sublocs[:20]}
+analizar("hoja_huevos", f"{BASE}/productos/lacteos-y-huevos/huevos.html")
+analizar("hoja_leche", f"{BASE}/productos/lacteos-y-huevos/leche-y-bebidas-vegetales.html")
+analizar("producto", f"{BASE}/producto/naranja-de-mesa-994500.html")
 
-(OUT / "resumen2.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=1), encoding="utf-8")
+(OUT / "resumen3.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=1), encoding="utf-8")
 print(json.dumps(resumen, ensure_ascii=False, indent=1)[:6000])
