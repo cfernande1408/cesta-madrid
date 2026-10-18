@@ -72,3 +72,19 @@ def test_search_downloads_only_matching_candidates_once():
     store.search(item)
     assert best_offer(item, offers).product_id == "123400"
     assert calls == ["/sitemaps/.aldi-nord-sitemap-products.xml", "/producto/leche-semidesnatada-123400.html"]
+
+
+def test_unit_price_from_sales_unit_when_missing():
+    from scraper.stores.aldi import parse_product
+
+    papel = {"objectID": "1", "name": "Papel higiénico doble capa", "salesUnit": "12 rollos",
+             "currentPrice": {"priceValue": 2.40, "basePrice": [{"basePriceValue": 0.12, "basePriceScale": "m-(metro)"}]}}
+    leche = {"objectID": "2", "name": "Leche semidesnatada", "salesUnit": "Pack 6 x 1 l",
+             "currentPrice": {"priceValue": 5.10}}
+    granel = {"objectID": "3", "name": "Plátano de Canarias IGP", "salesUnit": "precio por unidad",
+              "currentPrice": {"priceValue": 0.35}}
+    now = datetime(2026, 10, 18, tzinfo=UTC)
+    assert parse_product(papel, "u", now).unit == "ud"
+    assert parse_product(papel, "u", now).unit_price == pytest.approx(0.2)
+    assert parse_product(leche, "u", now).unit_price == pytest.approx(0.85)
+    assert parse_product(granel, "u", now).unit is None

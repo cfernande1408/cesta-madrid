@@ -28,7 +28,7 @@
       "categoria": "Lácteos y huevos",
       "busqueda": "huevos",
       "incluir": ["huevos"],
-      "excluir": ["codorniz", "chocolate", "cocidos", "liquido", "claras", "pasta", "fideos", "pascua", "sorpresa", "rellenos", "hilado"],
+      "excluir": ["codorniz", "chocolate", "cocidos", "liquido", "claras", "pasta", "fideos", "pascua", "sorpresa", "rellenos", "hilado", "al huevo", "tagliatelle", "flan", "helado"],
       "unidad": "ud",
       "cantidad": 12
     },
@@ -37,7 +37,7 @@
       "nombre": "Yogur natural",
       "categoria": "Lácteos y huevos",
       "busqueda": "yogur natural",
-      "excluir": ["griego", "azucarado", "edulcorado", "bebible", "liquido", "cabra", "oveja", "soja", "proteinas", "frutas", "kefir", "desnatado", "0%"],
+      "excluir": ["griego", "azucarado", "edulcorado", "bebible", "liquido", "cabra", "oveja", "soja", "proteinas", "frutas", "kefir", "desnatado", "0%", "sin lactosa", "grageas", "cereales", "azucar", "chocolate", "frambuesas"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -65,7 +65,7 @@
       "nombre": "Aceite de oliva virgen extra",
       "categoria": "Despensa",
       "busqueda": "aceite de oliva virgen extra",
-      "excluir": ["spray", "atun", "sardinas", "sardinillas", "bonito", "caballa", "mejillones", "aceitunas", "patatas", "pimientos", "alcachofas", "anchoas", "ventresca", "berberechos", "pulpo", "calamares", "estuche", "cesta", "chips", "tostadas", "picos", "regañas", "galletas", "monodosis"],
+      "excluir": ["spray", "atun", "sardinas", "sardinillas", "bonito", "caballa", "mejillones", "aceitunas", "patatas", "pimientos", "alcachofas", "anchoas", "ventresca", "berberechos", "pulpo", "calamares", "estuche", "cesta", "chips", "tostadas", "picos", "regañas", "galletas", "monodosis", "lomo", "orza", "bastones", "condimento", "trufa", "preparado"],
       "unidad": "l",
       "cantidad": 1
     },
@@ -83,7 +83,7 @@
       "nombre": "Arroz redondo",
       "categoria": "Despensa",
       "busqueda": "arroz redondo",
-      "excluir": ["vasito", "vasitos", "microondas", "integral", "con leche", "precocido", "listo", "tortitas", "harina", "bebida"],
+      "excluir": ["vasito", "vasitos", "microondas", "integral", "con leche", "precocido", "listo", "tortitas", "harina", "bebida", "tarrina"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -103,7 +103,7 @@
       "categoria": "Despensa",
       "busqueda": "espaguetis",
       "incluir": ["espaguetis|espagueti|spaghetti|spaguetti"],
-      "excluir": ["integral", "sin gluten", "carbonara", "boloñesa", "bolonesa", "plato", "listo", "microondas", "lentejas", "garbanzos", "mar"],
+      "excluir": ["integral", "sin gluten", "carbonara", "boloñesa", "bolonesa", "plato", "listo", "microondas", "lentejas", "garbanzos", "mar", "soja", "edamame"],
       "unidad": "kg",
       "cantidad": 0.5
     },
@@ -112,7 +112,7 @@
       "nombre": "Lentejas (secas)",
       "categoria": "Despensa",
       "busqueda": "lentejas",
-      "excluir": ["cocidas", "bote", "plato", "estofadas", "chorizo", "guisadas", "sopa", "pasta", "harina", "snack", "chips", "verduras", "macarrones", "espaguetis", "fusilli", "hummus", "cuscus", "jardinera", "riojana", "de la abuela", "con verduras", "ensalada"],
+      "excluir": ["cocidas", "bote", "plato", "estofadas", "chorizo", "guisadas", "sopa", "pasta", "harina", "snack", "chips", "verduras", "macarrones", "espaguetis", "fusilli", "hummus", "cuscus", "jardinera", "riojana", "de la abuela", "con verduras", "ensalada", "sedanini"],
       "unidad": "kg",
       "cantidad": 1,
       "incluir": ["lentejas|lenteja"]
@@ -207,7 +207,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "platano",
       "incluir": ["platano|platanos"],
-      "excluir": ["chips", "deshidratado", "zumo", "batido", "yogur", "macedonia", "papilla", "bizcocho", "harina", "bebida", "barrita", "pure", "frito", "fritos", "helado", "golosinas", "gominolas", "casei", "l casei", "fresa", "coco", "pina", "kefir", "actimel", "natillas", "postre"],
+      "excluir": ["chips", "deshidratado", "zumo", "batido", "yogur", "macedonia", "papilla", "bizcocho", "harina", "bebida", "barrita", "pure", "frito", "fritos", "helado", "golosinas", "gominolas", "casei", "l casei", "fresa", "coco", "pina", "kefir", "actimel", "natillas", "postre", "flan", "dulce de leche", "tarrito", "bolsita", "proteica", "grageas"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -217,7 +217,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "manzana",
       "incluir": ["manzana|manzanas"],
-      "excluir": ["zumo", "compota", "pure", "yogur", "tarta", "sidra", "vinagre", "chips", "deshidratada", "bebida", "infusion", "caramelo", "gel", "champu", "ambientador", "papilla", "smoothie", "batido", "crema", "galletas", "barrita", "mermelada", "gominolas", "golosinas", "te", "pastel", "hojaldre", "bizcocho", "trozos", "rodajas", "snack"],
+      "excluir": ["zumo", "compota", "pure", "yogur", "tarta", "sidra", "vinagre", "chips", "deshidratada", "bebida", "infusion", "caramelo", "gel", "champu", "ambientador", "papilla", "smoothie", "batido", "crema", "galletas", "barrita", "mermelada", "gominolas", "golosinas", "te", "pastel", "hojaldre", "bizcocho", "trozos", "rodajas", "snack", "strudel", "regalices", "queso de cabra", "rollito", "minirollito", "pavo", "pina", "uva"],
       "unidad": "kg",
       "cantidad": 1.5
     },
@@ -227,7 +227,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "naranja",
       "incluir": ["naranja|naranjas"],
-      "excluir": ["zumo", "mermelada", "bebida", "refresco", "gel", "chocolate", "galletas", "bizcocho", "yogur", "caramelos", "te", "infusion", "vitamina", "aroma", "licor", "gominolas", "golosinas", "piel", "confitada", "helado", "polo", "sabor", "con gas", "nectar", "smoothie"],
+      "excluir": ["zumo", "mermelada", "bebida", "refresco", "gel", "chocolate", "galletas", "bizcocho", "yogur", "caramelos", "te", "infusion", "vitamina", "aroma", "licor", "gominolas", "golosinas", "piel", "confitada", "helado", "polo", "sabor", "con gas", "nectar", "smoothie", "fanta", "gyozas", "costillar", "foie", "bolsita", "pato", "cointreau"],
       "unidad": "kg",
       "cantidad": 2
     },
@@ -247,7 +247,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "patatas",
       "incluir": ["patata|patatas"],
-      "excluir": ["fritas", "chips", "snack", "congeladas", "prefritas", "gajo", "gajos", "bravas", "hervidas", "asadas", "cocidas", "tortilla", "pure", "copos", "lisas", "onduladas", "campesinas", "paja", "sabor", "ali oli", "jamon", "queso", "atun", "carne", "pollo", "guiso", "ensalada", "bacon", "dados", "rellenas", "deluxe"],
+      "excluir": ["fritas", "chips", "snack", "congeladas", "prefritas", "gajo", "gajos", "bravas", "hervidas", "asadas", "cocidas", "tortilla", "pure", "copos", "lisas", "onduladas", "campesinas", "paja", "sabor", "ali oli", "jamon", "queso", "atun", "carne", "pollo", "guiso", "ensalada", "bacon", "dados", "rellenas", "deluxe", "aperitivo", "corte fino", "extracrujientes", "perol", "salsa para"],
       "unidad": "kg",
       "cantidad": 3
     },
@@ -257,7 +257,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "cebolla",
       "incluir": ["cebolla|cebollas"],
-      "excluir": ["frita", "crujiente", "tomate", "sopa", "aros", "snack", "patatas", "caramelizada", "encurtida", "encurtidas", "polvo", "deshidratada", "tortilla", "pimiento", "atun", "salsa", "crema", "pure", "congelada", "sofrito", "pisto", "hamburguesa", "pizza", "queso", "chips"],
+      "excluir": ["frita", "crujiente", "tomate", "sopa", "aros", "snack", "patatas", "caramelizada", "encurtida", "encurtidas", "polvo", "deshidratada", "tortilla", "pimiento", "atun", "salsa", "crema", "pure", "congelada", "sofrito", "pisto", "hamburguesa", "pizza", "queso", "chips", "picada", "molida", "confitada", "tiernas", "pate"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -267,7 +267,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "zanahoria",
       "incluir": ["zanahoria|zanahorias"],
-      "excluir": ["rallada", "zumo", "pure", "papilla", "tarta", "bizcocho", "guisantes", "menestra", "ensalada", "crema", "bebida", "batido", "smoothie", "naranja", "manzana", "baby", "snack", "congelada", "dados", "verduras"],
+      "excluir": ["rallada", "zumo", "pure", "papilla", "tarta", "bizcocho", "guisantes", "menestra", "ensalada", "crema", "bebida", "batido", "smoothie", "naranja", "manzana", "baby", "snack", "congelada", "dados", "verduras", "hummus", "hamburguesa", "mix", "brocoli", "coliflor", "jengibre"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -286,7 +286,7 @@
       "nombre": "Carne picada",
       "categoria": "Carne y pescado",
       "busqueda": "carne picada",
-      "excluir": ["hamburguesa", "hamburguesas", "albondigas", "lasana", "canelones", "empanadilla", "empanadillas", "pizza", "salsa", "bolonesa", "boloñesa", "croquetas", "macarrones", "espaguetis", "pimientos", "rellenos", "rellena", "tacos", "burrito", "kebab", "congelada", "vegetal", "vegana", "soja", "burger"],
+      "excluir": ["hamburguesa", "hamburguesas", "albondigas", "lasana", "canelones", "empanadilla", "empanadillas", "pizza", "salsa", "bolonesa", "boloñesa", "croquetas", "macarrones", "espaguetis", "pimientos", "rellenos", "rellena", "tacos", "burrito", "kebab", "congelada", "vegetal", "vegana", "soja", "burger", "ecologica"],
       "unidad": "kg",
       "cantidad": 0.5
     },
@@ -306,7 +306,7 @@
       "categoria": "Bebidas",
       "busqueda": "agua mineral",
       "incluir": ["agua"],
-      "excluir": ["con gas", "sabor", "limon", "tonica", "micelar", "colonia", "perfumada", "destilada", "coco", "rosas", "oxigenada", "fuerte", "gas", "vitaminas", "melocoton", "fresa", "manzana", "naranja", "frutas", "isotonica", "infantil", "bebe", "termal", "spray", "aceite", "sardinas", "atun", "garbanzos", "judias", "natural de atun", "toallitas"],
+      "excluir": ["con gas", "sabor", "limon", "tonica", "micelar", "colonia", "perfumada", "destilada", "coco", "rosas", "oxigenada", "fuerte", "gas", "vitaminas", "melocoton", "fresa", "manzana", "naranja", "frutas", "isotonica", "infantil", "bebe", "termal", "spray", "aceite", "sardinas", "atun", "garbanzos", "judias", "natural de atun", "toallitas", "botas", "bolsa", "led", "caliente"],
       "unidad": "l",
       "cantidad": 6
     },

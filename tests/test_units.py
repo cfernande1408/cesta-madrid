@@ -1,6 +1,6 @@
 import pytest
 
-from scraper.units import normalize_unit, parse_price_text, parse_unit_price_text, to_base
+from scraper.units import normalize_unit, parse_price_text, parse_size, parse_unit_price_text, to_base
 
 
 @pytest.mark.parametrize(
@@ -62,3 +62,24 @@ def test_parse_price_text(text, expected):
 )
 def test_parse_unit_price_text(text, expected):
     assert parse_unit_price_text(text) == expected
+
+
+@pytest.mark.parametrize(
+    "text, expected",
+    [
+        ("1 l", ("l", 1.0)),
+        ("Brik 1,5 l", ("l", 1.5)),
+        ("Pack 6 x 1 l", ("l", 6.0)),
+        ("6x200 ml", ("l", 1.2)),
+        ("500 g", ("kg", 0.5)),
+        ("1 kg", ("kg", 1.0)),
+        ("12 rollos", ("ud", 12.0)),
+        ("una docena", ("ud", 12.0)),
+        ("precio kg (a granel)", (None, None)),
+        (None, (None, None)),
+    ],
+)
+def test_parse_size(text, expected):
+    unit, qty = parse_size(text)
+    assert unit == expected[0]
+    assert qty == (pytest.approx(expected[1]) if expected[1] is not None else None)

@@ -113,3 +113,36 @@ def parse_unit_price_text(text: str) -> tuple[str | None, float | None]:
         return None, None
     value = parse_price_text(m.group("num"))
     return to_base(value, m.group("unit").strip())
+
+
+_SIZE_UNITS: dict[str, tuple[str, float]] = {
+    "kg": ("kg", 1.0), "kilo": ("kg", 1.0), "kilos": ("kg", 1.0),
+    "g": ("kg", 0.001), "gr": ("kg", 0.001), "gramos": ("kg", 0.001),
+    "l": ("l", 1.0), "lt": ("l", 1.0), "litro": ("l", 1.0), "litros": ("l", 1.0),
+    "ml": ("l", 0.001), "cl": ("l", 0.01),
+    "ud": ("ud", 1.0), "uds": ("ud", 1.0), "u": ("ud", 1.0), "unidad": ("ud", 1.0),
+    "unidades": ("ud", 1.0), "rollo": ("ud", 1.0), "rollos": ("ud", 1.0),
+}
+_SIZE_RE = re.compile(
+    r"(?:(?P<n>\d+)\s*x\s*)?(?P<q>\d+(?:[.,]\d+)?)\s*(?P<u>kg|kilos?|gramos|gr|g|litros?|lt|l|ml|cl|"
+    r"unidades|unidad|uds|ud|u|rollos?)\b",
+    re.IGNORECASE,
+)
+
+
+def parse_size(text: str | None) -> tuple[str | None, float | None]:
+    """Cantidad total de un envase: '6 x 1 l' -> ('l', 6.0); '500 g' -> ('kg', 0.5).
+
+    Si no se reconoce, (None, None). Se usa cuando el súper no publica
+    precio por medida pero sí el tamaño.
+    """
+    if not text:
+        return None, None
+    if re.search(r"\bdocena\b", text, re.IGNORECASE):
+        return "ud", 12.0
+    m = _SIZE_RE.search(text.replace("\xa0", " "))
+    if not m:
+        return None, None
+    unit, factor = _SIZE_UNITS[m.group("u").lower()]
+    qty = float(m.group("q").replace(",", ".")) * factor * int(m.group("n") or 1)
+    return (unit, qty) if qty > 0 else (None, None)

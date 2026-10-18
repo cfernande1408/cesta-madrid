@@ -23,7 +23,7 @@ import httpx
 from scraper.matching import Item, matches_text
 from scraper.models import Offer
 from scraper.stores.base import Pacer, StoreError, get, make_client
-from scraper.units import to_base
+from scraper.units import parse_size, to_base
 
 BASE_URL = "https://www.aldi.es"
 SITEMAP_URL = f"{BASE_URL}/sitemaps/.aldi-nord-sitemap-products.xml"
@@ -100,6 +100,13 @@ def parse_product(p: dict, url: str, now: datetime) -> Offer | None:
     except (KeyError, TypeError, ValueError):
         return None
     unit, unit_price = to_base(base_value, scale)
+    if unit is None:
+        # Sin precio por medida reconocible (p. ej. por metro): se calcula con el tamaño.
+        for text in (p.get("salesUnit"), p.get("name")):
+            size_unit, qty = parse_size(text)
+            if size_unit is not None:
+                unit, unit_price = size_unit, price / qty
+                break
     image = next((a.get("url") for a in p.get("assets") or [] if a.get("type") == "primary"), None)
     return Offer(
         store="aldi",
