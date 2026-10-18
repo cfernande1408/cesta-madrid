@@ -53,4 +53,5 @@ python -m http.server -d web       # ver la web en http://localhost:8000
 - El coste de cada línea es una estimación: precio por kilo/litro/unidad × cantidad.
 - Dia se compara con el precio sin tarjeta Club Dia.
 - El scraper hace pocas peticiones y espaciadas (una vez al día). El `robots.txt` de Mercadona no permite rastrear su `/api`; si prefieres respetarlo, quita `mercadona` de `ajustes.supermercados` en `cesta.json`.
+- Alcampo protege su web con un WAF que, tras unas pocas búsquedas, pide resolver un reto en el navegador. El scraper no lo salta: para en cuanto aparece y al día siguiente empieza por los artículos con el precio más antiguo, así que los precios de Alcampo se renuevan por turnos y pueden tener unos días (se descartan pasados 14).
 - Carrefour no está incluido: su web bloquea las peticiones automáticas.

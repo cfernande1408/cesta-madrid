@@ -532,6 +532,10 @@ input {
   color: inherit;
 }
 
+.detalle__fecha {
+  color: var(--aviso);
+}
+
 .detalle__super--sin .detalle__producto {
   grid-column: 2 / -1;
   text-align: right;

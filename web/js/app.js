@@ -121,6 +121,11 @@ function cuando(iso) {
   return `el ${diaFmt.format(fecha)}`;
 }
 
+function esDeOtroDia(fecha) {
+  if (!fecha || !estado.datos?.generado) return false;
+  return fecha !== estado.datos.generado.slice(0, 10);
+}
+
 function esViejo(iso) {
   return !iso || Date.now() - new Date(iso).getTime() > 36 * 3600 * 1000;
 }
@@ -316,6 +321,7 @@ function detalle(a, cantidad, detalleId, mejor) {
       h("span", { class: "detalle__producto" },
         h("a", { href: o.url, target: "_blank", rel: "noopener" }, o.name),
         `${o.format ? ` (${o.format})` : ""}: ${formatoEuros(o.price)}`,
+        esDeOtroDia(o.fecha) ? h("span", { class: "detalle__fecha" }, ` Precio del ${diaFmt.format(new Date(o.fecha))}.`) : null,
       ),
     );
   });
@@ -391,7 +397,7 @@ function renderCabeceraYPie() {
     ...(d?.supermercados ?? []).map((s) =>
       h("li", { class: esViejo(s.actualizado) ? "viejo" : null },
         s.encontrados > 0
-          ? `${s.nombre}: ${s.encontrados} artículos, ${cuando(s.actualizado)}`
+          ? `${s.nombre}: ${s.encontrados} artículos, ${cuando(s.actualizado)}${s.parcial ? " (parte de los precios son de días anteriores)" : ""}`
           : `${s.nombre}: sin datos por ahora`,
       ),
     ),

@@ -151,3 +151,96 @@ def test_waf_block_stops_store_immediately(cesta, tmp_path):
     waf = Waf()
     run(cesta, tmp_path / "d", store_factory=factory({"bueno": Bueno(), "bloqueado": waf, "roto": Roto()}))
     assert waf.calls == 1
+
+
+class Guion:
+    """Súper falso que responde según un guion: item_id -> lista de ofertas o excepción."""
+
+    def __init__(self, store_id, guion):
+        self.id, self.nombre, self.guion, self.orden = store_id, store_id.title(), guion, []
+
+    def search(self, item):
+        self.orden.append(item.id)
+        res = self.guion[item.id]
+        if isinstance(res, Exception):
+            raise res
+        return res
+
+
+def run_with(cesta, out, stores, day):
+    return run(cesta, out, store_factory=factory(stores), now=datetime(2026, 10, day, 6, tzinfo=UTC))
+
+
+def leche_y_arroz(store_id, leche=0.8, arroz=1.1):
+    return {
+        "leche": [offer(store_id, "Leche semidesnatada", leche, "l")],
+        "arroz": [offer(store_id, "Arroz redondo", arroz, "kg")],
+    }
+
+
+def ofertas(out):
+    precios = json.loads((out / "precios.json").read_text())
+    return {a["id"]: a["ofertas"] for a in precios["articulos"]}, {s["id"]: s for s in precios["supermercados"]}
+
+
+def test_partial_block_keeps_older_offers_and_rotates(cesta, tmp_path):
+    out = tmp_path / "data"
+    stores = {"bueno": Guion("bueno", leche_y_arroz("bueno")),
+              "bloqueado": Guion("bloqueado", leche_y_arroz("bloqueado")),
+              "roto": Guion("roto", leche_y_arroz("roto"))}
+    run_with(cesta, out, stores, 10)
+
+    blocked = StoreError("HTTP 202", status=202)
+    guion = {"leche": [offer("bloqueado", "Leche semidesnatada", 0.7, "l")], "arroz": blocked}
+    stores["bloqueado"] = Guion("bloqueado", guion)
+    run_with(cesta, out, stores, 11)
+
+    of, st = ofertas(out)
+    assert of["leche"]["bloqueado"]["unit_price"] == 0.7
+    assert of["leche"]["bloqueado"]["fecha"] == "2026-10-11"
+    assert of["arroz"]["bloqueado"]["fecha"] == "2026-10-10"  # se conserva el de ayer
+    assert st["bloqueado"]["parcial"] and st["bloqueado"]["ok"]
+
+    # Al día siguiente empieza por el artículo con el precio más antiguo.
+    stores["bloqueado"] = Guion("bloqueado", leche_y_arroz("bloqueado"))
+    run_with(cesta, out, stores, 12)
+    assert stores["bloqueado"].orden == ["arroz", "leche"]
+
+
+def test_searched_and_not_found_drops_offer(cesta, tmp_path):
+    out = tmp_path / "data"
+    stores = {sid: Guion(sid, leche_y_arroz(sid)) for sid in ("bueno", "bloqueado", "roto")}
+    run_with(cesta, out, stores, 10)
+    stores["bueno"] = Guion("bueno", {"leche": [], "arroz": leche_y_arroz("bueno")["arroz"]})
+    run_with(cesta, out, stores, 11)
+    of, _ = ofertas(out)
+    assert "bueno" not in of["leche"]
+
+
+def test_offers_older_than_two_weeks_are_dropped(cesta, tmp_path):
+    out = tmp_path / "data"
+    stores = {sid: Guion(sid, leche_y_arroz(sid)) for sid in ("bueno", "bloqueado", "roto")}
+    run_with(cesta, out, stores, 1)
+    caido = StoreError("HTTP 403", status=403)
+    stores["bloqueado"] = Guion("bloqueado", {"leche": caido, "arroz": caido})
+    run_with(cesta, out, stores, 15)
+    of, _ = ofertas(out)
+    assert "bloqueado" in of["leche"]
+    run_with(cesta, out, stores, 16)
+    of, st = ofertas(out)
+    assert "bloqueado" not in of["leche"]
+    assert st["bloqueado"]["encontrados"] == 0
+
+
+def test_rejected_sample_explains_reason():
+    from scraper.matching import Item
+    from scraper.run import rejected_sample
+
+    item = Item(id="huevos", nombre="Huevos", busqueda="huevos", unidad="ud", excluir=("chocolate",))
+    offers = [
+        offer("m", "Huevos grandes L", 0.25, "kg"),
+        offer("m", "Huevos de chocolate", 30.0, "ud"),
+        offer("m", "Macarrón al huevo", 2.9, "kg"),
+    ]
+    sample = rejected_sample(item, offers)
+    assert [s["motivo"] for s in sample] == ["unidad kg", "excluido por «chocolate»", "unidad kg"]

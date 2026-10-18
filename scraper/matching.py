@@ -31,7 +31,7 @@ def tokens(text: str) -> list[str]:
     return [t for t in normalize(text).split() if t not in STOPWORDS]
 
 
-def _contains(haystack: str, phrase: str) -> bool:
+def contains(haystack: str, phrase: str) -> bool:
     """¿Aparece `phrase` (normalizada) como palabras completas en `haystack`?
 
     `phrase` admite alternativas separadas por "|": "espagueti|spaghetti".
@@ -88,9 +88,9 @@ def accepts(item: Item, offer: Offer) -> bool:
     if offer.unit != item.unidad or offer.unit_price is None or offer.unit_price <= 0:
         return False
     name = normalize(offer.name)
-    if not all(_contains(name, p) for p in item.required_phrases()):
+    if not all(contains(name, p) for p in item.required_phrases()):
         return False
-    return not any(_contains(name, p) for p in item.excluir)
+    return not any(contains(name, p) for p in item.excluir)
 
 
 def best_offer(item: Item, offers: Iterable[Offer]) -> Offer | None:

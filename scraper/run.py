@@ -17,15 +17,16 @@ import sys
 import time
 import traceback
 from collections.abc import Callable
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from pathlib import Path
 
-from scraper.matching import Item, accepts, best_offer, normalize, tokens
+from scraper.matching import Item, accepts, best_offer, contains, normalize, tokens
 from scraper.models import Offer
 from scraper.stores.base import Store, StoreError
 
 ROOT = Path(__file__).resolve().parent.parent
 MAX_CONSECUTIVE_ERRORS = 3
+MAX_AGE_DAYS = 14  # una oferta sin renovar más días que esto se descarta
 HISTORY_FIELDS = ["fecha", "articulo", "supermercado", "precio_unidad", "unidad", "precio", "producto"]
 
 
@@ -59,17 +60,48 @@ def _offer_json(offer: Offer) -> dict:
     return data
 
 
+def _reason(item: Item, offer: Offer) -> str:
+    name = normalize(offer.name)
+    if offer.unit != item.unidad:
+        return f"unidad {offer.unit or '?'}"
+    if not offer.unit_price:
+        return "sin precio por medida"
+    for phrase in item.excluir:
+        if contains(name, phrase):
+            return f"excluido por «{phrase}»"
+    return "no contiene lo exigido"
+
+
 def rejected_sample(item: Item, offers: list[Offer], limit: int = 5) -> list[dict]:
-    """Productos parecidos que no pasaron los filtros, para poder afinar cesta.json."""
+    """Productos parecidos que no pasaron los filtros, para poder afinar cesta.json.
+
+    Primero los que sí contienen lo exigido (los descarta la unidad o una
+    exclusión) y después los que se parecen por la primera palabra.
+    """
+    required = item.required_phrases()
+    close = [o for o in offers if all(contains(normalize(o.name), r) for r in required)]
     first_word = tokens(item.busqueda)[:1]
-    if not first_word:
-        return []
-    root = first_word[0][:-1] if len(first_word[0]) > 4 else first_word[0]  # "huevos" → "huevo"
-    similar = [o for o in offers if root in normalize(o.name)]
+    root = ""
+    if first_word:
+        root = first_word[0][:-1] if len(first_word[0]) > 4 else first_word[0]  # "huevos" → "huevo"
+    similar = [o for o in offers if root and root in normalize(o.name) and o not in close]
     return [
-        {"nombre": o.name, "unidad": o.unit, "precio_unidad": o.unit_price}
-        for o in similar[:limit]
+        {"nombre": o.name, "unidad": o.unit, "precio_unidad": o.unit_price, "motivo": _reason(item, o)}
+        for o in (close + similar)[:limit]
     ]
+
+
+def prioritized(items: list[Item], store_id: str, prev_offers: dict[str, dict]) -> list[Item]:
+    """Primero los artículos sin precio de este súper y luego los de precio más antiguo.
+
+    Si un súper solo nos deja hacer unas pocas búsquedas al día, así se van
+    renovando todos los artículos por turnos.
+    """
+    def key(item: Item) -> str:
+        prev = prev_offers.get(item.id, {}).get(store_id)
+        return "" if prev is None else prev.get("fecha", "0000")
+
+    return sorted(items, key=key)
 
 
 def scrape_store(store: Store, items: list[Item]) -> tuple[dict[str, Offer], dict, dict[str, dict]]:
@@ -145,18 +177,22 @@ def run(
     offers: dict[str, dict[str, dict]] = {item.id: {} for item in items}
     stores_out, estado_stores, estado_items, history = [], {}, {}, []
 
+    today = now.date()
     for store_id in store_ids:
-        if only and store_id not in only:
-            fresh = False
-        else:
+        best: dict[str, Offer] = {}
+        searched: set[str] = set()
+        aborted = False
+        if not only or store_id in only:
             try:
                 store = store_factory(store_id, ajustes)
             except Exception as exc:
-                best, status, diag = {}, {"id": store_id, "nombre": store_id, "errores": 1,
-                                          "mensaje": f"No se pudo crear: {exc}", "encontrados": 0}, {}
+                status = {"id": store_id, "nombre": store_id, "errores": 1,
+                          "mensaje": f"No se pudo crear: {exc}", "encontrados": 0}
+                diag = {}
             else:
                 print(f"→ {store.nombre}…", flush=True)
-                best, status, diag = scrape_store(store, items)
+                ordered = prioritized(items, store_id, prev_offers)
+                best, status, diag = scrape_store(store, ordered)
                 print(f"  {status['encontrados']}/{len(items)} artículos, "
                       f"{status['errores']} errores, {status.get('duracion_s')} s", flush=True)
                 if status["mensaje"]:
@@ -164,30 +200,35 @@ def run(
             estado_stores[store_id] = status
             for item_id, d in diag.items():
                 estado_items.setdefault(item_id, {})[store_id] = d
-            fresh = bool(best)
+            searched = set(diag)
+            aborted = len(searched) < len(items)
 
-        if fresh:
-            for item_id, offer in best.items():
-                offers[item_id][store_id] = _offer_json(offer)
+        for item in items:
+            if item.id in best:
+                offer = best[item.id]
+                offers[item.id][store_id] = {**_offer_json(offer), "fecha": today.isoformat()}
                 history.append({
-                    "fecha": now.date().isoformat(), "articulo": item_id, "supermercado": store_id,
+                    "fecha": today.isoformat(), "articulo": item.id, "supermercado": store_id,
                     "precio_unidad": offer.unit_price, "unidad": offer.unit, "precio": offer.price,
                     "producto": offer.name,
                 })
-            actualizado = stamp
-        else:
-            # Sin datos nuevos: se conservan los de la última vez que funcionó.
-            for item_id in offers:
-                if store_id in prev_offers.get(item_id, {}):
-                    offers[item_id][store_id] = prev_offers[item_id][store_id]
-            actualizado = prev_stores.get(store_id, {}).get("actualizado")
+            elif item.id not in searched:
+                # No se pudo consultar hoy: vale el último precio si no es muy viejo.
+                prev = prev_offers.get(item.id, {}).get(store_id)
+                if prev is not None:
+                    fecha = prev.get("fecha") or (previous.get("generado") or "")[:10]
+                    prev = {**prev, "fecha": fecha}
+                    if fecha and (today - date.fromisoformat(fecha)).days <= MAX_AGE_DAYS:
+                        offers[item.id][store_id] = prev
 
+        fresh = bool(best)
         prev_name = prev_stores.get(store_id, {}).get("nombre", store_id)
         stores_out.append({
             "id": store_id,
             "nombre": estado_stores.get(store_id, {}).get("nombre", prev_name),
             "ok": fresh,
-            "actualizado": actualizado,
+            "parcial": fresh and aborted,
+            "actualizado": stamp if fresh else prev_stores.get(store_id, {}).get("actualizado"),
             "encontrados": sum(1 for o in offers.values() if store_id in o),
         })
 

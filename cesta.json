@@ -46,7 +46,7 @@
       "nombre": "Mantequilla",
       "categoria": "Lácteos y huevos",
       "busqueda": "mantequilla",
-      "excluir": ["galletas", "pasta", "tostadas", "croissant", "bollo", "palmera", "margarina", "cacahuete", "sobao", "pastas", "magdalenas", "palmeritas", "hojaldre", "pan", "cookies", "ajo", "palomitas", "sabor", "con mantequilla", "microondas", "untable con", "crema de"],
+      "excluir": ["galletas", "pasta", "tostadas", "croissant", "bollo", "palmera", "margarina", "cacahuete", "sobao", "pastas", "magdalenas", "palmeritas", "hojaldre", "pan", "cookies", "ajo", "palomitas", "sabor", "con mantequilla", "microondas", "untable con", "crema de", "rosquillas", "mantecados", "polvorones", "sobaos", "bollos", "croissants", "tortas", "bizcocho", "bizcochos", "picos", "caramelo", "caramelos"],
       "unidad": "kg",
       "cantidad": 0.25,
       "incluir": ["mantequilla"]
@@ -92,7 +92,7 @@
       "nombre": "Macarrones",
       "categoria": "Despensa",
       "busqueda": "macarrones",
-      "excluir": ["integral", "sin gluten", "queso", "tomate", "preparado", "plato", "listo", "microondas", "lentejas", "garbanzos", "boloñesa", "carbonara", "cheese", "bacon", "gratinados", "gratinado", "mac"],
+      "excluir": ["integral", "sin gluten", "queso", "tomate", "preparado", "plato", "listo", "microondas", "lentejas", "garbanzos", "boloñesa", "carbonara", "cheese", "bacon", "gratinados", "gratinado", "mac", "vegetales", "espinacas", "tricolor"],
       "unidad": "kg",
       "cantidad": 0.5,
       "incluir": ["macarrones|macarron"]
@@ -296,7 +296,7 @@
       "categoria": "Carne y pescado",
       "busqueda": "filetes de merluza",
       "incluir": ["merluza"],
-      "excluir": ["rebozada", "rebozados", "empanada", "palitos", "varitas", "surimi", "croquetas", "salsa", "gulas", "pate", "pizza", "plato", "tempura", "nuggets", "hamburguesa", "a la romana", "pescadilla", "cocida", "empanadas", "empanados", "empanado", "figuritas", "precocinados", "precocinado", "al huevo", "rebozadas"],
+      "excluir": ["rebozada", "rebozados", "empanada", "palitos", "varitas", "surimi", "croquetas", "salsa", "gulas", "pate", "pizza", "plato", "tempura", "nuggets", "hamburguesa", "a la romana", "pescadilla", "cocida", "empanadas", "empanados", "empanado", "figuritas", "precocinados", "precocinado", "al huevo", "rebozadas", "papilla", "verduritas", "hero", "meses", "bebe", "tarrito", "potito"],
       "unidad": "kg",
       "cantidad": 0.5
     },
