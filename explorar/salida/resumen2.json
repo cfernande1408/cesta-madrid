@@ -1,0 +1,153 @@
+{
+ "cat_lacteos": {
+  "url": "https://www.aldi.es/productos/lacteos-y-huevos.html",
+  "final": "https://www.aldi.es/productos/lacteos-y-huevos.html",
+  "status": 200,
+  "bytes": 101614,
+  "page": "/product-overview/[...categories]",
+  "api": [
+   {
+    "nombre": "PRODUCT_MGNL_CATEGORY_CHILDREN_GET",
+    "req": {
+     "categoryPath": "/productos/lacteos-y-huevos",
+     "locale": "es",
+     "region": "pen"
+    },
+    "tipo_res": "list",
+    "muestra_res": "[{\"categoryKey\": \"huevos\", \"navigationTitle\": \"Huevos\", \"teaserTitle\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserText\": \"Huevos frescos en ALDI: calidad y buen precio cada día. Acércate a tu supermercado más cercano y encuentra huevos frescos a precios bajos.\", \"teaserImageBig\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-huevos-270x202.jpg\", \"teaserImageSmall\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-huevos-270x202.jpg\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/huevos\"}, \"title\": \"Huevos\", \"marketingCategory\": false, \"children\": [], \"teaserImageAltText\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserImageTitle\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserImageSmallAltText\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"teaserImageSmallTitle\": \"Huevos frescos. Calidad a precios bajos - ALDI\", \"hideInCategory\": false}, {\"categoryKey\": \"leche-y-bebidas-vegetales\", \"navigationTitle\": \"Leche y bebidas vegetales\", \"teaserTitle\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserText\": \"Leche y bebidas vegetales en ALDI: calidad y frescura cada día. Visita tu supermercado más cercano y ahorra en tu compra diaria.\", \"teaserImageBig\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-leches-270x202.jpg\", \"teaserImageSmall\": \"https://prd.an-pcm.com/dam/non-product-assets/es/Digital/Website/cms-magnolia/web-comercial/productos/surtido-fijo-alimentacion/sucategorias/quicklinks/quick-link-lacteosyhuevos-leches-270x202.jpg\", \"reference\": {\"type\": \"pages\", \"path\": \"/productos/lacteos-y-huevos/leche-y-bebidas-vegetales\"}, \"title\": \"Leche y bebidas vegetales\", \"marketingCategory\": false, \"children\": [], \"teaserImageAltText\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserImageTitle\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserImageSmallAltText\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"teaserImageSmallTitle\": \"Leche y bebidas vegetales. Calidad a precios bajos - ALDI\", \"hideInCategory\": false}, {\"categoryKey\": \"yogures-y-p"
+   }
+  ],
+  "precios_en_html": []
+ },
+ "cat_leche": {
+  "url": "https://www.aldi.es/productos/lacteos-y-huevos/leche.html",
+  "final": "https://www.aldi.es/productos/lacteos-y-huevos/leche.html",
+  "status": 404,
+  "bytes": 66214,
+  "page": "/404",
+  "api": [],
+  "precios_en_html": []
+ },
+ "buscar": {
+  "url": "https://www.aldi.es/buscar.html?query=leche",
+  "final": "https://www.aldi.es/buscar.html?query=leche",
+  "status": 404,
+  "bytes": 66214,
+  "page": "/404",
+  "api": [],
+  "precios_en_html": []
+ },
+ "sitemap_nord": {
+  "url": "https://www.aldi.es/.aldi-nord-sitemap.xml",
+  "final": "https://www.aldi.es/.aldi-nord-sitemap.xml",
+  "status": 200,
+  "bytes": 544,
+  "precios_en_html": []
+ },
+ "sitemap_locs": {
+  "total": 4,
+  "muestra": [
+   "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-pages.xml",
+   "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-products.xml",
+   "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-stores.xml",
+   "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-faq.xml"
+  ],
+  "con_producto": []
+ },
+ "sitemap_sub_0": {
+  "url": "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-pages.xml",
+  "final": "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-pages.xml",
+  "status": 200,
+  "bytes": 270360,
+  "precios_en_html": [],
+  "locs": {
+   "total": 1143,
+   "muestra": [
+    "https://www.aldi.es",
+    "https://www.aldi.es/folleto.html",
+    "https://www.aldi.es/folleto/catalogo-special.html",
+    "https://www.aldi.es/folleto/super-precios-aperturas.html",
+    "https://www.aldi.es/folleto/ofertazas-de-bienvenida.html",
+    "https://www.aldi.es/folleto/juguetes-navidad.html",
+    "https://www.aldi.es/folleto/murcia-puente-tocinos.html",
+    "https://www.aldi.es/folleto/torrent-ii.html",
+    "https://www.aldi.es/folleto/paterna-sur.html",
+    "https://www.aldi.es/folleto/semanal-44-2026.html",
+    "https://www.aldi.es/folleto/semanal-42-2026.html",
+    "https://www.aldi.es/folleto/semanal-43-2026.html",
+    "https://www.aldi.es/producto.html",
+    "https://www.aldi.es/el-veranazo.html",
+    "https://www.aldi.es/la-maravillosa-tarjeta-dorada.html",
+    "https://www.aldi.es/ahorro.html",
+    "https://www.aldi.es/preguntas-frecuentes.html",
+    "https://www.aldi.es/ofertas.html",
+    "https://www.aldi.es/ofertas-proxima-semana.html",
+    "https://www.aldi.es/empleo.html"
+   ]
+  }
+ },
+ "sitemap_sub_1": {
+  "url": "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-products.xml",
+  "final": "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-products.xml",
+  "status": 200,
+  "bytes": 506635,
+  "precios_en_html": [],
+  "locs": {
+   "total": 2695,
+   "muestra": [
+    "https://www.aldi.es/producto/cogollos-998600.html",
+    "https://www.aldi.es/producto/calabacines-ecologicos-997800.html",
+    "https://www.aldi.es/producto/coliflor-997600.html",
+    "https://www.aldi.es/producto/filetes-de-merluza-del-cabo-996900.html",
+    "https://www.aldi.es/producto/limon-996300.html",
+    "https://www.aldi.es/producto/limon-ecologico-996000.html",
+    "https://www.aldi.es/producto/uva-de-mesa-blanca-sin-semillas-995700.html",
+    "https://www.aldi.es/producto/lechuga-romana-994900.html",
+    "https://www.aldi.es/producto/uva-de-mesa-roja-994700.html",
+    "https://www.aldi.es/producto/naranja-de-mesa-994500.html",
+    "https://www.aldi.es/producto/ciruela-roja-993600.html",
+    "https://www.aldi.es/producto/patatas-ecologicas-993500.html",
+    "https://www.aldi.es/producto/uva-de-mesa-blanca-993300.html",
+    "https://www.aldi.es/producto/melon-piel-de-sapo-992600.html",
+    "https://www.aldi.es/producto/tomate-de-untar-992500.html",
+    "https://www.aldi.es/producto/zanahorias-992400.html",
+    "https://www.aldi.es/producto/mandarina-991700.html",
+    "https://www.aldi.es/producto/mandarina-991000.html",
+    "https://www.aldi.es/producto/patata-especial-para-freir-990900.html",
+    "https://www.aldi.es/producto/platano-de-canarias-igp-989800.html"
+   ]
+  }
+ },
+ "sitemap_sub_2": {
+  "url": "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-stores.xml",
+  "final": "https://www.aldi.es/sitemaps/.aldi-nord-sitemap-stores.xml",
+  "status": 200,
+  "bytes": 106175,
+  "precios_en_html": [],
+  "locs": {
+   "total": 496,
+   "muestra": [
+    "https://www.aldi.es/encuentra-tu-supermercado/telde/rotonda-concejal-juan-rodriguez-betancourt-1/3570864.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/palma/carrer-d'arago-203/3570884.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/palma/carrer-l'hort-de-les-animes-21/3570892.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/mostoles/calle-regordono-2/3604363.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/pineda-de-mar/carrer-sant-joan-31-33/3604364.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-arcaute-2/3604366.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-santa-rita-9/3604367.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/cabo-de-palos/calle-yuca-s%2Fn/3604368.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/calafell/carrer-bassa-miquela-2/3604369.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/coslada/avenida-de-jose-garate/3604370.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/pinto/avenida-de-los-alcotanes-1/3604371.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/san-sebastian-de-los-reyes/avenida-de-la-sierra-24/3604372.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/guadarrama/paseo-del-molino-del-rey-6/3604374.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/torredembarra/carrer-comtes-de-santa-coloma-7/3604375.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/castello-d'empuries/avinguda-de-la-tramuntana-6/3604376.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/sitges/carrer-drets-humans-5/3604377.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/mostoles/avenida-de-la-osa-menor-2/3604378.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/alcorcon/calle-mediterraneo-9/3604379.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/las-rozas-de-madrid/carretera-via-de-servicio-las-rozas-66/3604380.html",
+    "https://www.aldi.es/encuentra-tu-supermercado/alcobendas/calle-de-jose-hierro-5/3604381.html"
+   ]
+  }
+ }
+}

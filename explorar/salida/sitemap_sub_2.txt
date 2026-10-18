@@ -1,0 +1,3973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/telde/rotonda-concejal-juan-rodriguez-betancourt-1/3570864.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palma/carrer-d'arago-203/3570884.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palma/carrer-l'hort-de-les-animes-21/3570892.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mostoles/calle-regordono-2/3604363.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pineda-de-mar/carrer-sant-joan-31-33/3604364.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-arcaute-2/3604366.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-santa-rita-9/3604367.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cabo-de-palos/calle-yuca-s%2Fn/3604368.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/calafell/carrer-bassa-miquela-2/3604369.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/coslada/avenida-de-jose-garate/3604370.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pinto/avenida-de-los-alcotanes-1/3604371.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-sebastian-de-los-reyes/avenida-de-la-sierra-24/3604372.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/guadarrama/paseo-del-molino-del-rey-6/3604374.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torredembarra/carrer-comtes-de-santa-coloma-7/3604375.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castello-d'empuries/avinguda-de-la-tramuntana-6/3604376.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sitges/carrer-drets-humans-5/3604377.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mostoles/avenida-de-la-osa-menor-2/3604378.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcorcon/calle-mediterraneo-9/3604379.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/las-rozas-de-madrid/carretera-via-de-servicio-las-rozas-66/3604380.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcobendas/calle-de-jose-hierro-5/3604381.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-sebastian-de-los-reyes/avenida-de-tenerife-20/3604382.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-alsasua-2/3604383.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alicante/avenida-de-denia-125/3604384.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pozuelo-de-alarcon/carretera-de-humera-96/3604385.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/glorieta-de-cuatro-caminos-6/3604386.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/tres-cantos/avenida-de-los-artesanos-58/3604387.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-fuencarral-123/3604388.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/archena/calle-actor-francisco-rabal-s%2Fn/3604389.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/l'alfas-del-pi/carrer-rambla-de-l'albir-12/3604390.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palafrugell/avinguda-d'espana-141/3604391.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-la-costa-brava-36/3604392.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cunit/avinguda-de-barcelona-46/3604393.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrevieja/calle-johannes-kepler-6/3604394.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-bravo-murillo-200/3604395.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ciempozuelos/calle-del-paraiso-s%2Fn/3604396.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/fuenlabrada/calle-de-leganes-60/3604397.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valdemoro/calle-gaspar-bravo-de-sobremonte-18/3604398.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vinyols-i-els-arcs/vial-de-cavet-s%2Fn/3604399.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-quintanavides-6/3604400.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/majadahonda/calle-azafran-13/3604401.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-vendrell/carretera-barcelona-25/3604402.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-jorge-juan-129/3604403.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/campos/cami-vell-de-ciutat-37/3604404.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malgrat-de-mar/avinguda-de-la-costa-brava-146/3604405.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-javier/avenida-aviacion-espanola-78/3604406.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-del-poeta-joan-maragall-7-bis/3604407.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cerceda/carr.-de-colmenar-viejo/3604408.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcala/calle-alcala-380/3604409.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-del-conde-de-penalver-45/3604410.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-gaztambide-4/3604411.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/finestrat/avinguda-de-finestrat-11-13/3604412.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrejon-de-ardoz/avenida-de-la-constitucion-106/3604413.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/avenida-de-santa-eugenia-4/3604414.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-casar/calle-del-hierro-s%2Fn/3604415.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/orihuela/calle-ontario-2/3604416.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alicante/avenida-de-ansaldo-7/3604417.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valdemoro/avenida-de-las-morcilleras-3/3604418.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palmanova/carrer-tarragona-s%2Fn/3604419.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/majadahonda/calle-el-barbero-de-sevilla-13r/3604420.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vilanova-i-la-geltru/ronda-iberica-69/3604421.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-campezo-12/3604422.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/rivas-vaciamadrid/calle-industria-4/3604423.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/algete/calle-mayor-62/3604424.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/calonge/avinguda-de-la-unio-73/3604425.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/avenida-de-la-virgen-del-carmen-35/3604426.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/l'escala/ronda-dels-oficis-2/3604427.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-matilde-hernandez-100/3604428.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/los-alcazares/avenida-cartagena-15/3604429.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/avenida-del-mayorazgo-2/3604430.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/aguilas/calle-murcia-s%2Fn/3604431.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/colmenar-viejo/avenida-de-la-libertad-70/3604432.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palamos/carrer-arnau-sa-bruguera-10/3604433.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valencia/avenida-baleares-22/3604434.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alpedrete/avenida-reina-victoria-22/3604435.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sant-pere-de-ribes/rambla-del-garraf/3604436.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcorcon/avenida-del-pinar-2/3604437.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/brunete/carretera-san-martin-1/3604438.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/platja-d'aro/carrer-tramuntana-s%2Fn/3604439.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-sebastian-de-los-reyes/avenida-de-einstein/3604440.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castelldefels/carrer-del-molinot-50/3604441.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-francisco-silvela-48/3604442.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/navalcarnero/calle-dehesa-de-mari-martin-12/3604443.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrevieja/avenida-de-las-cortes-valencianas-1/3604444.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-virgen-de-la-alegria-14/3604445.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/lloret-de-mar/carrer-joan-miro-79-83/3604446.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/parla/avenida-de-america-11/3604447.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alicante/avenida-doctor-jimenez-diaz-40/3604448.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/villaviciosa/avenida-de-las-nieves-39/3604449.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/orihuela/calle-ramon-de-campoamor-2/3604450.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcobendas/calle-del-pintor-velazquez-3/3604451.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/adeje/avenida-barranco-las-torres-37/3604452.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/collado-villalba/calle-alejandro-gamella-12/3604453.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcorcon/avenida-de-europa-4/3604454.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/aranjuez/calle-de-gonzalo-chacon-57/3604455.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/carretera-barrio-de-la-fortuna-1/3604456.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pozuelo-de-alarcon/calle-manises-9/3604457.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/roda-de-bera/carrer-hispano-suiza-25/3604458.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mazarron/avenida-doctor-meca-s%2Fn/3604459.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/magaluf/avinguda-de-l'olivera-46/3604460.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/roquetas-de-mar/avenida-sabinar-760/3604496.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/calle-gonzalo-bilbao-20/3604497.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/merida/avenida-de-felipe-vi-s%2Fn/3604498.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sant-vicenc-dels-horts/carrer-del-claverol-22-24/3604499.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/aljaraque/a-492/3604501.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alhama-de-murcia/las-palmeras-s%2Fn/3604502.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/estepona/avenida-juan-carlos-i-8/3604503.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/manresa/carretera-de-vic-251/3604504.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/callosa-del-segura/ctra.-callosa-a-catral-s%2Fn/3604505.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/burriana/avenida-la-marina-5/3604506.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/almeria/carretera-de-nijar-401/3604507.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/aldaia/carrer-les-encreullades-2/3604508.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/algemesi/ronda-del-calvari/3604509.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/avenida-pueblo-saharaui-14/3604510.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/donostia-san-sebastian/zubiaurre-pasealekua-27/3604511.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/las-chafiras/calle-la-folia-33/3604512.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/la-nucia/avinguda-sorolla-1%2C3%2C5%2C-cc-''ricardo''-s%2Fn/3604513.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-mila-i-fontanals-14/3604514.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santa-marta-de-tormes/carretera-madrid-4/3604515.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valls/carretera-del-pla-s%2Fn/3604516.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/granada/calle-jimena-2/3604517.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/estepona/calle-segismundo-moret-151/3604518.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/laredo/wenceslao-lopez-albo-6/3604519.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/plasencia/avenida-de-espana-26/3604520.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/guadalajara/plaza-de-europa-2/3604521.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/tarragona/carrer-del-mestre-xavier-gols-3/3604522.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castello-de-la-plana/avinguda-de-casalduch-57/3604523.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/moguer/plaza-industrial-los-arroyos-s%2Fn/3604524.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pamplona/avenida-de-guipuzcoa-42/3604525.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valencia/carrer-de-pedreguer-3/3604526.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/rota/avenida-de-la-libertad-17/3604527.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/reus/avinguda-de-salou-171/3604528.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vergel/avenida-valencia-47/3604530.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/iurreta/lugar-barrio-mallabiena-s%2Fn/3604531.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/andoain/avda.-illarramendi-1/3604532.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcala/avenida-utrera-s%2Fn/3604533.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/arroyo-de-la-encomienda/calle-sierra-de-la-demanda-1/3604534.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santa-pola/carrer-llevant-12/3604535.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/terrassa/carretera-de-martorell-27-29/3604536.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/passeig-de-la-zona-franca-191-195/3604537.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valencia/avinguda-de-perez-galdos-86/3604538.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/denia/ctra.-ondara-a-denia-25b/3604539.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barakaldo/avenida-de-la-ribera-1b/3604540.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/petrer/avenida-del-mediterraneo-145/3604541.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/estepona/crta.-de-cadiz%3B-el-padron-3/3604542.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/talavera-de-la-reina/avenida-francisco-aguirre-s%2Fn/3604544.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/igualada/passeig-mossen-jacint-verdaguer-207/3604545.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vinaros/c%2F-dels-deuradors%2C-parcela-12-y-13/3604546.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/teulada/calle-pintor-miro-2/3604547.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/esparreguera/avinguda-francesc-marimon-152-154/3604549.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barbate/alameda-francisco-rivera-paquirri-11/3604550.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-puerto-de-santa-maria/avenida-de-fuentebravia-22/3604552.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/molins-de-rei/passeig-del-terraple-91/3604553.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/avinguda-de-sarria-12/3604554.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-fernando/calle-escritor-german-caos/3604555.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/bollullos-de-la-mitacion/avda.-de-bormujos-5-9/3604556.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valladolid/avenida-de-santander-4/3604557.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cerdanyola-del-valles/carretera-de-barcelona-175/3604558.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/peniscola/via-po-poligono-7/3604559.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/puerto-del-rosario/calle-el-palangre-4/3604560.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castalla/avenida-ibi-52/3604561.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/calle-jose-fernandez-pertierra-14/3604562.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/calle-virgen-de-setefilla-3/3604563.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sant-adria-de-besos/avinguda-del-ferrocarril-7/3604564.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/silla/avinguda-d'espioca-s%2Fn/3604565.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/chipiona/avenida-de-la-constitucion-s%2Fn/3604566.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/marchena/travesia-san-ignacio-37/3604567.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/avenida-de-moliere-s%2Fn/3604569.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/calle-ganimedes-3/3604570.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/yecla/avenida-feria-21/3604571.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mijas/avenida-de-mare-nostrum-2/3604572.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/illescas/calle-boadilla-33/3604573.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/gelves/calle-escritor-daniel-pineda-novo-s%2Fn/3604574.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/murcia/calle-cronista-carlos-valcarcel-1/3604575.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/albal/calle-atleta-fausto-albiol-4/3604576.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palencia/avenida-de-cuba-28/3604577.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/benalmadena/avenida-retamar-s%2Fn/3604578.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cordoba/calle-escritora-maria-goyri-21/3604580.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/granada/calle-palencia-22/3604581.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/calle-esclusa-8/3604582.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santiago-de-compostela/rua-de-eslovenia-4/3604583.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/bormujos/calle-paraje-de-paterna/3604584.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/monzon/avenida-de-lerida-75/3604585.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/oliva/carrer-de-guillem-de-castro-15/3604586.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vall-de-uxo/calle-tramontana-s%2Fn/3604587.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/calle-giordano-bruno-6/3604588.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ronda/calle-fernando-de-los-rios-s%2Fn/3604589.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/gijon/carretera-carbonera-325/3604590.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barbera-del-valles/carretera-de-barcelona-66/3604591.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vitoria-gasteiz/alto-de-armentia-kalea-11/3604592.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/la-linea-de-la-concepcion/carretera-malaga-s%2Fn/3604593.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ontinyent/calle-sector-42b-terciario/3604594.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/dos-hermanas/avenida-de-espana-69/3604596.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/granollers/carretera-ronda-sud-6/3604597.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sanlucar-de-barrameda/avenida-de-guzman-el-bueno-13/3604598.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/figueres/avinguda-de-roses-30-32/3604599.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/rojales/avenida-de-salamanca-6/3604600.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrox/calle-la-noria-10/3604601.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/tarragona/via-augusta-127/3604602.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/calpe/calle-suecia-s%2Fn/3604603.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/parets-del-valles/carrer-la-volta-3/3604604.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/badajoz/avenida-antonio-cuellar-gragera-s%2Fn/3604605.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/caceres/ronda-norte-s%2Fn/3604606.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/bilbao/emilio-campuzano-plaza-3/3604610.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/lucena/crta.-de-la-estacion-s%2Fn/3604611.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/avenida-de-jerez-47/3604613.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/ronda-del-guinardo-28/3604614.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/denia/carretera-de-les-marines-a-denia-25/3604615.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/plaza-cruz-del-humilladero-1/3604617.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castellar-del-valles/carrer-del-bergueda-4/3604618.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-fulgencio/calle-mar-tirreno-3/3604619.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-sepulveda-115/3604620.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/la-laguna/carretera-general-del-norte-182/3604621.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/premia-de-mar/marina-port-premia%2C-cami-ral-139/3604622.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pamplona/ctra.-sarriguren-0e/3604623.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torremolinos/avenida-carlota-alessandri-200/3604624.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/burjasot/avenida-de-la-ilustracion-6/3604625.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torremolinos/calle-de-la-cruz-73/3604626.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sagunt/avinguda-de-l'advocat-fausto-caruana-37/3604627.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/granada/avenida-de-pulianas-69/3604629.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alhaurin/avenida-santa-clara-s%2Fn/3604630.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ibi/avenida-europa-s%2Fn/3604631.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/elche/avinguda-de-la-universitat-d'elx-68/3604632.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/la-laguna/avenida-el-paso-40/3604633.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/conil-de-la-frontera/avenida-canada-honda-3/3604634.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-ejido/paseo-pedro-ponce-41/3604635.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/badajoz/avenida-de-elvas-12/3604636.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/teruel/carretera-teruel-aldehuela-s%2Fn/3604637.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-muntaner-45/3604638.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barbastro/avenida-de-la-estacion-37/3604639.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/huelva/avenida-andalucia-23/3604640.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/segovia/avenida-la-constitucion-29/3604641.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sant-celoni/placa-sector-p-2-les-torres/3604642.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ondara/avenida-costa-blanca-9/3604643.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/murcia/avenida-de-santa-catalina-16/3604644.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/jumilla/avenida-de-murcia-s%2Fn/3604645.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pego/avinguda-oliva-25/3604646.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cabrera-de-mar/carrer-illes-pitiueses-s%2Fn/3604648.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/jaen/calle-embajador-jose-l.-messia-jimen-2/3604649.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrelavega/avenida-de-bilbao-111/3604650.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/amposta/carrer-d'antoni-gaudi-1/3604651.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/godella/carrer-fusters-1/3604652.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/lebrija/camino-del-fontanal-s%2Fn/3604654.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/blanes/avinguda-parlament-de-catalunya-71/3604655.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valencia/placa-del-xuquer-8/3604656.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/coin/calle-arquimedes-1/3604657.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vic/manuel-de-pedrolo-s%2Fn/3604658.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/lleida/carrer-del-cogul-4/3604659.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/xativa/carretera-alzira/3604660.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santander/avenida-de-la-constitucion-s%2Fn/3604661.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sabadell/carretera-de-barcelona-403/3604662.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/armilla/avenida-san-rafael-57/3604663.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/les-fonts/carrer-de-rosa-sensat-2/3604664.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mijas/carretera-mijas-fuengirola-s%2Fn/3604665.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/merida/avenida-reina-sofia/3604666.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/utrera/avda.-jose-dorado-ale-s%2Fn/3604668.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-dels-tallers-74/3604669.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/estepona/avenida-matas-verdes-2/3604670.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/basauri/artunduaga-kalea-16/3604671.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/inca/carrer-teixidors-78/3604672.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mataro/carretera-de-barcelona-55/3604673.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/lorca/calle-camino-viejo-del-puerto-150/3604674.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/terrassa/avinguda-de-bejar-346/3604675.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ubeda/calle-carretera-de-vilches-s%2Fn/3604677.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/erandio/avanzada-errepidea-65/3604678.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-prat-de-llobregat/avinguda-d'apel%C2%B7les-mestres-101/3604679.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sant-joan-despi/avinguda-onze-de-setembre-19/3604680.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cartagena/pol.ind.cabezo-beaza-c%2F.belgrado-78/3604682.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/almeria/avenida-de-sierra-alhamilla/3604683.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/manacor/via-palma/3604684.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/huercal-de-almeria/calle-san-rafael/3604685.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/olot/carretera-de-sant-joan-de-les-abadesses/3604686.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/huarte/calle-intxaurdia-3/3604687.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/la-lastrilla/calle-rafael-de-las-heras-2/3604688.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/aspe/avenida-orihuela-99/3604689.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cartaya/hu-3402-poligono-industrial-la-estacion-s%2Fn/3604690.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/banyoles/avinguda-de-la-farga-40/3604691.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cartagena/avenida-juan-carlos-i-s%2Fn/3604692.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/las-palmas-de-gran-canaria/carretera-general-del-norte-157/3604693.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vitoria-gasteiz/cantabrico-hiribidea-10/3604694.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/guadalajara/calle-de-francisco-aritio-88/3604695.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/calle-lope-de-rueda%2C-esquina-camino-solvia-del-canaveral-161/3604696.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-isidro/avenida-de-la-democracia-20/3604697.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/avenida-de-miraflores-15-17/3604698.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-vicente-del-raspeig/calle-la-huerta-15/3604699.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/tomares/avenida-del-aljarafe-14/3604701.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/albacete/avenida-de-la-ilustracion-47/3604702.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/gernika-lumo/amunaga-industrialdea/3604703.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/badalona/carrer-de-francesc-macia-51-55/3604704.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/motril/avenida-doctor-norman-bethune-s%2Fn/3604705.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/eivissa/avinguda-sant-josep-de-sa-talaia-13/3604707.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/javea/avinguda-del-pla-55/3604708.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mairena-del-aljarafe/calle-juan-sebastian-elcano-s%2Fn/3604709.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/avda.-montes-sierra-17/3604710.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/albaida/avinguda-de-josep-giner-i-marco/3604711.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-del-comerc-60/3604712.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/dos-hermanas/avenida-ingeniero-jose-luis-prats-s%2Fn/3604713.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sanlucar-la-mayor/a-472/3604714.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alboraia/avinguda-de-l'orxata-45/3604715.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/plaza-del-duque-de-la-victoria-13/3604716.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/marbella/urbanizacion-villa-parra-palomeras-63/3604717.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/roquetas-de-mar/calle-infanta-elena-20/3604718.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mollet-del-valles/ronda-de-la-farinera-9-11/3604719.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/novelda/avda.-jesus-navarro-jover-s%2Fn/3604720.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cadiz/avenida-andalucia-5/3604721.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/elche/avinguda-de-crevillente-19/3604722.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sevilla/avenida-de-coria-6/3604724.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/jerez-de-la-frontera/avenida-alcalde-jesus-mantaras/3604725.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/calatayud/ctra.de-zaragoza-4/3604726.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valladolid/avenida-de-burgos-27/3604727.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/placa-de-joan-pelegri-1/3604728.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/algeciras/avenida-28-de-febrero-s%2Fn/3604729.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-puerto-de-santa-maria/calle-valdes-s%2Fn/3604730.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/viladecans/carretera-de-barcelona-s%2Fn/3604731.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-gran-alacant/c%2F-creta-47/3604732.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/calle-emilio-hurtado-19/3604733.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mijas/plaza-san-rafael-50/3604734.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/granollers/carretera-cardedeu/3604735.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castilleja/avenida-bormujos-a-474/3604736.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/calle-montes-de-oca-15/3604737.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/rubi/avinguda-de-l'estatut-233/3604738.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/chiclana-de-la-frontera/calle-nuestra-senora-de-los-dolores-28/3604739.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/passeig-de-sant-joan-bosco-45/3604740.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sant-cugat-del-valles/avinguda-de-la-via-augusta-129/3604742.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/manresa/carrer-del-dos-de-maig-64/3604743.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ciudad-real/avenida-de-los-reyes-catolicos-s%2Fn/3604744.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/girona/avinguda-del-president-josep-tarradellas-i-joan-s%2Fn/3604745.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/leon/calle-jose-maria-suarez-gonzalez-s%2Fn/3604746.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/andujar/calle-puerta-de-cordoba-13/3604747.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcoi/carrer-juan-gil-albert-34/3604748.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/altura/calle-geldo-3/3604749.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/marratxi/carrer-d'antoni-planas-juan-s%2Fn/3604750.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pamplona/calle-a/3604751.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valladolid/calle-de-villabanez-92/3604752.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-fernando/avenida-almirante-leon-herrero-1/3604753.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-numancia-88/3604755.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/sabadell/passeig-de-can-feu-123/3604756.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/logrono/calle-prado-viejo-70/3604757.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/hellin/avenida-libertad-212/3604758.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/girona/placa-de-salt-1/3604759.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/zamora/carretera-de-la-aldehuela-2/3604760.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/olesa-de-montserrat/carretera-martorell-1/3604761.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrent/carrer-toll-l'alberca-calle-k/3604762.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/terrassa/carretera-de-matadepera-224/3604763.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cadiz/calle-san-juan-bosco-4/3604764.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-ramon-albo-37/3604765.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cala-millor/carrer-de-fetget-s%2Fn/3604766.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/petrer/calle-la-paz-1/3604767.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cordovilla/parque-comercial-galaria-13/3604768.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/leioa/amaia-kalea-2/3604769.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/gran-via-de-les-corts-catalanes-691-695/3604770.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/l'ametlla-del-valles/c-17/3604771.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vitoria-gasteiz/bremen-kalea-2/3604772.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cordoba/avenida-del-brillante-78/3604773.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cordoba/calle-claudio-marcelo-19/3604774.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pilas/avenida-el-parque-s%2Fn/3604775.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vilafranca-del-penedes/avinguda-ronda-de-mar-2/3604776.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/eibar/otaola-hiribidea-2/3604777.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/marbella/c.-bogey/3604778.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/tudela/vial-transversal-2-s%2Fn/3604779.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/tortosa/cami-del-barranc-de-la-llet-s%2Fn/3604780.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/masquefa/carrer-la-pedrosa-8/3604781.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/avenida-de-jose-ortega-y-gasset-291/3604782.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/antequera/carretera-de-cordoba-6/3604783.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/carmona/avenida-doctor-villa-1/3604784.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castello-de-la-plana/cami-quadra-del-borriolenc-25/3604785.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/caleta-de-velez/carr.-de-almeria/3604786.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santurtzi/antonio-alzaga-hiribidea-73b/3604787.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-mallorca-458/3604788.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-campello/carrer-de-sant-ramon-182/3604789.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/arafo/camino-la-molineta-1/3604790.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/manzanares/calle-de-la-vid-s%2Fn/3604791.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ansoain/calle-berrioplano-10/3604792.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/jerez/avenida-tio-pepe-7/3604793.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/guadix/avenida-mariana-pineda-48/3604794.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/l'eliana/avinguda-camp-del-turia-76/3604795.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/almunecar/calle-larache-s%2Fn/3604796.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/zaragoza/calle-del-marques-de-la-cadena-64/3604797.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cardedeu/avinguda-rei-en-jaume-399-405/3604798.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/oiartzun/oreretako-bidea-21/3604799.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/onda/avinguda-mediterrani-16/3604800.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/avila/avenida-de-juan-carlos-i-s%2Fn/3604801.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cartama/avenida-de-los-juegos-olimpicos-1/3604802.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/avenida-de-juan-antonio-samaranch-55/3660596.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-masnou/avinguda-maresme-1/3672228.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/asturias/camino-de-la-fresneda/3695309.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/arrecife/calle-rambla-medular-58/3698375.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cordoba/avenida-agrupacion-cordoba-s%2Fn/3737001.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valencia/avinguda-d'ausias-march-122-124/3762676.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/can-picafort/carrer-ran-de-mar-s%2Fn/3764705.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pontevedra/rua-eduardo-pondal-s%2Fn/3778591.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vila-real/avinguda-italia-82-84/3785364.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alzira/carrer-verge-de-la-murta-58/3792845.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/paseo-de-la-habana-86/3808949.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mao/carrer-de-capifort-11/3860741.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-la-riera-alta-21/3884376.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/vilanova-i-la-geltru/carrer-del-moli-de-vent-1/3897524.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/villanueva-de-la-serena/carretera-don-benito-s%2Fn/3920196.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/almeria/carretera-nijar---la-canada-287/3942498.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/calella/carretera-d'hortsavinya-1/3942557.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-l'escorial-10/4072371.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pontevedra/avenida-lugo-58/4096413.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/caceres/calle-san-petersburgo/4098367.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/camargo/calle-gutierrez-solana-s%2Fn/4137550.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/melilla/calle-general-polavieja-2/4137725.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-del-general-ricardos-55/4146048.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/betera/calle-titeta-3/4146150.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/bilbao/sabino-arana-etorbidea-49/4151913.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palma/carrer-de-l'uruguai-4/4167691.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/toledo/calle-concilio-de-toledo-s%2Fn/4175018.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/las-palmas-de-gran-canaria/ctra.-de-teror-3/4215504.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/o-porrino/rua-das-angustias-s%2Fn/4215533.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alfafar/carrer-perez-llacer-23/4215850.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/albox/avenida-28-de-febrero/4227235.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrejon-de-ardoz/carretera-de-loeches-54/4227318.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/playa-honda/calle-mamerto-cabrera-58/4228443.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ciutadella-de-menorca/carrer-dels-industrials-9/4258844.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/gran-via-de-les-corts-catalanes-642/4259653.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/huetor-vega/avenida-andalucia-10/4259668.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/deltebre/carrer-drecera-marti-buera-s%2Fn/4260780.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/granada/camino-de-ronda-129/4260787.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/granada/avenida-de-las-alpujarras-s%2Fn/4260799.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/passeig-de-fabra-i-puig-299/4260804.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/nerja/avenida-alcalde-antonio-villasclaras-5/4374698.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/arganda-del-rey/avenida-del-ejercito-80/4395694.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/l'hospitalet-de-llobregat/carrer-enginyer-moncunill-51/4433985.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/los-realejos/calle-los-cuartos-56/4435186.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/el-puerto-de-santa-maria/calle-albert-einstein-14/4440463.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/bilbao/madariaga-etorbidea-47/4471818.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/figueres/carrer-dama-d'arago-s%2Fn/4473932.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/la-seu-d'urgell/c%2F-alt-pirineu-4/4477266.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/marbella/avda-pablo-ruiz-picasso-1-4/4485516.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/castro-urdiales/calle-leonardo-rucabado-s%2Fn/4522014.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cubelles/avinguda-del-garraf-27-31/4524849.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-cerilleras-4/4553495.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/oropesa/avenida-jardin-35/4555654.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valencia/calle-jeronimo-munoz-7-13/4577978.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/ourense/carretera-de-vigo-outariz-52/4586057.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-bellver-5/4604288.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrevieja/avenida-tirso-de-molina-2/4623981.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santa-cruz-de-tenerife/avenida-islas-canarias-2/4633189.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-la-riera-blanca-17/4633217.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torre-del-mar/avenida-de-andalucia-169/4649256.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/san-agustin-del-guadalix/autovia-a-1-km-34/4651703.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/via-augusta-158/4651706.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palau-solita-i-plegamans/avinguda-de-catalunya-131/4663314.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/javea/carretera-del-portitxol-43/4670787.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/benidorm/avenida-doctor-severo-ochoa-38/4673251.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barakaldo/calle-retuerto-75/4677214.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/burgos/calle-severo-ochoa-27/4677400.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/algeciras/barriada-el-pajarete-21/4679919.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/placa-de-la-unio-25/4682543.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-mendez-alvaro-43/4682544.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-de-sardenya-350/4730131.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/valencia/avinguda-de-les-tres-creus-52d/4730141.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/playa-blanca/avenida-a.-femes-7/4751516.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/l'hospitalet-de-llobregat/rambla-de-la-marina-279/4795047.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palma/carrer-de-l'arxiduc-lluis-salvador-137/4840316.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/oleiros/avenida-das-marinas-305/4898954.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/leganes/avenida-de-fuenlabrada-11/4918743.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-del-ferrocarril-38/4970746.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santander/calle-manuel-ruiz-de-quevedo-13/5059154.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/velez-malaga/avenida-juan-carlos-i-53/5096458.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torroella-de-montgri/carretera-de-l'estartit-gi-641/5111874.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mojacar/camino-del-descargador-n%C2%BA-29/5164850.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/berango/arebeta-b.-7-9/5243012.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/felanitx/c%2F-de-campos-59/5256789.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/calle-de-las-higueras-33-35/5257688.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palma-del-rio/gran-via-aurelio-cornelio/5360267.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/dos-hermanas/avenida-felipe-gonzalez-marquez/5483175.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/placa-del-fort-pienc/5735028.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torremolinos/avda.manuel-fraga-iribarne-12/5788722.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/getafe/avda-de-juan-carlos-i-3/5811219.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/pozoblanco/avenida-de-la-salchi/5812986.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-del-rossello-188/5821460.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/dos-hermanas/avenida-de-juan-pablo-ii/5821461.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/palma/carretera-militar-199/5865811.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/crta-de-canillas-43/5893654.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/irun/c%2Fpozuetakogaina-17/5893655.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/mijas/avenida-carmen-saenz-de-tejada/5936919.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/montcada-i-reixac/carrer-anselm-clave-45/6111462.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/fuengirola/c%2F-malvarrosa-1/6163221.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/donostia/aralar-mendia-kalea-18/6260205.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/uruguay-18/6266709.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/getafe/c%2F-carpinteros-1/6288605.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/marbella/avenida-ramon-y-cajal-12/6295089.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/barcelona/carrer-bac-de-roda-178/6295191.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/santander/calle-castilla-62/6313676.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/puente-tocinos/c%2Fmayor-1/6423847.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/paterna/carrer-del-santissim-crist-53/6425013.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/utebo/urbanizacion-torreblanca-162/6434615.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/torrent/carrer-de-picanya-51/6507848.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/alcantarilla/avenida-del-principe-61/6521988.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/madrid/galileo-77/6521991.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/zaragoza/paseo-de-maria-agustin-40/6521992.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/malaga/avda.-juan-sebastian-elcano-171/6523204.html</loc>
+             
+             
+             
+             
+         </url>
+       
+         <url>
+             <loc>https://www.aldi.es/encuentra-tu-supermercado/cornella-de-llobregat/avinguda-del-maresme-s%2Fn/6524078.html</loc>
+             
+             
+             
+             
+         </url>
+       
+     </urlset>
+   
