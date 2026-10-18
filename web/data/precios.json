@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-18T19:47:22+00:00",
+ "generado": "2026-10-18T19:53:55+00:00",
  "supermercados": [
   {
    "id": "mercadona",
    "nombre": "Mercadona",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-10-18T19:47:22+00:00",
+   "actualizado": "2026-10-18T19:53:55+00:00",
    "encontrados": 33
   },
   {
@@ -14,7 +14,7 @@
    "nombre": "Dia",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-10-18T19:47:22+00:00",
+   "actualizado": "2026-10-18T19:53:55+00:00",
    "encontrados": 34
   },
   {
@@ -22,15 +22,15 @@
    "nombre": "Alcampo",
    "ok": true,
    "parcial": true,
-   "actualizado": "2026-10-18T19:47:22+00:00",
-   "encontrados": 12
+   "actualizado": "2026-10-18T19:53:55+00:00",
+   "encontrados": 18
   },
   {
    "id": "ahorramas",
    "nombre": "Ahorramás",
    "ok": true,
-   "parcial": false,
-   "actualizado": "2026-10-18T19:47:22+00:00",
+   "parcial": true,
+   "actualizado": "2026-10-18T19:53:55+00:00",
    "encontrados": 34
   }
  ],
@@ -738,6 +738,18 @@
      "format": null,
      "fecha": "2026-10-18"
     },
+    "alcampo": {
+     "product_id": "886877",
+     "name": "LA COCHURA Garbanzo cocido frasco de 400 g.",
+     "price": 1.14,
+     "unit": "kg",
+     "unit_price": 2.85,
+     "url": "https://www.compraonline.alcampo.es/products/la-cochura-garbanzo-cocido-frasco-de-400-g/886877",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/c32f6e70-2e06-4198-9765-502c6947b070/300x300.jpg",
+     "brand": "LA COCHURA",
+     "format": "400g",
+     "fecha": "2026-10-18"
+    },
     "ahorramas": {
      "product_id": "60125",
      "name": "Garbanzo cocido Alipende 400g",
@@ -781,6 +793,18 @@
      "image": "https://www.dia.es/product_images/13105/13105_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "98183",
+     "name": "CELORRIO Tomate triturado 800 gr",
+     "price": 0.87,
+     "unit": "kg",
+     "unit_price": 1.09,
+     "url": "https://www.compraonline.alcampo.es/products/celorrio-tomate-triturado-800-gr/98183",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/61b887e8-8b33-45a6-9b49-70db9e7e3fe1/300x300.jpg",
+     "brand": "CELORRIO",
+     "format": "800g",
      "fecha": "2026-10-18"
     },
     "ahorramas": {
@@ -828,6 +852,18 @@
      "format": null,
      "fecha": "2026-10-18"
     },
+    "alcampo": {
+     "product_id": "431131",
+     "name": "PRODUCTO ECONÓMICO ALCAMPO Tomate frito elaborado sin gluten brik de 390 g.",
+     "price": 0.51,
+     "unit": "kg",
+     "unit_price": 1.31,
+     "url": "https://www.compraonline.alcampo.es/products/producto-economico-alcampo-tomate-frito-elaborado-sin-gluten-brik-de-390-g/431131",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/2e0700b5-21ef-4327-be5b-5c42fe49d43f/300x300.jpg",
+     "brand": "PRODUCTO ECONÓMICO ALCAMPO",
+     "format": "390g",
+     "fecha": "2026-10-18"
+    },
     "ahorramas": {
      "product_id": "54138",
      "name": "Tomate frito origen nacional sin gluten Alipende p3 400g",
@@ -871,6 +907,18 @@
      "image": "https://www.dia.es/product_images/262432/262432_ISO_0_ES.jpg",
      "brand": "Dia Mari Marinera",
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "905338",
+     "name": "BAYMAR Atún en aceite de girasol en bolsa 1 kg.",
+     "price": 7.99,
+     "unit": "kg",
+     "unit_price": 8.41,
+     "url": "https://www.compraonline.alcampo.es/products/baymar-atun-en-aceite-de-girasol-en-bolsa-1-kg/905338",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/e97da62a-9965-408b-a962-d94b7a055184/300x300.jpg",
+     "brand": "BAYMAR",
+     "format": "950g",
      "fecha": "2026-10-18"
     },
     "ahorramas": {
@@ -918,6 +966,18 @@
      "format": null,
      "fecha": "2026-10-18"
     },
+    "alcampo": {
+     "product_id": "839208",
+     "name": "PRODUCTO ECONÓMICO ALCAMPO Café molido mezcla 250 g",
+     "price": 2.18,
+     "unit": "kg",
+     "unit_price": 8.72,
+     "url": "https://www.compraonline.alcampo.es/products/producto-economico-alcampo-cafe-molido-mezcla-250-g/839208",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/b29d029a-1896-4afa-ae28-4775ea10f759/300x300.jpg",
+     "brand": "PRODUCTO ECONÓMICO ALCAMPO",
+     "format": "250g",
+     "fecha": "2026-10-18"
+    },
     "ahorramas": {
      "product_id": "48072",
      "name": "Café molido Alipende 250g mezcla 50/50",
@@ -961,6 +1021,18 @@
      "image": "https://www.dia.es/product_images/81798/81798_ISO_0_ES.jpg",
      "brand": "Dia",
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "alcampo": {
+     "product_id": "13662",
+     "name": "AZUCARERA Azúcar blanco 1 kg",
+     "price": 0.9,
+     "unit": "kg",
+     "unit_price": 0.9,
+     "url": "https://www.compraonline.alcampo.es/products/azucarera-azucar-blanco-1-kg/13662",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/246f47ee-b72e-4828-be65-1e0826d0cfa0/300x300.jpg",
+     "brand": "AZUCARERA",
+     "format": "1000g",
      "fecha": "2026-10-18"
     },
     "ahorramas": {
