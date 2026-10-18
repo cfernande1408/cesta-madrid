@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T20:33:08+00:00",
+ "generado": "2026-10-18T20:37:36+00:00",
  "supermercados": {
   "aldi": {
    "id": "aldi",
@@ -7,25 +7,11 @@
    "errores": 0,
    "mensaje": null,
    "muestra": null,
-   "encontrados": 24,
-   "duracion_s": 171.8
+   "encontrados": 25,
+   "duracion_s": 170.3
   }
  },
  "articulos": {
-  "leche-semidesnatada": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 2,
-    "elegido": "Leche semidesnatada"
-   }
-  },
-  "leche-entera": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 2,
-    "elegido": "Leche entera"
-   }
-  },
   "huevos": {
    "aldi": {
     "resultados": 0,
@@ -58,14 +44,46 @@
     "descartados": []
    }
   },
-  "harina-trigo": {
+  "platanos": {
    "aldi": {
-    "resultados": 2,
-    "validos": 2,
-    "elegido": "Harina de trigo"
+    "resultados": 0,
+    "validos": 0,
+    "elegido": null,
+    "descartados": []
+   }
+  },
+  "manzanas": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Bolsita de manzana, plátano y zanahoria ecológicos"
    }
   },
   "tomates": {
+   "aldi": {
+    "resultados": 0,
+    "validos": 0,
+    "elegido": null,
+    "descartados": []
+   }
+  },
+  "patatas": {
+   "aldi": {
+    "resultados": 0,
+    "validos": 0,
+    "elegido": null,
+    "descartados": []
+   }
+  },
+  "zanahorias": {
+   "aldi": {
+    "resultados": 0,
+    "validos": 0,
+    "elegido": null,
+    "descartados": []
+   }
+  },
+  "carne-picada": {
    "aldi": {
     "resultados": 0,
     "validos": 0,
@@ -115,6 +133,20 @@
       "motivo": "unidad ?"
      }
     ]
+   }
+  },
+  "leche-semidesnatada": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Leche semidesnatada"
+   }
+  },
+  "leche-entera": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Leche entera"
    }
   },
   "yogur-natural": {
@@ -208,6 +240,13 @@
     "elegido": "Café molido Gold"
    }
   },
+  "harina-trigo": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Harina de trigo"
+   }
+  },
   "galletas-maria": {
    "aldi": {
     "resultados": 1,
@@ -222,51 +261,11 @@
     "elegido": "Pan de molde blanco"
    }
   },
-  "platanos": {
-   "aldi": {
-    "resultados": 1,
-    "validos": 0,
-    "elegido": null,
-    "descartados": [
-     {
-      "nombre": "Smoothie de plátano, mango, naranja y maracuyá",
-      "unidad": "l",
-      "precio_unidad": 5.96,
-      "unidad_original": "l",
-      "motivo": "unidad l"
-     }
-    ]
-   }
-  },
-  "manzanas": {
-   "aldi": {
-    "resultados": 1,
-    "validos": 0,
-    "elegido": null,
-    "descartados": [
-     {
-      "nombre": "Friegasuelos manzana verde",
-      "unidad": "l",
-      "precio_unidad": 0.59,
-      "unidad_original": "l",
-      "motivo": "unidad l"
-     }
-    ]
-   }
-  },
   "naranjas": {
    "aldi": {
     "resultados": 1,
     "validos": 1,
     "elegido": "Naranja de mesa"
-   }
-  },
-  "patatas": {
-   "aldi": {
-    "resultados": 0,
-    "validos": 0,
-    "elegido": null,
-    "descartados": []
    }
   },
   "cebollas": {
@@ -276,27 +275,11 @@
     "elegido": "Cebollas"
    }
   },
-  "zanahorias": {
-   "aldi": {
-    "resultados": 0,
-    "validos": 0,
-    "elegido": null,
-    "descartados": []
-   }
-  },
   "pechuga-pollo": {
    "aldi": {
     "resultados": 3,
     "validos": 3,
     "elegido": "Pechuga entera de pollo"
-   }
-  },
-  "carne-picada": {
-   "aldi": {
-    "resultados": 0,
-    "validos": 0,
-    "elegido": null,
-    "descartados": []
    }
   },
   "merluza": {
