@@ -56,3 +56,15 @@ def test_search_warms_up_once_then_queries():
         "/api/webproductpagews/v6/product-pages/search",
         "/api/webproductpagews/v6/product-pages/search",
     ]
+
+
+def test_waf_challenge_counts_as_block():
+    def handler(request):
+        if request.url.path == "/":
+            return httpx.Response(200, text="ok")
+        return httpx.Response(202, headers={"x-amzn-waf-action": "challenge"}, text="")
+
+    store = Alcampo(client=httpx.Client(transport=httpx.MockTransport(handler)), pacer=Pacer(0))
+    with pytest.raises(StoreError) as exc:
+        store.search(Item(id="l", nombre="Leche", busqueda="leche", unidad="l"))
+    assert exc.value.blocked

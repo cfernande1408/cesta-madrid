@@ -125,3 +125,29 @@ def test_real_cesta_is_valid():
     assert len(items) >= 30
     assert all(i.unidad in {"kg", "l", "ud"} for i in items)
     assert all(i.cantidad > 0 for i in items)
+
+
+def test_rejected_sample_lists_similar_products():
+    from scraper.matching import Item
+    from scraper.run import rejected_sample
+
+    item = Item(id="huevos", nombre="Huevos", busqueda="huevos", unidad="ud")
+    offers = [offer("m", "Huevo campero L", 3.0, "docena?"), offer("m", "Arroz", 1.0, "kg")]
+    sample = rejected_sample(item, offers)
+    assert [s["nombre"] for s in sample] == ["Huevo campero L"]
+
+
+def test_waf_block_stops_store_immediately(cesta, tmp_path):
+    class Waf:
+        id, nombre = "bloqueado", "Waf"
+
+        def __init__(self):
+            self.calls = 0
+
+        def search(self, item):
+            self.calls += 1
+            raise StoreError("HTTP 202", status=202)
+
+    waf = Waf()
+    run(cesta, tmp_path / "d", store_factory=factory({"bueno": Bueno(), "bloqueado": waf, "roto": Roto()}))
+    assert waf.calls == 1

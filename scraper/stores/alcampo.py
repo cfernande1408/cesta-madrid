@@ -82,7 +82,8 @@ class Alcampo:
 
     def __init__(self, client: httpx.Client | None = None, pacer: Pacer | None = None):
         self.client = client or make_client(HEADERS)
-        self.pacer = pacer or Pacer(1.5)
+        # El WAF de Alcampo corta las ráfagas: peticiones bien espaciadas.
+        self.pacer = pacer or Pacer(6.0)
         self._warmed_up = False
 
     def _warm_up(self) -> None:

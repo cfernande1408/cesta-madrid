@@ -133,7 +133,7 @@ class Ahorramas:
                 resp = get(self.client, url, pacer=self.pacer, params=params, retries=0)
             except StoreError as exc:
                 last_error = exc
-                if exc.status in (403, 429):
+                if exc.blocked:
                     raise
                 continue
             offers = parse_results(resp.text)

@@ -20,7 +20,7 @@ from collections.abc import Callable
 from datetime import UTC, datetime
 from pathlib import Path
 
-from scraper.matching import Item, accepts, best_offer
+from scraper.matching import Item, accepts, best_offer, normalize, tokens
 from scraper.models import Offer
 from scraper.stores.base import Store, StoreError
 
@@ -59,6 +59,19 @@ def _offer_json(offer: Offer) -> dict:
     return data
 
 
+def rejected_sample(item: Item, offers: list[Offer], limit: int = 5) -> list[dict]:
+    """Productos parecidos que no pasaron los filtros, para poder afinar cesta.json."""
+    first_word = tokens(item.busqueda)[:1]
+    if not first_word:
+        return []
+    root = first_word[0][:-1] if len(first_word[0]) > 4 else first_word[0]  # "huevos" → "huevo"
+    similar = [o for o in offers if root in normalize(o.name)]
+    return [
+        {"nombre": o.name, "unidad": o.unit, "precio_unidad": o.unit_price}
+        for o in similar[:limit]
+    ]
+
+
 def scrape_store(store: Store, items: list[Item]) -> tuple[dict[str, Offer], dict, dict[str, dict]]:
     """Busca todos los artículos en un súper.
 
@@ -78,7 +91,7 @@ def scrape_store(store: Store, items: list[Item]) -> tuple[dict[str, Offer], dic
             status["mensaje"] = str(exc)
             status["http"] = exc.status
             status["muestra"] = exc.sample
-            if exc.status in (403, 429) or consecutive >= MAX_CONSECUTIVE_ERRORS:
+            if exc.blocked or consecutive >= MAX_CONSECUTIVE_ERRORS:
                 status["mensaje"] += " (se deja de consultar este súper en esta ejecución)"
                 break
             continue
@@ -96,6 +109,8 @@ def scrape_store(store: Store, items: list[Item]) -> tuple[dict[str, Offer], dic
         }
         if chosen is not None:
             best[item.id] = chosen
+        else:
+            diagnostics[item.id]["descartados"] = rejected_sample(item, offers)
     status["encontrados"] = len(best)
     status["duracion_s"] = round(time.monotonic() - started, 1)
     return best, status, diagnostics

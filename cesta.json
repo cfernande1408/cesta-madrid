@@ -37,7 +37,7 @@
       "nombre": "Yogur natural",
       "categoria": "Lácteos y huevos",
       "busqueda": "yogur natural",
-      "excluir": ["griego", "azucarado", "edulcorado", "bebible", "liquido", "cabra", "oveja", "soja", "proteinas", "frutas", "kefir"],
+      "excluir": ["griego", "azucarado", "edulcorado", "bebible", "liquido", "cabra", "oveja", "soja", "proteinas", "frutas", "kefir", "desnatado", "0%"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -46,9 +46,10 @@
       "nombre": "Mantequilla",
       "categoria": "Lácteos y huevos",
       "busqueda": "mantequilla",
-      "excluir": ["galletas", "pasta", "tostadas", "croissant", "bollo", "palmera", "margarina", "cacahuete", "sobao", "pastas", "magdalenas", "palmeritas", "hojaldre", "pan", "cookies", "ajo"],
+      "excluir": ["galletas", "pasta", "tostadas", "croissant", "bollo", "palmera", "margarina", "cacahuete", "sobao", "pastas", "magdalenas", "palmeritas", "hojaldre", "pan", "cookies", "ajo", "palomitas", "sabor", "con mantequilla", "microondas", "untable con", "crema de"],
       "unidad": "kg",
-      "cantidad": 0.25
+      "cantidad": 0.25,
+      "incluir": ["mantequilla"]
     },
     {
       "id": "queso-rallado",
@@ -91,9 +92,10 @@
       "nombre": "Macarrones",
       "categoria": "Despensa",
       "busqueda": "macarrones",
-      "excluir": ["integral", "sin gluten", "queso", "tomate", "preparado", "plato", "listo", "microondas", "lentejas", "garbanzos", "boloñesa", "carbonara"],
+      "excluir": ["integral", "sin gluten", "queso", "tomate", "preparado", "plato", "listo", "microondas", "lentejas", "garbanzos", "boloñesa", "carbonara", "cheese", "bacon", "gratinados", "gratinado", "mac"],
       "unidad": "kg",
-      "cantidad": 0.5
+      "cantidad": 0.5,
+      "incluir": ["macarrones|macarron"]
     },
     {
       "id": "espaguetis",
@@ -110,9 +112,10 @@
       "nombre": "Lentejas (secas)",
       "categoria": "Despensa",
       "busqueda": "lentejas",
-      "excluir": ["cocidas", "bote", "plato", "estofadas", "chorizo", "guisadas", "sopa", "pasta", "harina", "snack", "chips", "verduras", "macarrones", "espaguetis", "fusilli", "hummus", "cuscus"],
+      "excluir": ["cocidas", "bote", "plato", "estofadas", "chorizo", "guisadas", "sopa", "pasta", "harina", "snack", "chips", "verduras", "macarrones", "espaguetis", "fusilli", "hummus", "cuscus", "jardinera", "riojana", "de la abuela", "con verduras", "ensalada"],
       "unidad": "kg",
-      "cantidad": 1
+      "cantidad": 1,
+      "incluir": ["lentejas|lenteja"]
     },
     {
       "id": "garbanzos-cocidos",
@@ -121,7 +124,8 @@
       "busqueda": "garbanzos cocidos",
       "excluir": ["espinacas", "bacalao", "hummus", "chorizo", "plato", "sopa", "callos", "verduras", "pasta", "snack"],
       "unidad": "kg",
-      "cantidad": 1
+      "cantidad": 1,
+      "incluir": ["garbanzos cocidos|garbanzo cocido"]
     },
     {
       "id": "tomate-triturado",
@@ -203,7 +207,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "platano",
       "incluir": ["platano|platanos"],
-      "excluir": ["chips", "deshidratado", "zumo", "batido", "yogur", "macedonia", "papilla", "bizcocho", "harina", "bebida", "barrita", "pure", "frito", "fritos", "helado", "golosinas", "gominolas"],
+      "excluir": ["chips", "deshidratado", "zumo", "batido", "yogur", "macedonia", "papilla", "bizcocho", "harina", "bebida", "barrita", "pure", "frito", "fritos", "helado", "golosinas", "gominolas", "casei", "l casei", "fresa", "coco", "pina", "kefir", "actimel", "natillas", "postre"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -233,7 +237,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "tomate",
       "incluir": ["tomate|tomates"],
-      "excluir": ["frito", "triturado", "natural", "concentrado", "ketchup", "salsa", "zumo", "seco", "secos", "gazpacho", "salmorejo", "pizza", "atun", "sardinas", "caballa", "conserva", "pelado", "pelados", "rallado", "sopa", "untar", "pure", "aceitunas", "macarrones", "pasta", "albondigas", "huevos", "pimientos", "bonito", "cebolla", "snack", "chips", "galletas", "crackers", "bebida"],
+      "excluir": ["frito", "triturado", "natural", "concentrado", "ketchup", "salsa", "zumo", "seco", "secos", "gazpacho", "salmorejo", "pizza", "atun", "sardinas", "caballa", "conserva", "pelado", "pelados", "rallado", "sopa", "untar", "pure", "aceitunas", "macarrones", "pasta", "albondigas", "huevos", "pimientos", "bonito", "cebolla", "snack", "chips", "galletas", "crackers", "bebida", "troceado", "troceados", "dados", "cubitos"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -273,7 +277,7 @@
       "categoria": "Carne y pescado",
       "busqueda": "pechuga de pollo",
       "incluir": ["pechuga|pechugas", "pollo"],
-      "excluir": ["pavo", "empanada", "empanadas", "rebozada", "rebozado", "lonchas", "fiambre", "asada", "cocida", "braseada", "nuggets", "croquetas", "plancha", "finas hierbas", "ahumada", "tacos", "tiras", "kebab", "salchichas", "hamburguesa", "pizza", "ensalada", "sandwich", "caldo", "crema", "pate", "curry", "barbacoa", "teriyaki", "precocinada"],
+      "excluir": ["pavo", "empanada", "empanadas", "rebozada", "rebozado", "lonchas", "fiambre", "asada", "cocida", "braseada", "nuggets", "croquetas", "plancha", "finas hierbas", "ahumada", "tacos", "tiras", "kebab", "salchichas", "hamburguesa", "pizza", "ensalada", "sandwich", "caldo", "crema", "pate", "curry", "barbacoa", "teriyaki", "precocinada", "lote", "jamoncitos", "contramuslos", "muslos", "alitas"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -282,7 +286,7 @@
       "nombre": "Carne picada",
       "categoria": "Carne y pescado",
       "busqueda": "carne picada",
-      "excluir": ["hamburguesa", "hamburguesas", "albondigas", "lasana", "canelones", "empanadilla", "empanadillas", "pizza", "salsa", "bolonesa", "boloñesa", "croquetas", "macarrones", "espaguetis", "pimientos", "rellenos", "rellena", "tacos", "burrito", "kebab", "congelada", "vegetal", "vegana", "soja"],
+      "excluir": ["hamburguesa", "hamburguesas", "albondigas", "lasana", "canelones", "empanadilla", "empanadillas", "pizza", "salsa", "bolonesa", "boloñesa", "croquetas", "macarrones", "espaguetis", "pimientos", "rellenos", "rellena", "tacos", "burrito", "kebab", "congelada", "vegetal", "vegana", "soja", "burger"],
       "unidad": "kg",
       "cantidad": 0.5
     },
@@ -292,7 +296,7 @@
       "categoria": "Carne y pescado",
       "busqueda": "filetes de merluza",
       "incluir": ["merluza"],
-      "excluir": ["rebozada", "rebozados", "empanada", "palitos", "varitas", "surimi", "croquetas", "salsa", "gulas", "pate", "pizza", "plato", "tempura", "nuggets", "hamburguesa", "a la romana", "pescadilla", "cocida"],
+      "excluir": ["rebozada", "rebozados", "empanada", "palitos", "varitas", "surimi", "croquetas", "salsa", "gulas", "pate", "pizza", "plato", "tempura", "nuggets", "hamburguesa", "a la romana", "pescadilla", "cocida", "empanadas", "empanados", "empanado", "figuritas", "precocinados", "precocinado", "al huevo", "rebozadas"],
       "unidad": "kg",
       "cantidad": 0.5
     },

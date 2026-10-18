@@ -127,7 +127,7 @@ class Mercadona:
             except StoreError as exc:
                 self.failed_categories += 1
                 last_error = exc
-                if exc.status in (403, 429):
+                if exc.blocked:
                     raise  # Bloqueo: mejor parar que insistir.
                 continue
             for offer in parse_category(payload):

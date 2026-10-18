@@ -30,6 +30,12 @@ BROWSER_HEADERS = {
 }
 
 
+# Respuestas que indican que el súper nos está frenando. Ante ellas se para
+# en seco: insistir solo alarga el bloqueo. El 202 es el "challenge" del WAF
+# de AWS que usa Alcampo.
+BLOCK_STATUSES = frozenset({202, 403, 429})
+
+
 class StoreError(Exception):
     """Fallo al hablar con un súper. Guarda lo justo para diagnosticar."""
 
@@ -37,6 +43,10 @@ class StoreError(Exception):
         super().__init__(message)
         self.status = status
         self.sample = sample[:400] if sample else None
+
+    @property
+    def blocked(self) -> bool:
+        return self.status in BLOCK_STATUSES
 
 
 class Store(Protocol):
