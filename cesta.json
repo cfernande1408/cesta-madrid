@@ -207,7 +207,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "platano",
       "incluir": ["platano|platanos"],
-      "excluir": ["chips", "deshidratado", "zumo", "batido", "yogur", "macedonia", "papilla", "bizcocho", "harina", "bebida", "barrita", "pure", "frito", "fritos", "helado", "golosinas", "gominolas", "casei", "l casei", "fresa", "coco", "pina", "kefir", "actimel", "natillas", "postre", "flan", "dulce de leche", "tarrito", "bolsita", "proteica", "grageas"],
+      "excluir": ["chips", "deshidratado", "zumo", "batido", "yogur", "macedonia", "papilla", "bizcocho", "harina", "bebida", "barrita", "pure", "frito", "fritos", "helado", "golosinas", "gominolas", "casei", "l casei", "fresa", "coco", "pina", "kefir", "actimel", "natillas", "postre", "flan", "dulce de leche", "tarrito", "bolsita", "proteica", "grageas", "smoothie", "mango", "maracuya"],
       "unidad": "kg",
       "cantidad": 1
     },
@@ -217,7 +217,7 @@
       "categoria": "Fruta y verdura",
       "busqueda": "manzana",
       "incluir": ["manzana|manzanas"],
-      "excluir": ["zumo", "compota", "pure", "yogur", "tarta", "sidra", "vinagre", "chips", "deshidratada", "bebida", "infusion", "caramelo", "gel", "champu", "ambientador", "papilla", "smoothie", "batido", "crema", "galletas", "barrita", "mermelada", "gominolas", "golosinas", "te", "pastel", "hojaldre", "bizcocho", "trozos", "rodajas", "snack", "strudel", "regalices", "queso de cabra", "rollito", "minirollito", "pavo", "pina", "uva"],
+      "excluir": ["zumo", "compota", "pure", "yogur", "tarta", "sidra", "vinagre", "chips", "deshidratada", "bebida", "infusion", "caramelo", "gel", "champu", "ambientador", "papilla", "smoothie", "batido", "crema", "galletas", "barrita", "mermelada", "gominolas", "golosinas", "te", "pastel", "hojaldre", "bizcocho", "trozos", "rodajas", "snack", "strudel", "regalices", "queso de cabra", "rollito", "minirollito", "pavo", "pina", "uva", "friegasuelos", "suavizante"],
       "unidad": "kg",
       "cantidad": 1.5
     },
