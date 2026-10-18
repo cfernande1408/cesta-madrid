@@ -1,0 +1,1496 @@
+{
+ "generado": "2026-10-18T19:31:38+00:00",
+ "supermercados": [
+  {
+   "id": "mercadona",
+   "nombre": "Mercadona",
+   "ok": true,
+   "actualizado": "2026-10-18T19:31:38+00:00",
+   "encontrados": 32
+  },
+  {
+   "id": "dia",
+   "nombre": "Dia",
+   "ok": true,
+   "actualizado": "2026-10-18T19:31:38+00:00",
+   "encontrados": 34
+  },
+  {
+   "id": "alcampo",
+   "nombre": "Alcampo",
+   "ok": true,
+   "actualizado": "2026-10-18T19:31:38+00:00",
+   "encontrados": 6
+  },
+  {
+   "id": "ahorramas",
+   "nombre": "Ahorramás",
+   "ok": true,
+   "actualizado": "2026-10-18T19:31:38+00:00",
+   "encontrados": 33
+  }
+ ],
+ "articulos": [
+  {
+   "id": "leche-semidesnatada",
+   "nombre": "Leche semidesnatada",
+   "categoria": "Lácteos y huevos",
+   "unidad": "l",
+   "cantidad": 6.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "10382",
+     "name": "Leche semidesnatada Hacendado",
+     "price": 0.83,
+     "unit": "l",
+     "unit_price": 0.83,
+     "url": "https://tienda.mercadona.es/product/10382/leche-semidesnatada-hacendado-brick",
+     "image": "https://prod-mercadona.imgix.net/images/da2348eb6ffa595fbfdbe66367bcad3c.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Brik 1 l"
+    },
+    "dia": {
+     "product_id": "504",
+     "name": "Leche semidesnatada Dia Láctea 1 L",
+     "price": 0.83,
+     "unit": "l",
+     "unit_price": 0.83,
+     "url": "https://www.dia.es/huevos-leche-y-mantequilla/leche/p/504",
+     "image": "https://www.dia.es/product_images/504/504_ISO_0_ES.jpg",
+     "brand": "Dia Láctea",
+     "format": null
+    },
+    "alcampo": {
+     "product_id": "99235",
+     "name": "L.R. Leche de vaca semidesnatada 1 l.",
+     "price": 0.83,
+     "unit": "l",
+     "unit_price": 0.83,
+     "url": "https://www.compraonline.alcampo.es/products/l-r-leche-de-vaca-semidesnatada-1-l/99235",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/350c21b5-ea36-4936-bb32-ae878be05aac/300x300.jpg",
+     "brand": "L.R.",
+     "format": "1000ml"
+    },
+    "ahorramas": {
+     "product_id": "70865",
+     "name": "Leche semidesnatada Alipende 1L",
+     "price": 0.83,
+     "unit": "l",
+     "unit_price": 0.83,
+     "url": "https://www.ahorramas.com/leche-semidesnatada-alipende-1l-70865.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw1cfa46e2/Assets/070865_C1C1/large/6/a/c/5/6ac5a10ef60ef3710971cc99ff7ca3a7e46c48e4_070865_C1C1.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "leche-entera",
+   "nombre": "Leche entera",
+   "categoria": "Lácteos y huevos",
+   "unidad": "l",
+   "cantidad": 6.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "10380",
+     "name": "Leche entera Hacendado",
+     "price": 0.96,
+     "unit": "l",
+     "unit_price": 0.96,
+     "url": "https://tienda.mercadona.es/product/10380/leche-entera-hacendado-brick",
+     "image": "https://prod-mercadona.imgix.net/images/a731a91252722a3a9cb5856ae8f7d282.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Brik 1 l"
+    },
+    "dia": {
+     "product_id": "608",
+     "name": "Leche entera Dia Láctea 1 L",
+     "price": 0.96,
+     "unit": "l",
+     "unit_price": 0.96,
+     "url": "https://www.dia.es/huevos-leche-y-mantequilla/leche/p/608",
+     "image": "https://www.dia.es/product_images/608/608_ISO_0_ES.jpg",
+     "brand": "Dia Láctea",
+     "format": null
+    },
+    "alcampo": {
+     "product_id": "99232",
+     "name": "L.R. Leche de vaca entera 1l.",
+     "price": 0.95,
+     "unit": "l",
+     "unit_price": 0.95,
+     "url": "https://www.compraonline.alcampo.es/products/l-r-leche-de-vaca-entera-1l/99232",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/2228d0d2-cadd-4294-ac70-0f22dc4a455f/300x300.jpg",
+     "brand": "L.R.",
+     "format": "1000ml"
+    },
+    "ahorramas": {
+     "product_id": "70864",
+     "name": "Leche entera Alipende 1L",
+     "price": 0.96,
+     "unit": "l",
+     "unit_price": 0.96,
+     "url": "https://www.ahorramas.com/leche-entera-alipende-1l-70864.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwb05c7aee/Assets/070864_C1C1/large/0/0/7/c/007c861a185377521b2ef9106f90bf2d62b68398_070864_C1C1.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "huevos",
+   "nombre": "Huevos",
+   "categoria": "Lácteos y huevos",
+   "unidad": "ud",
+   "cantidad": 12.0,
+   "ofertas": {
+    "dia": {
+     "product_id": "274009",
+     "name": "Huevos medianos M Dia 24 unidades",
+     "price": 5.25,
+     "unit": "ud",
+     "unit_price": 0.2192,
+     "url": "https://www.dia.es/huevos-leche-y-mantequilla/huevos/p/274009",
+     "image": "https://www.dia.es/product_images/274009/274009_ISO_0_ES.jpg",
+     "brand": "Dia",
+     "format": null
+    },
+    "alcampo": {
+     "product_id": "99261",
+     "name": "LOS FRESQUITOS Huevos de gallinas en jaulas acondicionadas de categoría A y clase M 10 uds.",
+     "price": 2.36,
+     "unit": "ud",
+     "unit_price": 0.2358,
+     "url": "https://www.compraonline.alcampo.es/products/los-fresquitos-huevos-de-gallinas-en-jaulas-acondicionadas-de-categoria-a-y-clase-m-10-uds/99261",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/b4f1a8fc-a353-496c-a801-36cefa3a9388/300x300.jpg",
+     "brand": "LOS FRESQUITOS",
+     "format": "10 por envase"
+    },
+    "ahorramas": {
+     "product_id": "31201",
+     "name": "Huevos de gallinas sueltas en el gallinero Alipende 24u \"clase m\"",
+     "price": 5.25,
+     "unit": "ud",
+     "unit_price": 0.2192,
+     "url": "https://www.ahorramas.com/huevos-de-gallinas-sueltas-en-el-gallinero-alipende-24u-clase-m-31201.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw7ec27f26/Assets/031201_C1C1/large/2/d/1/4/2d14283e270bda9f894744c2a6e777d1e0b9e6a2_031201_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "yogur-natural",
+   "nombre": "Yogur natural",
+   "categoria": "Lácteos y huevos",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "22313",
+     "name": "Yogur natural Hacendado",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 1.334,
+     "url": "https://tienda.mercadona.es/product/22313/yogur-natural-hacendado-pack-6",
+     "image": "https://prod-mercadona.imgix.net/images/0689561ce98dba5c0b3ad43e69be0f5f.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Pack-6 0.75 kg"
+    },
+    "dia": {
+     "product_id": "128591",
+     "name": "Yogur natural desnatado Dia Láctea 6 x 125 g",
+     "price": 0.99,
+     "unit": "kg",
+     "unit_price": 1.32,
+     "url": "https://www.dia.es/yogures-y-postres/yogures-naturales-y-desnatados/p/128591",
+     "image": "https://www.dia.es/product_images/128591/128591_ISO_0_ES.jpg",
+     "brand": "Dia Láctea",
+     "format": null
+    },
+    "alcampo": {
+     "product_id": "51414",
+     "name": "AUCHAN Yogur natural 4 x 125 g. Producto Alcampo",
+     "price": 0.69,
+     "unit": "kg",
+     "unit_price": 1.38,
+     "url": "https://www.compraonline.alcampo.es/products/auchan-yogur-natural-4-x-125-g-producto-alcampo/51414",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/9a5a424b-2e1a-4bdd-863b-c75e12087d18/300x300.jpg",
+     "brand": "PRODUCTO ALCAMPO",
+     "format": "500g"
+    },
+    "ahorramas": {
+     "product_id": "88166",
+     "name": "Yogur Alipende pack 6 natural",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 1.33,
+     "url": "https://www.ahorramas.com/yogur-alipende-pack-6-natural-88166.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw4c7a1b5d/Assets/088166_C1C1/large/0/d/c/c/0dcc8756efd603193e100bfef462ce2edd646bef_088166_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "mantequilla",
+   "nombre": "Mantequilla",
+   "categoria": "Lácteos y huevos",
+   "unidad": "kg",
+   "cantidad": 0.25,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "34212",
+     "name": "Palomitas de maíz sabor mantequilla Hacendado para microondas",
+     "price": 1.2,
+     "unit": "kg",
+     "unit_price": 4.445,
+     "url": "https://tienda.mercadona.es/product/34212/palomitas-maiz-sabor-mantequilla-hacendado-microondas-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/f8ea8d436cfb80f7e563563cbe8b9316.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 0.27 kg"
+    },
+    "dia": {
+     "product_id": "313520",
+     "name": "Palomitas con mantequilla para microondas Fritos Pérez 300 g",
+     "price": 1.3,
+     "unit": "kg",
+     "unit_price": 4.33,
+     "url": "https://www.dia.es/aperitivos-y-frutos-secos/snacks-salados/p/313520",
+     "image": "https://www.dia.es/product_images/313520/313520_ISO_0_ES.jpg",
+     "brand": "Fritos Pérez",
+     "format": null
+    },
+    "alcampo": {
+     "product_id": "627997",
+     "name": "HARMONY Pastilla de mantequilla con sal 250 g.",
+     "price": 1.99,
+     "unit": "kg",
+     "unit_price": 7.96,
+     "url": "https://www.compraonline.alcampo.es/products/harmony-pastilla-de-mantequilla-con-sal-250-g/627997",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/e27baba7-bf81-4009-904d-42a46214aff7/300x300.jpg",
+     "brand": "HARMONY",
+     "format": "250g"
+    },
+    "ahorramas": {
+     "product_id": "49516",
+     "name": "Mantequilla Alipende 250g pastilla",
+     "price": 2.05,
+     "unit": "kg",
+     "unit_price": 8.2,
+     "url": "https://www.ahorramas.com/mantequilla-alipende-250g-pastilla-49516.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw2f12d7ea/Assets/049516_C1C1/large/f/3/7/e/f37ebc33e982fc96d0694535a783c2b04eb544ae_049516_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "queso-rallado",
+   "nombre": "Queso rallado",
+   "categoria": "Lácteos y huevos",
+   "unidad": "kg",
+   "cantidad": 0.2,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "23622",
+     "name": "Queso rallado especial fundir mezcla Hacendado",
+     "price": 1.9,
+     "unit": "kg",
+     "unit_price": 4.75,
+     "url": "https://tienda.mercadona.es/product/23622/queso-rallado-especial-fundir-mezcla-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/aa127a068121be5a0a5dfd543ddb2fa0.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 0.4 kg"
+    },
+    "dia": {
+     "product_id": "13096",
+     "name": "Queso mozzarella rallado Dia Láctea 200 g",
+     "price": 1.6,
+     "unit": "kg",
+     "unit_price": 8.0,
+     "url": "https://www.dia.es/quesos/rallado/p/13096",
+     "image": "https://www.dia.es/product_images/13096/13096_ISO_0_ES.jpg",
+     "brand": "Dia Láctea",
+     "format": null
+    },
+    "alcampo": {
+     "product_id": "86109",
+     "name": "OGGI Queso rallado en hilo, especial para gratinar 200 g.",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 5.0,
+     "url": "https://www.compraonline.alcampo.es/products/oggi-queso-rallado-en-hilo-especial-para-gratinar-200-g/86109",
+     "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/0e63bbee-3df4-4a24-aca2-516bb0030337/300x300.jpg",
+     "brand": "OGGI",
+     "format": "200g"
+    },
+    "ahorramas": {
+     "product_id": "86932",
+     "name": "Queso emmental rallado Alipende 200g",
+     "price": 1.6,
+     "unit": "kg",
+     "unit_price": 8.0,
+     "url": "https://www.ahorramas.com/queso-emmental-rallado-alipende-200g-86932.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "aceite-oliva-virgen-extra",
+   "nombre": "Aceite de oliva virgen extra",
+   "categoria": "Despensa",
+   "unidad": "l",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "4717",
+     "name": "Aceite de oliva virgen extra Hacendado",
+     "price": 12.15,
+     "unit": "l",
+     "unit_price": 4.05,
+     "url": "https://tienda.mercadona.es/product/4717/aceite-oliva-virgen-extra-hacendado-garrafa",
+     "image": "https://prod-mercadona.imgix.net/images/cd149804838dc230dad3c2a314cf2286.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Garrafa 3 l"
+    },
+    "dia": {
+     "product_id": "266129",
+     "name": "Aceite de oliva virgen extra Dia La Almazara del Olivar 3 L",
+     "price": 12.75,
+     "unit": "l",
+     "unit_price": 4.25,
+     "url": "https://www.dia.es/aceites-salsas-y-especias/aceites/p/266129",
+     "image": "https://www.dia.es/product_images/266129/266129_ISO_0_ES.jpg",
+     "brand": "Dia La Almazara del Olivar",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "87330",
+     "name": "Aceite de oliva virgen extra Coosur 5l",
+     "price": 19.95,
+     "unit": "l",
+     "unit_price": 3.99,
+     "url": "https://www.ahorramas.com/aceite-de-oliva-virgen-extra-coosur-5l-87330.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw7418461f/Assets/087330_C1C1/large/4/1/f/4/41f4642c70a1aaa4310c958dc1d4bb85a282e5ba_087330_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "aceite-girasol",
+   "nombre": "Aceite de girasol",
+   "categoria": "Despensa",
+   "unidad": "l",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "4041",
+     "name": "Aceite de girasol refinado 0,2º Hacendado",
+     "price": 8.6,
+     "unit": "l",
+     "unit_price": 1.72,
+     "url": "https://tienda.mercadona.es/product/4041/aceite-girasol-refinado-02o-hacendado-garrafa",
+     "image": "https://prod-mercadona.imgix.net/images/e6398afba1d032d2e1c0489fd727d2f6.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Garrafa 5 l"
+    },
+    "dia": {
+     "product_id": "49894",
+     "name": "Aceite refinado de girasol Diasol 5 L",
+     "price": 8.6,
+     "unit": "l",
+     "unit_price": 1.72,
+     "url": "https://www.dia.es/aceites-salsas-y-especias/aceites/p/49894",
+     "image": "https://www.dia.es/product_images/49894/49894_ISO_0_ES.jpg",
+     "brand": "Diasol",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "84582",
+     "name": "Aceite de girasol Alipende garrafa 5l",
+     "price": 8.6,
+     "unit": "l",
+     "unit_price": 1.72,
+     "url": "https://www.ahorramas.com/aceite-de-girasol-alipende-garrafa-5l-84582.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw4e519e75/Assets/084582_C1C1/large/d/a/0/c/da0c4d208dba6eabc274cbcf4476612ad43a6614_084582_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "arroz-redondo",
+   "nombre": "Arroz redondo",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "5044",
+     "name": "Arroz redondo Hacendado",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/0daf43fb5761b823ce83c985930c97c9.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 1 kg"
+    },
+    "dia": {
+     "product_id": "310496",
+     "name": "Arroz redondo J.Sendra Dia Arrozona 1 Kg",
+     "price": 1.6,
+     "unit": "kg",
+     "unit_price": 1.6,
+     "url": "https://www.dia.es/arroz-pastas-y-legumbres/arroz/p/310496",
+     "image": "https://www.dia.es/product_images/310496/310496_ISO_0_ES.jpg",
+     "brand": "Dia Arrozona",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "69384",
+     "name": "Arroz Alipende 1kg redondo",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://www.ahorramas.com/arroz-alipende-1kg-redondo-69384.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwb974719d/Assets/069384_C1C1/large/3/9/1/8/3918d18f84284acb4a06196730868e7e70759200_069384_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "macarrones",
+   "nombre": "Macarrones",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.5,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "52507",
+     "name": "Macarrones Mac & Cheese Bacon Hacendado gratinados",
+     "price": 2.45,
+     "unit": "kg",
+     "unit_price": 8.75,
+     "url": "https://tienda.mercadona.es/product/52507/macarrones-con-queso-hacendado-bandeja",
+     "image": "https://prod-mercadona.imgix.net/images/e93d2c0cc2ae06a0f12d6a99af41b383.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Bandeja 0.28 kg"
+    },
+    "dia": {
+     "product_id": "50973",
+     "name": "Macarrones Dia Al Diante 1 Kg",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://www.dia.es/arroz-pastas-y-legumbres/macarrones-espaguetis-y-pastas-secas/p/50973",
+     "image": "https://www.dia.es/product_images/50973/50973_ISO_0_ES.jpg",
+     "brand": "Dia Al Diante",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "15908",
+     "name": "Macarrones Garofalo 500g",
+     "price": 1.79,
+     "unit": "kg",
+     "unit_price": 3.58,
+     "url": "https://www.ahorramas.com/macarrones-garofalo-500g-15908.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw77eb77ea/Assets/015908_C1C1/large/f/1/e/1/f1e1d0061e609b342c707b8d7fc9635cc3ebc975_015908_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "espaguetis",
+   "nombre": "Espaguetis",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.5,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "6245",
+     "name": "Spaghetti Hacendado",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://tienda.mercadona.es/product/6245/spaghetti-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/a88886e2672bdbcf24be02cb8ecddf2f.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 1 kg"
+    },
+    "dia": {
+     "product_id": "52208",
+     "name": "Espagueti Dia Al Diante 1 Kg",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://www.dia.es/arroz-pastas-y-legumbres/macarrones-espaguetis-y-pastas-secas/p/52208",
+     "image": "https://www.dia.es/product_images/52208/52208_ISO_0_ES.jpg",
+     "brand": "Dia Al Diante",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "73146",
+     "name": "Spaghetti Alipende 1kg",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.15,
+     "url": "https://www.ahorramas.com/spaghetti-alipende-1kg-73146.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw0a3ccc80/Assets/073146_C1C1/large/e/4/c/2/e4c29e96b042e54121e440708c4afcf532cdbfc8_073146_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "lentejas",
+   "nombre": "Lentejas (secas)",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "26116",
+     "name": "Lentejas a la jardinera Hacendado",
+     "price": 1.2,
+     "unit": "kg",
+     "unit_price": 2.858,
+     "url": "https://tienda.mercadona.es/product/26116/lentejas-jardinera-hacendado-bote",
+     "image": "https://prod-mercadona.imgix.net/images/05db4d79096c7f09f2ec753aac21273c.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Bote 0.42 kg"
+    },
+    "dia": {
+     "product_id": "158",
+     "name": "Lentejas pardinas Dia Vegecampo 1 Kg",
+     "price": 1.85,
+     "unit": "kg",
+     "unit_price": 1.85,
+     "url": "https://www.dia.es/arroz-pastas-y-legumbres/lentejas/p/158",
+     "image": "https://www.dia.es/product_images/158/158_ISO_0_ES.jpg",
+     "brand": "Dia Vegecampo",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "4403",
+     "name": "Lentejas de la abuela Litoral 425g",
+     "price": 1.95,
+     "unit": "kg",
+     "unit_price": 4.59,
+     "url": "https://www.ahorramas.com/lentejas-de-la-abuela-litoral-425g-4403.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw9627b628/Assets/04403_C1C1/large/b/0/d/b/b0db83d30981e98f5a65dadc15a8af0c41aacbb7_04403_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "garbanzos-cocidos",
+   "nombre": "Garbanzos cocidos (bote)",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "dia": {
+     "product_id": "1232",
+     "name": "Garbanzos cocidos Dia Vegecampo 400 g",
+     "price": 0.8,
+     "unit": "kg",
+     "unit_price": 2.0,
+     "url": "https://www.dia.es/arroz-pastas-y-legumbres/garbanzos-y-alubias/p/1232",
+     "image": "https://www.dia.es/product_images/1232/1232_ISO_0_ES.jpg",
+     "brand": "Dia Vegecampo",
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "tomate-triturado",
+   "nombre": "Tomate triturado",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.8,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "16043",
+     "name": "Tomate triturado Hacendado",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 1.25,
+     "url": "https://tienda.mercadona.es/product/16043/tomate-triturado-hacendado-freir-bote",
+     "image": "https://prod-mercadona.imgix.net/images/117a2a2230b103f17b50e07a73a8fc38.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Bote 0.8 kg"
+    },
+    "dia": {
+     "product_id": "13105",
+     "name": "Tomate triturado Dia Vegecampo 800 g",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 1.25,
+     "url": "https://www.dia.es/aceites-salsas-y-especias/salsas-de-tomate-y-pasta/p/13105",
+     "image": "https://www.dia.es/product_images/13105/13105_ISO_0_ES.jpg",
+     "brand": "Dia Vegecampo",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "95858",
+     "name": "Tomate triturado sin gluten categoría extra Alipende 800 g",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 1.25,
+     "url": "https://www.ahorramas.com/tomate-triturado-sin-gluten-categoria-extra-alipende-800-g-95858.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "tomate-frito",
+   "nombre": "Tomate frito",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.4,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "17132",
+     "name": "Tomate frito Hacendado",
+     "price": 1.35,
+     "unit": "kg",
+     "unit_price": 1.125,
+     "url": "https://tienda.mercadona.es/product/17132/tomate-frito-hacendado-pack-3",
+     "image": "https://prod-mercadona.imgix.net/images/e589c8259daf4b9335098fb9ade7ee09.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Pack-3 1.2 kg"
+    },
+    "dia": {
+     "product_id": "128657",
+     "name": "Tomate frito Dia Vegecampo 3 x 390 g",
+     "price": 1.32,
+     "unit": "kg",
+     "unit_price": 1.13,
+     "url": "https://www.dia.es/aceites-salsas-y-especias/salsas-de-tomate-y-pasta/p/128657",
+     "image": "https://www.dia.es/product_images/128657/128657_ISO_0_ES.jpg",
+     "brand": "Dia Vegecampo",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "54138",
+     "name": "Tomate frito origen nacional sin gluten Alipende p3 400g",
+     "price": 1.35,
+     "unit": "kg",
+     "unit_price": 1.13,
+     "url": "https://www.ahorramas.com/tomate-frito-origen-nacional-sin-gluten-alipende-p3-400g-54138.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2dd14fb9/images/attributes/sinGluten.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "atun-aceite",
+   "nombre": "Atún claro en aceite",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.3,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "18086",
+     "name": "Atún en aceite de girasol Hacendado",
+     "price": 6.5,
+     "unit": "kg",
+     "unit_price": 10.0,
+     "url": "https://tienda.mercadona.es/product/18086/atun-aceite-girasol-hacendado-lata",
+     "image": "https://prod-mercadona.imgix.net/images/2c06dcbb4643e6b4447d5d064c4eb6a5.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Lata 0.9 kg"
+    },
+    "dia": {
+     "product_id": "262432",
+     "name": "Atún claro en aceite de oliva Dia Mari Marinera 6 x 60 g",
+     "price": 4.9,
+     "unit": "kg",
+     "unit_price": 13.61,
+     "url": "https://www.dia.es/conservas-caldos-y-cremas/atun-y-bonito/p/262432",
+     "image": "https://www.dia.es/product_images/262432/262432_ISO_0_ES.jpg",
+     "brand": "Dia Mari Marinera",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "83612",
+     "name": "Atún claro Alipende pack 6 en aceite girasol",
+     "price": 4.2,
+     "unit": "kg",
+     "unit_price": 13.46,
+     "url": "https://www.ahorramas.com/atun-claro-alipende-pack-6-en-aceite-girasol-83612.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw96b44289/Assets/083612_C1C1/large/8/5/2/c/852c18fe279723303233cf82a5e5734024519d20_083612_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "cafe-molido",
+   "nombre": "Café molido",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.25,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "13700",
+     "name": "Café molido fuerte Hacendado",
+     "price": 4.5,
+     "unit": "kg",
+     "unit_price": 9.0,
+     "url": "https://tienda.mercadona.es/product/13700/cafe-molido-natural-fuerte-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/cd28fdbaf0215b0189a06883c7e5262f.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 0.5 kg"
+    },
+    "dia": {
+     "product_id": "218159",
+     "name": "Café molido natural Dia Cafetería 2 x 250 g",
+     "price": 4.5,
+     "unit": "kg",
+     "unit_price": 9.0,
+     "url": "https://www.dia.es/cafe-cacao-e-infusiones/cafe-molido/p/218159",
+     "image": "https://www.dia.es/product_images/218159/218159_ISO_0_ES.jpg",
+     "brand": "Dia Cafetería",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "48072",
+     "name": "Café molido Alipende 250g mezcla 50/50",
+     "price": 2.5,
+     "unit": "kg",
+     "unit_price": 10.0,
+     "url": "https://www.ahorramas.com/cafe-molido-alipende-250g-mezcla-50-50-48072.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw660f4fff/Assets/048072_C1C1/large/2/9/5/6/29569cc87642f4822e9f15101677449755870b40_048072_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "azucar",
+   "nombre": "Azúcar blanco",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "19897",
+     "name": "Azúcar blanco Hacendado",
+     "price": 0.9,
+     "unit": "kg",
+     "unit_price": 0.9,
+     "url": "https://tienda.mercadona.es/product/19897/azucar-blanco-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/782bc97fd2960e24b4505e25b384a2d4.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 1 kg"
+    },
+    "dia": {
+     "product_id": "81798",
+     "name": "Azúcar blanco Dia 1 Kg",
+     "price": 0.9,
+     "unit": "kg",
+     "unit_price": 0.9,
+     "url": "https://www.dia.es/bolleria-reposteria-y-azucar/azucar-miel-y-edulcorantes/p/81798",
+     "image": "https://www.dia.es/product_images/81798/81798_ISO_0_ES.jpg",
+     "brand": "Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "54770",
+     "name": "Azúcar blanco Azucarera 1kg",
+     "price": 0.9,
+     "unit": "kg",
+     "unit_price": 0.9,
+     "url": "https://www.ahorramas.com/azucar-blanco-azucarera-1kg-54770.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw840b0cd5/Assets/054770_C1C1/large/1/0/3/7/10376488c51a4e63d0c608231db344b48bbb27d2_054770_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "harina-trigo",
+   "nombre": "Harina de trigo",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "29106",
+     "name": "Harina de trigo grande Hacendado",
+     "price": 2.95,
+     "unit": "kg",
+     "unit_price": 0.59,
+     "url": "https://tienda.mercadona.es/product/29106/harina-trigo-grande-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/0b290f38cd41af97c0c02d623a6ae539.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 5 kg"
+    },
+    "dia": {
+     "product_id": "505",
+     "name": "Harina de trigo El Molino de Dia 1 Kg",
+     "price": 0.72,
+     "unit": "kg",
+     "unit_price": 0.72,
+     "url": "https://www.dia.es/bolleria-reposteria-y-azucar/harinas-y-levaduras/p/505",
+     "image": "https://www.dia.es/product_images/505/505_ISO_0_ES.jpg",
+     "brand": "El Molino de Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "88185",
+     "name": "Harina de trigo Alipende 2kg",
+     "price": 1.18,
+     "unit": "kg",
+     "unit_price": 0.59,
+     "url": "https://www.ahorramas.com/harina-de-trigo-alipende-2kg-88185.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw6929549f/Assets/088185_C1C1/large/5/4/4/8/5448cc0d3a19d41b57d72f30394dca19557fcb18_088185_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "galletas-maria",
+   "nombre": "Galletas María",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.8,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "14102",
+     "name": "Galletas María Hacendado",
+     "price": 1.35,
+     "unit": "kg",
+     "unit_price": 1.688,
+     "url": "https://tienda.mercadona.es/product/14102/galletas-maria-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/11fb16cd4d93c1d07149041ae474faff.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 0.8 kg"
+    },
+    "dia": {
+     "product_id": "149293",
+     "name": "Galletas dorada maría Galleteca de Dia 800 g",
+     "price": 1.35,
+     "unit": "kg",
+     "unit_price": 1.69,
+     "url": "https://www.dia.es/galletas-cereales-y-mermeladas/galletas-clasicas-y-digestive/p/149293",
+     "image": "https://www.dia.es/product_images/149293/149293_ISO_0_ES.jpg",
+     "brand": "Galleteca de Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "38118",
+     "name": "Galletas maría oro de Cuétara 600g + 33%",
+     "price": 3.0,
+     "unit": "kg",
+     "unit_price": 3.75,
+     "url": "https://www.ahorramas.com/galletas-maria-oro-de-cuetara-600g-33-38118.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwdfac0dbe/Assets/038118_C1C1/large/4/d/d/3/4dd3d140072c3c518f86d52addb95975ad4c2ba5_038118_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "pan-molde",
+   "nombre": "Pan de molde",
+   "categoria": "Despensa",
+   "unidad": "kg",
+   "cantidad": 0.6,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "83867",
+     "name": "Pan de molde blanco familiar Hacendado",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.403,
+     "url": "https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/f26045084b08d8792979df13779e97d3.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 0.82 kg"
+    },
+    "dia": {
+     "product_id": "77955",
+     "name": "Pan de molde blanco El Molino de Dia 820 g",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.4,
+     "url": "https://www.dia.es/panaderia/pan-de-molde-y-especiales/p/77955",
+     "image": "https://www.dia.es/product_images/77955/77955_ISO_0_ES.jpg",
+     "brand": "El Molino de Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "86818",
+     "name": "Pan de molde Alipende 820g Familiar",
+     "price": 1.15,
+     "unit": "kg",
+     "unit_price": 1.4,
+     "url": "https://www.ahorramas.com/pan-de-molde-alipende-820g-familiar-86818.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw4962756c/Assets/086818_C1C1/large/f/7/b/8/f7b8b77152d0cf5fc415bf9de365f1e1c834b743_086818_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "platanos",
+   "nombre": "Plátanos",
+   "categoria": "Fruta y verdura",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "3819",
+     "name": "Plátano de Canarias IGP",
+     "price": 0.45,
+     "unit": "kg",
+     "unit_price": 2.8,
+     "url": "https://tienda.mercadona.es/product/3819/platano-canarias-igp-pieza",
+     "image": "https://prod-mercadona.imgix.net/images/e4a37940916985bf5ca166e266580c37.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Pieza 0.16 kg"
+    },
+    "dia": {
+     "product_id": "101846",
+     "name": "L-Casei fresa-plátano y coco-piña Dia 12 x 100 g",
+     "price": 2.25,
+     "unit": "kg",
+     "unit_price": 1.88,
+     "url": "https://www.dia.es/yogures-y-postres/yogures-liquidos/p/101846",
+     "image": "https://www.dia.es/product_images/101846/101846_ISO_0_ES.jpg",
+     "brand": "Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "44078",
+     "name": "Plátano canario bolsa",
+     "price": 2.79,
+     "unit": "kg",
+     "unit_price": 2.79,
+     "url": "https://www.ahorramas.com/platano-canario-bolsa-44078.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw14342ed1/images/weight.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "manzanas",
+   "nombre": "Manzanas",
+   "categoria": "Fruta y verdura",
+   "unidad": "kg",
+   "cantidad": 1.5,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "3269",
+     "name": "Manzanas Golden",
+     "price": 2.79,
+     "unit": "kg",
+     "unit_price": 1.8,
+     "url": "https://tienda.mercadona.es/product/3269/manzanas-golden-bolsa",
+     "image": "https://prod-mercadona.imgix.net/images/022fa8e1cd6c9d9ee18a41ed06d71c35.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "1.55 kg"
+    },
+    "dia": {
+     "product_id": "11466",
+     "name": "Manzana roja dulce 1 Kg",
+     "price": 1.29,
+     "unit": "kg",
+     "unit_price": 1.29,
+     "url": "https://www.dia.es/frutas/manzanas-y-peras/p/11466",
+     "image": "https://www.dia.es/product_images/11466/11466_ISO_0_ES.jpg",
+     "brand": null,
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "18961",
+     "name": "Manzana roja bolsa 1.5kg",
+     "price": 2.7,
+     "unit": "kg",
+     "unit_price": 1.8,
+     "url": "https://www.ahorramas.com/manzana-roja-bolsa-1.5kg-18961.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwa93ec391/Assets/018961_C1C1/large/d/6/d/8/d6d8a38e3f675a3b020e812eca7ebc7abea8b953_018961_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "naranjas",
+   "nombre": "Naranjas",
+   "categoria": "Fruta y verdura",
+   "unidad": "kg",
+   "cantidad": 2.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "3277",
+     "name": "Naranjas",
+     "price": 5.85,
+     "unit": "kg",
+     "unit_price": 1.95,
+     "url": "https://tienda.mercadona.es/product/3277/naranjas-malla",
+     "image": "https://prod-mercadona.imgix.net/images/57b7fbaaf28231102addf8f7eb4f14b8.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Malla 3 kg"
+    },
+    "dia": {
+     "product_id": "277912",
+     "name": "Naranja de mesa malla 1.5 Kg",
+     "price": 3.59,
+     "unit": "kg",
+     "unit_price": 2.39,
+     "url": "https://www.dia.es/frutas/naranjas-mandarinas-y-limones/p/277912",
+     "image": "https://www.dia.es/product_images/277912/277912_ISO_0_ES.jpg",
+     "brand": null,
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "68728",
+     "name": "Naranja de mesa malla 3kg",
+     "price": 5.85,
+     "unit": "kg",
+     "unit_price": 1.95,
+     "url": "https://www.ahorramas.com/naranja-de-mesa-malla-3kg-68728.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw22da27f0/Assets/068728_C1C1/large/6/7/b/4/67b4accfded365c262b1ae895bf5d4eaaf82e95c_068728_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "tomates",
+   "nombre": "Tomates",
+   "categoria": "Fruta y verdura",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "69971",
+     "name": "Tomates",
+     "price": 4.2,
+     "unit": "kg",
+     "unit_price": 2.1,
+     "url": "https://tienda.mercadona.es/product/69971/tomates-malla",
+     "image": "https://prod-mercadona.imgix.net/images/8d8b0344fdd594338795d6d4e7f496aa.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Malla 2 kg"
+    },
+    "dia": {
+     "product_id": "10687",
+     "name": "Tomate troceado Dia Vegecampo 400 g",
+     "price": 0.68,
+     "unit": "kg",
+     "unit_price": 1.7,
+     "url": "https://www.dia.es/aceites-salsas-y-especias/salsas-de-tomate-y-pasta/p/10687",
+     "image": "https://www.dia.es/product_images/10687/10687_ISO_0_ES.jpg",
+     "brand": "Dia Vegecampo",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "39076",
+     "name": "Tomate rojo rama",
+     "price": 2.69,
+     "unit": "kg",
+     "unit_price": 2.69,
+     "url": "https://www.ahorramas.com/tomate-rojo-rama-39076.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw14342ed1/images/weight.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "patatas",
+   "nombre": "Patatas",
+   "categoria": "Fruta y verdura",
+   "unidad": "kg",
+   "cantidad": 3.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "69099",
+     "name": "Patatas",
+     "price": 5.0,
+     "unit": "kg",
+     "unit_price": 1.0,
+     "url": "https://tienda.mercadona.es/product/69099/patatas-malla",
+     "image": "https://prod-mercadona.imgix.net/images/a66b8d4177a91f7f219903267291e071.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Malla 5 kg"
+    },
+    "dia": {
+     "product_id": "296356",
+     "name": "Patatas 4 Kg",
+     "price": 4.49,
+     "unit": "kg",
+     "unit_price": 1.12,
+     "url": "https://www.dia.es/verduras/patatas-y-zanahorias/p/296356",
+     "image": "https://www.dia.es/product_images/296356/296356_ISO_0_ES.jpg",
+     "brand": null,
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "68080",
+     "name": "Patata malla 5kg",
+     "price": 5.0,
+     "unit": "kg",
+     "unit_price": 1.0,
+     "url": "https://www.ahorramas.com/patata-malla-5kg-68080.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw352d467f/Assets/068080_C1C1/large/0/a/f/c/0afc557bcb083d0c4a2141cea9f824810b9e54de_068080_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "cebollas",
+   "nombre": "Cebollas",
+   "categoria": "Fruta y verdura",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "69089",
+     "name": "Cebollas",
+     "price": 1.5,
+     "unit": "kg",
+     "unit_price": 1.5,
+     "url": "https://tienda.mercadona.es/product/69089/cebollas-malla",
+     "image": "https://prod-mercadona.imgix.net/images/d950590e426dca5e9531e1ff2809edb4.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Malla 1 kg"
+    },
+    "dia": {
+     "product_id": "191535",
+     "name": "Cebolla malla 750 g",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 1.33,
+     "url": "https://www.dia.es/verduras/ajos-cebollas-y-puerros/p/191535",
+     "image": "https://www.dia.es/product_images/191535/191535_ISO_0_ES.jpg",
+     "brand": null,
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "99248",
+     "name": "Cebolla 2k",
+     "price": 2.98,
+     "unit": "kg",
+     "unit_price": 1.49,
+     "url": "https://www.ahorramas.com/cebolla-2k-99248.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwab7f9721/Assets/099248/large/7/3/f/4/73f4a2697f584582980a64ca6607b5e73d096e09_f530c406bffe1a73577e974a87f6d73aab709553_099248.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "zanahorias",
+   "nombre": "Zanahorias",
+   "categoria": "Fruta y verdura",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "69586",
+     "name": "Zanahorias",
+     "price": 1.0,
+     "unit": "kg",
+     "unit_price": 1.0,
+     "url": "https://tienda.mercadona.es/product/69586/zanahorias-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/b41923237e0611a8847a8b3c38e8abea.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 1 kg"
+    },
+    "dia": {
+     "product_id": "11421",
+     "name": "Zanahoria 1 Kg",
+     "price": 0.95,
+     "unit": "kg",
+     "unit_price": 0.95,
+     "url": "https://www.dia.es/verduras/patatas-y-zanahorias/p/11421",
+     "image": "https://www.dia.es/product_images/11421/11421_ISO_0_ES.jpg",
+     "brand": null,
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "68717",
+     "name": "Zanahoria 1kg",
+     "price": 1.19,
+     "unit": "kg",
+     "unit_price": 1.19,
+     "url": "https://www.ahorramas.com/zanahoria-1kg-68717.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwf97e1408/Assets/068717_C1C1/large/c/f/2/b/cf2bddba02844faf456125d5c8dbe2653763c2f2_068717_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "pechuga-pollo",
+   "nombre": "Pechuga de pollo",
+   "categoria": "Carne y pescado",
+   "unidad": "kg",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "30006",
+     "name": "Pechugas de pollo enteras congeladas",
+     "price": 7.32,
+     "unit": "kg",
+     "unit_price": 6.1,
+     "url": "https://tienda.mercadona.es/product/30006/pechugas-pollo-enteras-congeladas-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/fea380fa4ffc015ccfd6e774ff0986bd.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 1.2 kg"
+    },
+    "dia": {
+     "product_id": "261371",
+     "name": "Pechuga de pollo entera formato familiar Selección de Dia 1.3 Kg aprox.",
+     "price": 8.44,
+     "unit": "kg",
+     "unit_price": 6.49,
+     "url": "https://www.dia.es/carnes/pollo/p/261371",
+     "image": "https://www.dia.es/product_images/261371/261371_ISO_0_ES.jpg",
+     "brand": "Selección de Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "42219",
+     "name": "LOTE 1 kg de pechugas + 1 kg de jamoncitos + 1 kg de contramuslos de pollo",
+     "price": 5.49,
+     "unit": "kg",
+     "unit_price": 5.49,
+     "url": "https://www.ahorramas.com/lote-1-kg-de-pechugas-1-kg-de-jamoncitos-1-kg-de-contramuslos-de-pollo-42219.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw14342ed1/images/weight.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "carne-picada",
+   "nombre": "Carne picada",
+   "categoria": "Carne y pescado",
+   "unidad": "kg",
+   "cantidad": 0.5,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "2867",
+     "name": "Preparado de carne picada cerdo",
+     "price": 2.75,
+     "unit": "kg",
+     "unit_price": 5.5,
+     "url": "https://tienda.mercadona.es/product/2867/preparado-carne-picada-cerdo-bandeja",
+     "image": "https://prod-mercadona.imgix.net/images/2781547566ca8d299f1e2e0d9cdccd4f.jpeg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Bandeja 0.5 kg"
+    },
+    "dia": {
+     "product_id": "261238",
+     "name": "Carne picada de cerdo Selección de Dia 500 g",
+     "price": 2.79,
+     "unit": "kg",
+     "unit_price": 5.58,
+     "url": "https://www.dia.es/carnes/hamburguesas-carne-picada-y-albondigas/p/261238",
+     "image": "https://www.dia.es/product_images/261238/261238_ISO_0_ES.jpg",
+     "brand": "Selección de Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "73355",
+     "name": "Carne picada de cerdo para burger meat El Pozo 800g aprox",
+     "price": 4.99,
+     "unit": "kg",
+     "unit_price": 6.24,
+     "url": "https://www.ahorramas.com/carne-picada-de-cerdo-para-burger-meat-el-pozo-800g-aprox-73355.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwac7be182/Assets/073355_C1C1/large/a/2/9/e/a29ecd135a1110adfd3bf7dfde8fb53d5a925a1f_073355_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "merluza",
+   "nombre": "Merluza (filetes)",
+   "categoria": "Carne y pescado",
+   "unidad": "kg",
+   "cantidad": 0.5,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "63159",
+     "name": "Figuritas de merluza empanadas Hacendado ultracongeladas",
+     "price": 3.75,
+     "unit": "kg",
+     "unit_price": 7.5,
+     "url": "https://tienda.mercadona.es/product/63159/figuritas-merluza-empanadas-hacendado-ultracongeladas-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/7f7e0f9d7f09a4d5d07ae4a2d4da46fd.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 0.5 kg"
+    },
+    "dia": {
+     "product_id": "293946",
+     "name": "Filetes de merluza empanados Dia Mari Marinera 600 g",
+     "price": 4.59,
+     "unit": "kg",
+     "unit_price": 7.6542,
+     "url": "https://www.dia.es/pescados-y-mariscos/rebozado/p/293946",
+     "image": "https://www.dia.es/product_images/293946/293946_ISO_0_ES.jpg",
+     "brand": "Dia Mari Marinera",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "97730",
+     "name": "filetes de merluza al huevo precocinados ultracongelados alipende 600g",
+     "price": 5.15,
+     "unit": "kg",
+     "unit_price": 8.58,
+     "url": "https://www.ahorramas.com/filetes-de-merluza-al-huevo-precocinados-ultracongelados-alipende-600g-97730.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw71c00e6f/images/attributes/congelado.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "agua-mineral",
+   "nombre": "Agua mineral",
+   "categoria": "Bebidas",
+   "unidad": "l",
+   "cantidad": 6.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "28482",
+     "name": "Agua mineral grande Aguadoy",
+     "price": 0.95,
+     "unit": "l",
+     "unit_price": 0.119,
+     "url": "https://tienda.mercadona.es/product/28482/agua-mineral-grande-aguadoy-mineralizacion-debil-garrafa",
+     "image": "https://prod-mercadona.imgix.net/images/e9984763951d5050c403b877a78dcd34.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Garrafa 8 l"
+    },
+    "dia": {
+     "product_id": "38657",
+     "name": "Agua mineral Dia 8 L",
+     "price": 0.99,
+     "unit": "l",
+     "unit_price": 0.12,
+     "url": "https://www.dia.es/agua-y-refrescos/agua/p/38657",
+     "image": "https://www.dia.es/product_images/38657/38657_ISO_0_ES.jpg",
+     "brand": "Dia",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "64183",
+     "name": "Agua mineral natural Teleno 1,5l",
+     "price": 0.39,
+     "unit": "l",
+     "unit_price": 0.26,
+     "url": "https://www.ahorramas.com/agua-mineral-natural-teleno-15l-64183.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw1af894b6/Assets/064183_C1C1/large/c/a/f/8/caf8e224207e896241dfc0bebff9e71df3d7106d_064183_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "papel-higienico",
+   "nombre": "Papel higiénico",
+   "categoria": "Limpieza e higiene",
+   "unidad": "ud",
+   "cantidad": 12.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "47835",
+     "name": "Papel higiénico doble hoja Bosque Verde",
+     "price": 2.4,
+     "unit": "ud",
+     "unit_price": 0.2,
+     "url": "https://tienda.mercadona.es/product/47835/papel-higienico-doble-hoja-bosque-verde-paquete",
+     "image": "https://prod-mercadona.imgix.net/images/8629429b287c46d53db4df0f83fee72a.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Paquete 1 ud"
+    },
+    "dia": {
+     "product_id": "276676",
+     "name": "Papel higiénico Dia La Llama 12 unidades",
+     "price": 2.35,
+     "unit": "ud",
+     "unit_price": 0.2,
+     "url": "https://www.dia.es/limpieza-y-hogar/papel-higienico-cocina-y-servilletas/p/276676",
+     "image": "https://www.dia.es/product_images/276676/276676_ISO_0_ES.jpg",
+     "brand": "Dia La Llama",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "73039",
+     "name": "Papel higiénico Lanta 12 rollos",
+     "price": 2.4,
+     "unit": "ud",
+     "unit_price": 0.2,
+     "url": "https://www.ahorramas.com/papel-higienico-lanta-12-rollos-73039.html",
+     "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dwa83c48d0/images/attributes/bioEcoOrganico.svg",
+     "brand": null,
+     "format": null
+    }
+   }
+  },
+  {
+   "id": "lavavajillas-mano",
+   "nombre": "Lavavajillas a mano",
+   "categoria": "Limpieza e higiene",
+   "unidad": "l",
+   "cantidad": 1.0,
+   "ofertas": {
+    "mercadona": {
+     "product_id": "42441",
+     "name": "Lavavajillas a mano Bosque Verde",
+     "price": 1.15,
+     "unit": "l",
+     "unit_price": 0.885,
+     "url": "https://tienda.mercadona.es/product/42441/lavavajillas-mano-bosque-verde-botella",
+     "image": "https://prod-mercadona.imgix.net/images/3e62ec30bdde1f0ec0cb84da981affcd.jpg?fit=crop&h=300&w=300",
+     "brand": null,
+     "format": "Botella 1.3 l"
+    },
+    "dia": {
+     "product_id": "151954",
+     "name": "Lavavajillas Flota 1,1 L",
+     "price": 1.59,
+     "unit": "l",
+     "unit_price": 1.45,
+     "url": "https://www.dia.es/limpieza-y-hogar/lavavajillas/p/151954",
+     "image": "https://www.dia.es/product_images/151954/151954_ISO_0_ES.jpg",
+     "brand": "Flota",
+     "format": null
+    },
+    "ahorramas": {
+     "product_id": "43268",
+     "name": "Lavavajillas Lanta 1,3l",
+     "price": 1.15,
+     "unit": "l",
+     "unit_price": 0.88,
+     "url": "https://www.ahorramas.com/lavavajillas-lanta-13l-43268.html",
+     "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwc690b427/Assets/043268_C1C1/large/e/5/9/d/e59d8b766f807e8f09bbcf549793a9cc4e52a316_043268_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
+     "brand": null,
+     "format": null
+    }
+   }
+  }
+ ]
+}
