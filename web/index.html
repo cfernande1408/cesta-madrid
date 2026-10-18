@@ -2,10 +2,77 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Cesta Madrid</title>
+  <meta name="description" content="Compara cuánto cuesta tu lista de la compra en Mercadona, Dia, Alcampo y Ahorramás.">
+  <meta name="theme-color" content="#1f6b47" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121a16" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="module" src="js/app.js"></script>
 </head>
 <body>
-  <p>Cesta Madrid: en construcción.</p>
+  <header class="cabecera">
+    <div class="cabecera__marca">
+      <svg class="cabecera__icono" viewBox="0 0 32 32" aria-hidden="true"><use href="#cesta"></use></svg>
+      <h1>Cesta Madrid</h1>
+    </div>
+    <p class="cabecera__frescura" id="frescura">Cargando precios…</p>
+  </header>
+
+  <main class="rejilla">
+    <section class="resumen" id="resumen" aria-labelledby="resumen-titulo" aria-live="polite">
+      <h2 class="visualmente-oculto" id="resumen-titulo">Dónde comprar</h2>
+      <div id="etiqueta"></div>
+      <div id="barras"></div>
+    </section>
+
+    <section class="lista" aria-labelledby="lista-titulo">
+      <div class="seccion__cabeza">
+        <h2 id="lista-titulo">Tu lista <span class="contador" id="contador"></span></h2>
+        <div class="seccion__acciones">
+          <button type="button" class="boton boton--texto" id="compartir">Compartir</button>
+          <button type="button" class="boton boton--texto" id="vaciar">Vaciar</button>
+        </div>
+      </div>
+      <ul class="lineas" id="lineas"></ul>
+    </section>
+
+    <section class="catalogo" aria-labelledby="catalogo-titulo">
+      <div class="seccion__cabeza">
+        <h2 id="catalogo-titulo">Añadir a la lista</h2>
+      </div>
+      <label class="buscador">
+        <span class="visualmente-oculto">Buscar en la cesta</span>
+        <input type="search" id="buscar" placeholder="Busca: leche, arroz, pollo…" autocomplete="off">
+      </label>
+      <div id="categorias"></div>
+      <p class="catalogo__pie">
+        ¿Falta algo? Los artículos se definen en
+        <a id="editar-cesta" href="https://github.com/cfernande1408/cesta-madrid/edit/main/cesta.json">cesta.json</a>;
+        al guardarlo, mañana tendrá precios.
+      </p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <ul class="pie__supers" id="estado-supers"></ul>
+    <p>Precios de las tiendas online de cada cadena en Madrid. En tienda física pueden variar algo. El coste de cada artículo se estima con su precio por kilo, litro o unidad.</p>
+  </footer>
+
+  <a class="barra-movil" id="barra-movil" href="#resumen" hidden></a>
+  <div class="aviso" id="aviso" role="status" hidden></div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="cesta" viewBox="0 0 32 32">
+      <path d="M4 12h24l-2.6 13.2A3 3 0 0 1 22.5 28h-13a3 3 0 0 1-2.9-2.8L4 12Z" fill="currentColor"/>
+      <path d="M10 12l4-7M22 12l-4-7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+      <path d="M12 17v6M16 17v6M20 17v6" stroke="var(--fondo)" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+  </svg>
 </body>
 </html>

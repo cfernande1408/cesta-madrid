@@ -1,0 +1,14 @@
+{
+  "name": "Cesta Madrid",
+  "short_name": "Cesta",
+  "description": "Compara cuánto cuesta tu lista de la compra en los supermercados de Madrid.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f2",
+  "theme_color": "#1f6b47",
+  "icons": [
+    { "src": "icono.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

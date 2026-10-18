@@ -1,0 +1,737 @@
+/* Cesta Madrid — estilos
+   Verde de mercado para la estructura y amarillo de etiqueta de lineal
+   solo para el precio ganador. */
+
+:root {
+  --fondo: #f3f6f2;
+  --superficie: #ffffff;
+  --superficie-2: #e9efe9;
+  --tinta: #17201b;
+  --tinta-suave: #56635c;
+  --linea: #d5ded8;
+  --verde: #1f6b47;
+  --verde-tinta: #ffffff;
+  --verde-claro: #dcebe1;
+  --amarillo: #ffd23f;
+  --amarillo-tinta: #1d1700;
+  --aviso: #8a5a00;
+  --barra-resto: #b9c6bf;
+
+  --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --texto: "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radio: 14px;
+  --radio-sm: 8px;
+  --gutter: 16px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fondo: #121a16;
+    --superficie: #1a2420;
+    --superficie-2: #22302a;
+    --tinta: #e4ece6;
+    --tinta-suave: #a3b3aa;
+    --linea: #2f3d36;
+    --verde: #72d19c;
+    --verde-tinta: #0b1f14;
+    --verde-claro: #203a2c;
+    --amarillo: #f2c94c;
+    --amarillo-tinta: #1d1700;
+    --aviso: #f0b45a;
+    --barra-resto: #46564e;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --fondo: #121a16;
+  --superficie: #1a2420;
+  --superficie-2: #22302a;
+  --tinta: #e4ece6;
+  --tinta-suave: #a3b3aa;
+  --linea: #2f3d36;
+  --verde: #72d19c;
+  --verde-tinta: #0b1f14;
+  --verde-claro: #203a2c;
+  --amarillo: #f2c94c;
+  --amarillo-tinta: #1d1700;
+  --aviso: #f0b45a;
+  --barra-resto: #46564e;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--tinta);
+  font-family: var(--texto);
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.375rem;
+}
+
+a {
+  color: var(--verde);
+  text-underline-offset: 0.15em;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--verde);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.visualmente-oculto {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.numero {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Cabecera ---------- */
+
+.cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 16px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 20px var(--gutter) 8px;
+}
+
+.cabecera__marca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cabecera__icono {
+  width: 30px;
+  height: 30px;
+  color: var(--verde);
+  align-self: center;
+}
+
+.cabecera h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-stretch: 85%;
+  letter-spacing: -0.01em;
+}
+
+.cabecera__frescura {
+  margin: 0;
+  color: var(--tinta-suave);
+  font-size: 0.9375rem;
+}
+
+/* ---------- Rejilla ---------- */
+
+.rejilla {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 8px var(--gutter) 32px;
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "resumen"
+    "lista"
+    "catalogo";
+}
+
+.resumen {
+  grid-area: resumen;
+}
+
+.lista {
+  grid-area: lista;
+}
+
+.catalogo {
+  grid-area: catalogo;
+}
+
+@media (min-width: 880px) {
+  .rejilla {
+    grid-template-columns: minmax(0, 1fr) 380px;
+    grid-template-areas:
+      "lista resumen"
+      "catalogo resumen";
+    align-items: start;
+    column-gap: 40px;
+  }
+
+  .resumen {
+    position: sticky;
+    top: 16px;
+  }
+}
+
+.seccion__cabeza {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.seccion__acciones {
+  display: flex;
+  gap: 4px;
+}
+
+.contador {
+  color: var(--tinta-suave);
+  font-weight: 500;
+}
+
+/* ---------- Botones ---------- */
+
+.boton {
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 14px;
+  min-height: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  background: var(--verde);
+  color: var(--verde-tinta);
+}
+
+.boton--texto {
+  background: transparent;
+  color: var(--verde);
+}
+
+.boton--texto:hover {
+  background: var(--verde-claro);
+}
+
+.boton:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* ---------- Etiqueta de precio (lo memorable) ---------- */
+
+.etiqueta {
+  position: relative;
+  background: var(--amarillo);
+  color: var(--amarillo-tinta);
+  border-radius: var(--radio-sm);
+  padding: 18px 20px 20px 44px;
+  /* agujero de la etiqueta de lineal */
+  -webkit-mask: radial-gradient(circle 7px at 22px 26px, transparent 6.5px, #000 7px);
+  mask: radial-gradient(circle 7px at 22px 26px, transparent 6.5px, #000 7px);
+}
+
+.etiqueta__intro {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.etiqueta__super {
+  margin: 2px 0 0;
+  font-family: var(--display);
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-stretch: 85%;
+  line-height: 1.1;
+}
+
+.etiqueta__total {
+  margin: 4px 0 0;
+  font-family: var(--display);
+  font-weight: 800;
+  font-stretch: 75%;
+  font-size: clamp(3.25rem, 14vw, 4.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.etiqueta__nota {
+  margin: 12px 0 0;
+  font-size: 0.9375rem;
+  max-width: 34ch;
+}
+
+.etiqueta__nota strong {
+  font-weight: 700;
+}
+
+.etiqueta--vacia {
+  background: var(--superficie-2);
+  color: var(--tinta);
+}
+
+.reparto {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9375rem;
+}
+
+.reparto li + li {
+  margin-top: 2px;
+}
+
+/* ---------- Barras de totales ---------- */
+
+.barras {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.barra {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9375rem;
+}
+
+.barra__nombre {
+  font-weight: 600;
+}
+
+.barra__pista {
+  height: 12px;
+  background: var(--superficie-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.barra__pista,
+.barra__relleno {
+  display: block;
+}
+
+.barra__relleno {
+  height: 100%;
+  background: var(--barra-resto);
+  border-radius: 999px;
+  transition: width 0.35s ease;
+}
+
+.barra--ganadora .barra__relleno {
+  background: var(--verde);
+}
+
+.barra__total {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  text-align: right;
+  min-width: 5.5rem;
+}
+
+.barra__falta {
+  grid-column: 2 / -1;
+  margin-top: -6px;
+  color: var(--aviso);
+  font-size: 0.8125rem;
+}
+
+/* ---------- Tu lista ---------- */
+
+.lineas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+}
+
+.lineas:empty {
+  display: none;
+}
+
+.lista__vacia {
+  margin: 0;
+  padding: 20px;
+  border: 1px dashed var(--linea);
+  border-radius: var(--radio);
+  color: var(--tinta-suave);
+}
+
+.linea + .linea {
+  border-top: 1px solid var(--linea);
+}
+
+.linea__fila {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 8px 12px;
+  padding: 10px 12px 10px 16px;
+}
+
+.linea__nombre {
+  display: block;
+  text-align: left;
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.linea__titulo {
+  display: block;
+  font-weight: 600;
+}
+
+.linea__mejor {
+  display: block;
+  color: var(--tinta-suave);
+  font-size: 0.875rem;
+}
+
+.linea__coste {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  text-align: right;
+  min-width: 4.5rem;
+}
+
+.linea__donde {
+  display: block;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  color: var(--tinta-suave);
+}
+
+.linea__coste--falta {
+  color: var(--aviso);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.paso {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+}
+
+.paso button {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  background: none;
+  border-radius: 999px;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--verde);
+}
+
+.paso button:hover {
+  background: var(--verde-claro);
+}
+
+.paso output {
+  min-width: 4.25rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9375rem;
+}
+
+.detalle {
+  padding: 0 16px 14px;
+}
+
+.detalle__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9375rem;
+}
+
+.detalle__super {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto 4.5rem;
+  gap: 2px 12px;
+  padding: 8px 0;
+  border-top: 1px solid var(--linea);
+}
+
+.detalle__nombre {
+  font-weight: 600;
+}
+
+.detalle__medida,
+.detalle__coste {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.detalle__coste {
+  font-weight: 600;
+}
+
+.detalle__super--mejor .detalle__nombre,
+.detalle__super--mejor .detalle__medida,
+.detalle__super--mejor .detalle__coste {
+  color: var(--verde);
+}
+
+.detalle__producto {
+  grid-column: 1 / -1;
+  color: var(--tinta-suave);
+  font-size: 0.875rem;
+}
+
+.detalle__producto a {
+  color: inherit;
+}
+
+.detalle__super--sin .detalle__producto {
+  grid-column: 2 / -1;
+  text-align: right;
+}
+
+.detalle__quitar {
+  margin-top: 8px;
+}
+
+@media (max-width: 520px) {
+  .linea__fila {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "nombre coste"
+      "paso paso";
+  }
+
+  .linea__nombre {
+    grid-area: nombre;
+  }
+
+  .linea__coste {
+    grid-area: coste;
+  }
+
+  .paso {
+    grid-area: paso;
+    justify-self: start;
+  }
+}
+
+/* ---------- Catálogo ---------- */
+
+.buscador input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 16px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  background: var(--superficie);
+}
+
+.buscador input:focus-visible {
+  outline-offset: 0;
+  border-radius: 999px;
+}
+
+.categoria {
+  margin-top: 20px;
+}
+
+.categoria h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--tinta-suave);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 6px 14px 6px 10px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  background: var(--superficie);
+  cursor: pointer;
+  text-align: left;
+}
+
+.chip::before {
+  content: "+";
+  font-weight: 700;
+  color: var(--verde);
+  width: 1em;
+  text-align: center;
+}
+
+.chip:hover {
+  border-color: var(--verde);
+  background: var(--verde-claro);
+}
+
+.chip__precio {
+  color: var(--tinta-suave);
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.catalogo__pie {
+  margin: 24px 0 0;
+  color: var(--tinta-suave);
+  font-size: 0.9375rem;
+  max-width: 60ch;
+}
+
+.catalogo__nada {
+  color: var(--tinta-suave);
+  margin: 16px 0 0;
+}
+
+/* ---------- Pie ---------- */
+
+.pie {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px var(--gutter) 96px;
+  border-top: 1px solid var(--linea);
+  color: var(--tinta-suave);
+  font-size: 0.875rem;
+}
+
+.pie p {
+  max-width: 70ch;
+  margin: 12px 0 0;
+}
+
+.pie__supers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+}
+
+.pie__supers .viejo {
+  color: var(--aviso);
+}
+
+/* ---------- Barra inferior en móvil ---------- */
+
+.barra-movil {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  border-radius: var(--radio);
+  background: var(--amarillo);
+  color: var(--amarillo-tinta);
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.18);
+}
+
+.barra-movil strong {
+  font-family: var(--display);
+  font-stretch: 80%;
+  font-size: 1.375rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.barra-movil[hidden] {
+  display: none;
+}
+
+@media (min-width: 880px) {
+  .barra-movil {
+    display: none;
+  }
+}
+
+/* ---------- Aviso (toast) ---------- */
+
+.aviso {
+  position: fixed;
+  left: 50%;
+  bottom: calc(84px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  max-width: calc(100% - 32px);
+  padding: 10px 16px;
+  border-radius: var(--radio-sm);
+  background: var(--tinta);
+  color: var(--fondo);
+  font-size: 0.9375rem;
+  z-index: 10;
+}
+
+.aviso[hidden] {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
