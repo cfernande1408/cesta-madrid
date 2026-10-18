@@ -1,0 +1,80 @@
+name: Precios
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # todos los días a las 05:17 UTC (6:17/7:17 en Madrid)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scraper/**"
+      - "tests/**"
+      - "cesta.json"
+      - "requirements.txt"
+      - ".github/workflows/precios.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: precios
+  cancel-in-progress: false
+
+jobs:
+  precios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Descargar precios
+        run: python -m scraper.run
+
+      - name: Guardar datos en el repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos"
+            exit 0
+          fi
+          git commit -m "chore: actualizar precios $(date -u +%F)"
+          git pull --rebase origin main
+          git push
+
+  desplegar:
+    needs: precios
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: web
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

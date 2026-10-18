@@ -1,0 +1,329 @@
+{
+  "ajustes": {
+    "supermercados": ["mercadona", "dia", "alcampo", "ahorramas"],
+    "almacen_mercadona": "mad1"
+  },
+  "articulos": [
+    {
+      "id": "leche-semidesnatada",
+      "nombre": "Leche semidesnatada",
+      "categoria": "Lácteos y huevos",
+      "busqueda": "leche semidesnatada",
+      "excluir": ["sin lactosa", "calcio", "batido", "cacao", "fresa", "vainilla", "polvo", "evaporada", "condensada", "cabra", "oveja", "ecologica", "bio", "proteinas", "omega", "soja", "avena", "almendra", "crecimiento", "cafe"],
+      "unidad": "l",
+      "cantidad": 6
+    },
+    {
+      "id": "leche-entera",
+      "nombre": "Leche entera",
+      "categoria": "Lácteos y huevos",
+      "busqueda": "leche entera",
+      "excluir": ["sin lactosa", "calcio", "batido", "cacao", "fresa", "vainilla", "polvo", "evaporada", "condensada", "cabra", "oveja", "ecologica", "bio", "proteinas", "omega", "crecimiento", "cafe"],
+      "unidad": "l",
+      "cantidad": 6
+    },
+    {
+      "id": "huevos",
+      "nombre": "Huevos",
+      "categoria": "Lácteos y huevos",
+      "busqueda": "huevos",
+      "incluir": ["huevos"],
+      "excluir": ["codorniz", "chocolate", "cocidos", "liquido", "claras", "pasta", "fideos", "pascua", "sorpresa", "rellenos", "hilado"],
+      "unidad": "ud",
+      "cantidad": 12
+    },
+    {
+      "id": "yogur-natural",
+      "nombre": "Yogur natural",
+      "categoria": "Lácteos y huevos",
+      "busqueda": "yogur natural",
+      "excluir": ["griego", "azucarado", "edulcorado", "bebible", "liquido", "cabra", "oveja", "soja", "proteinas", "frutas", "kefir"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "mantequilla",
+      "nombre": "Mantequilla",
+      "categoria": "Lácteos y huevos",
+      "busqueda": "mantequilla",
+      "excluir": ["galletas", "pasta", "tostadas", "croissant", "bollo", "palmera", "margarina", "cacahuete", "sobao", "pastas", "magdalenas", "palmeritas", "hojaldre", "pan", "cookies", "ajo"],
+      "unidad": "kg",
+      "cantidad": 0.25
+    },
+    {
+      "id": "queso-rallado",
+      "nombre": "Queso rallado",
+      "categoria": "Lácteos y huevos",
+      "busqueda": "queso rallado",
+      "excluir": ["pizza", "pasta", "lasana", "canelones", "salsa"],
+      "unidad": "kg",
+      "cantidad": 0.2
+    },
+    {
+      "id": "aceite-oliva-virgen-extra",
+      "nombre": "Aceite de oliva virgen extra",
+      "categoria": "Despensa",
+      "busqueda": "aceite de oliva virgen extra",
+      "excluir": ["spray", "atun", "sardinas", "sardinillas", "bonito", "caballa", "mejillones", "aceitunas", "patatas", "pimientos", "alcachofas", "anchoas", "ventresca", "berberechos", "pulpo", "calamares", "estuche", "cesta", "chips", "tostadas", "picos", "regañas", "galletas", "monodosis"],
+      "unidad": "l",
+      "cantidad": 1
+    },
+    {
+      "id": "aceite-girasol",
+      "nombre": "Aceite de girasol",
+      "categoria": "Despensa",
+      "busqueda": "aceite de girasol",
+      "excluir": ["spray", "atun", "sardinas", "sardinillas", "bonito", "caballa", "mejillones", "patatas", "pimientos", "anchoas", "berberechos", "chips", "snack", "pipas"],
+      "unidad": "l",
+      "cantidad": 1
+    },
+    {
+      "id": "arroz-redondo",
+      "nombre": "Arroz redondo",
+      "categoria": "Despensa",
+      "busqueda": "arroz redondo",
+      "excluir": ["vasito", "vasitos", "microondas", "integral", "con leche", "precocido", "listo", "tortitas", "harina", "bebida"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "macarrones",
+      "nombre": "Macarrones",
+      "categoria": "Despensa",
+      "busqueda": "macarrones",
+      "excluir": ["integral", "sin gluten", "queso", "tomate", "preparado", "plato", "listo", "microondas", "lentejas", "garbanzos", "boloñesa", "carbonara"],
+      "unidad": "kg",
+      "cantidad": 0.5
+    },
+    {
+      "id": "espaguetis",
+      "nombre": "Espaguetis",
+      "categoria": "Despensa",
+      "busqueda": "espaguetis",
+      "incluir": ["espaguetis|espagueti|spaghetti|spaguetti"],
+      "excluir": ["integral", "sin gluten", "carbonara", "boloñesa", "bolonesa", "plato", "listo", "microondas", "lentejas", "garbanzos", "mar"],
+      "unidad": "kg",
+      "cantidad": 0.5
+    },
+    {
+      "id": "lentejas",
+      "nombre": "Lentejas (secas)",
+      "categoria": "Despensa",
+      "busqueda": "lentejas",
+      "excluir": ["cocidas", "bote", "plato", "estofadas", "chorizo", "guisadas", "sopa", "pasta", "harina", "snack", "chips", "verduras", "macarrones", "espaguetis", "fusilli", "hummus", "cuscus"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "garbanzos-cocidos",
+      "nombre": "Garbanzos cocidos (bote)",
+      "categoria": "Despensa",
+      "busqueda": "garbanzos cocidos",
+      "excluir": ["espinacas", "bacalao", "hummus", "chorizo", "plato", "sopa", "callos", "verduras", "pasta", "snack"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "tomate-triturado",
+      "nombre": "Tomate triturado",
+      "categoria": "Despensa",
+      "busqueda": "tomate triturado",
+      "excluir": ["frito", "albahaca", "ajo", "cebolla", "orégano", "pizza"],
+      "unidad": "kg",
+      "cantidad": 0.8
+    },
+    {
+      "id": "tomate-frito",
+      "nombre": "Tomate frito",
+      "categoria": "Despensa",
+      "busqueda": "tomate frito",
+      "excluir": ["pizza", "pasta", "atun", "sardinas", "caballa", "macarrones", "albondigas", "huevos", "pimientos", "bonito"],
+      "unidad": "kg",
+      "cantidad": 0.4
+    },
+    {
+      "id": "atun-aceite",
+      "nombre": "Atún claro en aceite",
+      "categoria": "Despensa",
+      "busqueda": "atun claro aceite",
+      "incluir": ["atun", "aceite"],
+      "excluir": ["escabeche", "natural", "ventresca", "pizza", "ensalada", "empanada", "bonito", "pate", "tomate", "cebolla", "pimientos", "sandwich"],
+      "unidad": "kg",
+      "cantidad": 0.3
+    },
+    {
+      "id": "cafe-molido",
+      "nombre": "Café molido",
+      "categoria": "Despensa",
+      "busqueda": "cafe molido",
+      "excluir": ["capsulas", "descafeinado", "soluble", "grano", "cappuccino", "monodosis", "dolce", "nespresso", "tassimo", "bolsitas", "galletas", "bizcocho", "licor"],
+      "unidad": "kg",
+      "cantidad": 0.25
+    },
+    {
+      "id": "azucar",
+      "nombre": "Azúcar blanco",
+      "categoria": "Despensa",
+      "busqueda": "azucar blanco",
+      "incluir": ["azucar blanco|azucar blanca|azucar blanquilla"],
+      "excluir": ["sobres", "terrones", "glass", "moreno", "caña", "sin azucar"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "harina-trigo",
+      "nombre": "Harina de trigo",
+      "categoria": "Despensa",
+      "busqueda": "harina de trigo",
+      "excluir": ["integral", "maiz", "espelta", "garbanzo", "rebozar", "tempura", "bizcocho", "sin gluten", "tortillas", "tortitas", "pizza", "freir", "reposteria", "centeno", "avena", "arroz", "crackers", "galletas"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "galletas-maria",
+      "nombre": "Galletas María",
+      "categoria": "Despensa",
+      "busqueda": "galletas maria",
+      "excluir": ["chocolate", "integral", "sin azucar", "cereales", "sin gluten", "tostadas", "bañadas", "rellenas"],
+      "unidad": "kg",
+      "cantidad": 0.8
+    },
+    {
+      "id": "pan-molde",
+      "nombre": "Pan de molde",
+      "categoria": "Despensa",
+      "busqueda": "pan de molde",
+      "excluir": ["integral", "sin gluten", "semillas", "centeno", "espelta", "avena", "brioche", "hamburguesa", "perritos", "cereales", "multicereales", "proteinas", "pasas"],
+      "unidad": "kg",
+      "cantidad": 0.6
+    },
+    {
+      "id": "platanos",
+      "nombre": "Plátanos",
+      "categoria": "Fruta y verdura",
+      "busqueda": "platano",
+      "incluir": ["platano|platanos"],
+      "excluir": ["chips", "deshidratado", "zumo", "batido", "yogur", "macedonia", "papilla", "bizcocho", "harina", "bebida", "barrita", "pure", "frito", "fritos", "helado", "golosinas", "gominolas"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "manzanas",
+      "nombre": "Manzanas",
+      "categoria": "Fruta y verdura",
+      "busqueda": "manzana",
+      "incluir": ["manzana|manzanas"],
+      "excluir": ["zumo", "compota", "pure", "yogur", "tarta", "sidra", "vinagre", "chips", "deshidratada", "bebida", "infusion", "caramelo", "gel", "champu", "ambientador", "papilla", "smoothie", "batido", "crema", "galletas", "barrita", "mermelada", "gominolas", "golosinas", "te", "pastel", "hojaldre", "bizcocho", "trozos", "rodajas", "snack"],
+      "unidad": "kg",
+      "cantidad": 1.5
+    },
+    {
+      "id": "naranjas",
+      "nombre": "Naranjas",
+      "categoria": "Fruta y verdura",
+      "busqueda": "naranja",
+      "incluir": ["naranja|naranjas"],
+      "excluir": ["zumo", "mermelada", "bebida", "refresco", "gel", "chocolate", "galletas", "bizcocho", "yogur", "caramelos", "te", "infusion", "vitamina", "aroma", "licor", "gominolas", "golosinas", "piel", "confitada", "helado", "polo", "sabor", "con gas", "nectar", "smoothie"],
+      "unidad": "kg",
+      "cantidad": 2
+    },
+    {
+      "id": "tomates",
+      "nombre": "Tomates",
+      "categoria": "Fruta y verdura",
+      "busqueda": "tomate",
+      "incluir": ["tomate|tomates"],
+      "excluir": ["frito", "triturado", "natural", "concentrado", "ketchup", "salsa", "zumo", "seco", "secos", "gazpacho", "salmorejo", "pizza", "atun", "sardinas", "caballa", "conserva", "pelado", "pelados", "rallado", "sopa", "untar", "pure", "aceitunas", "macarrones", "pasta", "albondigas", "huevos", "pimientos", "bonito", "cebolla", "snack", "chips", "galletas", "crackers", "bebida"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "patatas",
+      "nombre": "Patatas",
+      "categoria": "Fruta y verdura",
+      "busqueda": "patatas",
+      "incluir": ["patata|patatas"],
+      "excluir": ["fritas", "chips", "snack", "congeladas", "prefritas", "gajo", "gajos", "bravas", "hervidas", "asadas", "cocidas", "tortilla", "pure", "copos", "lisas", "onduladas", "campesinas", "paja", "sabor", "ali oli", "jamon", "queso", "atun", "carne", "pollo", "guiso", "ensalada", "bacon", "dados", "rellenas", "deluxe"],
+      "unidad": "kg",
+      "cantidad": 3
+    },
+    {
+      "id": "cebollas",
+      "nombre": "Cebollas",
+      "categoria": "Fruta y verdura",
+      "busqueda": "cebolla",
+      "incluir": ["cebolla|cebollas"],
+      "excluir": ["frita", "crujiente", "tomate", "sopa", "aros", "snack", "patatas", "caramelizada", "encurtida", "encurtidas", "polvo", "deshidratada", "tortilla", "pimiento", "atun", "salsa", "crema", "pure", "congelada", "sofrito", "pisto", "hamburguesa", "pizza", "queso", "chips"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "zanahorias",
+      "nombre": "Zanahorias",
+      "categoria": "Fruta y verdura",
+      "busqueda": "zanahoria",
+      "incluir": ["zanahoria|zanahorias"],
+      "excluir": ["rallada", "zumo", "pure", "papilla", "tarta", "bizcocho", "guisantes", "menestra", "ensalada", "crema", "bebida", "batido", "smoothie", "naranja", "manzana", "baby", "snack", "congelada", "dados", "verduras"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "pechuga-pollo",
+      "nombre": "Pechuga de pollo",
+      "categoria": "Carne y pescado",
+      "busqueda": "pechuga de pollo",
+      "incluir": ["pechuga|pechugas", "pollo"],
+      "excluir": ["pavo", "empanada", "empanadas", "rebozada", "rebozado", "lonchas", "fiambre", "asada", "cocida", "braseada", "nuggets", "croquetas", "plancha", "finas hierbas", "ahumada", "tacos", "tiras", "kebab", "salchichas", "hamburguesa", "pizza", "ensalada", "sandwich", "caldo", "crema", "pate", "curry", "barbacoa", "teriyaki", "precocinada"],
+      "unidad": "kg",
+      "cantidad": 1
+    },
+    {
+      "id": "carne-picada",
+      "nombre": "Carne picada",
+      "categoria": "Carne y pescado",
+      "busqueda": "carne picada",
+      "excluir": ["hamburguesa", "hamburguesas", "albondigas", "lasana", "canelones", "empanadilla", "empanadillas", "pizza", "salsa", "bolonesa", "boloñesa", "croquetas", "macarrones", "espaguetis", "pimientos", "rellenos", "rellena", "tacos", "burrito", "kebab", "congelada", "vegetal", "vegana", "soja"],
+      "unidad": "kg",
+      "cantidad": 0.5
+    },
+    {
+      "id": "merluza",
+      "nombre": "Merluza (filetes)",
+      "categoria": "Carne y pescado",
+      "busqueda": "filetes de merluza",
+      "incluir": ["merluza"],
+      "excluir": ["rebozada", "rebozados", "empanada", "palitos", "varitas", "surimi", "croquetas", "salsa", "gulas", "pate", "pizza", "plato", "tempura", "nuggets", "hamburguesa", "a la romana", "pescadilla", "cocida"],
+      "unidad": "kg",
+      "cantidad": 0.5
+    },
+    {
+      "id": "agua-mineral",
+      "nombre": "Agua mineral",
+      "categoria": "Bebidas",
+      "busqueda": "agua mineral",
+      "incluir": ["agua"],
+      "excluir": ["con gas", "sabor", "limon", "tonica", "micelar", "colonia", "perfumada", "destilada", "coco", "rosas", "oxigenada", "fuerte", "gas", "vitaminas", "melocoton", "fresa", "manzana", "naranja", "frutas", "isotonica", "infantil", "bebe", "termal", "spray", "aceite", "sardinas", "atun", "garbanzos", "judias", "natural de atun", "toallitas"],
+      "unidad": "l",
+      "cantidad": 6
+    },
+    {
+      "id": "papel-higienico",
+      "nombre": "Papel higiénico",
+      "categoria": "Limpieza e higiene",
+      "busqueda": "papel higienico",
+      "excluir": ["humedo", "toallitas", "cocina", "aluminio", "film", "hornear", "vegetal", "regalo", "pañuelos"],
+      "unidad": "ud",
+      "cantidad": 12
+    },
+    {
+      "id": "lavavajillas-mano",
+      "nombre": "Lavavajillas a mano",
+      "categoria": "Limpieza e higiene",
+      "busqueda": "lavavajillas mano",
+      "incluir": ["lavavajillas"],
+      "excluir": ["maquina", "pastillas", "capsulas", "sal", "abrillantador", "limpiamaquinas", "limpia maquinas", "ambientador", "todo en 1", "gel lavavajillas maquina", "estropajo", "guantes", "bayeta"],
+      "unidad": "l",
+      "cantidad": 1
+    }
+  ]
+}

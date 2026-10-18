@@ -32,11 +32,17 @@ def tokens(text: str) -> list[str]:
 
 
 def _contains(haystack: str, phrase: str) -> bool:
-    """¿Aparece `phrase` (normalizada) como palabras completas en `haystack`?"""
-    needle = normalize(phrase)
-    if not needle:
-        return True
-    return re.search(rf"(?<![a-z0-9]){re.escape(needle)}(?![a-z0-9])", haystack) is not None
+    """¿Aparece `phrase` (normalizada) como palabras completas en `haystack`?
+
+    `phrase` admite alternativas separadas por "|": "espagueti|spaghetti".
+    """
+    for alternative in phrase.split("|"):
+        needle = normalize(alternative)
+        if not needle:
+            return True
+        if re.search(rf"(?<![a-z0-9]){re.escape(needle)}(?![a-z0-9])", haystack):
+            return True
+    return False
 
 
 @dataclass(frozen=True)

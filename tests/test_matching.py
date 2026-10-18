@@ -60,6 +60,19 @@ def test_incluir_overrides_search_words():
     assert not accepts(huevos, offer("Huevos medianos M 12 unidades", 0.2, unit="ud"))
 
 
+def test_alternatives_with_pipe():
+    pasta = Item(
+        id="espaguetis",
+        nombre="Espaguetis",
+        busqueda="espaguetis",
+        unidad="kg",
+        incluir=("espaguetis|espagueti|spaghetti",),
+    )
+    assert accepts(pasta, offer("Spaghetti Hacendado", 1.2, unit="kg"))
+    assert accepts(pasta, offer("Espaguetis Dia", 1.1, unit="kg"))
+    assert not accepts(pasta, offer("Macarrones Dia", 1.0, unit="kg"))
+
+
 def test_best_offer_picks_lowest_unit_price():
     offers = [
         offer("Leche semidesnatada marca", 1.10),
