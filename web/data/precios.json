@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T20:27:23+00:00",
+ "generado": "2026-10-18T20:33:08+00:00",
  "supermercados": [
   {
    "id": "mercadona",
@@ -22,8 +22,8 @@
    "nombre": "Aldi",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-10-18T20:27:23+00:00",
-   "encontrados": 26
+   "actualizado": "2026-10-18T20:33:08+00:00",
+   "encontrados": 24
   },
   {
    "id": "alcampo",
@@ -72,6 +72,18 @@
      "image": "https://www.dia.es/product_images/504/504_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "aldi": {
+     "product_id": "80500",
+     "name": "Leche semidesnatada",
+     "price": 0.83,
+     "unit": "l",
+     "unit_price": 0.83,
+     "url": "https://www.aldi.es/producto/leche-semidesnatada-80500.html",
+     "image": "https://s7g10.scene7.com/is/image/aldinord/805_pack_0_0_es_es_leche_semidesnatada_brick_2026_cw07",
+     "brand": "MILSANI®",
+     "format": "1 l unidad",
      "fecha": "2026-10-18"
     },
     "alcampo": {
@@ -129,6 +141,18 @@
      "image": "https://www.dia.es/product_images/608/608_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null,
+     "fecha": "2026-10-18"
+    },
+    "aldi": {
+     "product_id": "80000",
+     "name": "Leche entera",
+     "price": 0.96,
+     "unit": "l",
+     "unit_price": 0.96,
+     "url": "https://www.aldi.es/producto/leche-entera-80000.html",
+     "image": "https://s7g10.scene7.com/is/image/aldinord/800_pack_0_0_es_es_leche_entera_brick_2026_cw07",
+     "brand": "MILSANI®",
+     "format": "1 l unidad",
      "fecha": "2026-10-18"
     },
     "alcampo": {
@@ -246,15 +270,15 @@
      "fecha": "2026-10-18"
     },
     "aldi": {
-     "product_id": "881200",
-     "name": "Yogur natural sin lactosa",
-     "price": 1.55,
+     "product_id": "952000",
+     "name": "Yogur natural",
+     "price": 1.29,
      "unit": "kg",
-     "unit_price": 3.1,
-     "url": "https://www.aldi.es/producto/yogur-natural-sin-lactosa-881200.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/8812_pack_0_0_es_es_yogur_natural_sin_lactosa_2026_cw36",
+     "unit_price": 1.29,
+     "url": "https://www.aldi.es/producto/yogur-natural-952000.html",
+     "image": "https://s7g10.scene7.com/is/image/aldinord/9520_pack_0_0_es_es_yogur_natural_2026_cw13",
      "brand": "MILSANI®",
-     "format": "pack de 4 x 125 g",
+     "format": "pack de 8 x 125 g",
      "fecha": "2026-10-18"
     },
     "alcampo": {
@@ -579,15 +603,15 @@
      "fecha": "2026-10-18"
     },
     "aldi": {
-     "product_id": "248300",
-     "name": "Arroz redondo en tarrina",
+     "product_id": "768700",
+     "name": "Arroz redondo",
      "price": 1.09,
      "unit": "kg",
-     "unit_price": 4.36,
-     "url": "https://www.aldi.es/producto/arroz-redondo-en-tarrina-248300.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/2483_pack_0_0_es_es_arroz_redondo_2025_cw45",
+     "unit_price": 1.09,
+     "url": "https://www.aldi.es/producto/arroz-redondo-768700.html",
+     "image": "https://s7g10.scene7.com/is/image/aldinord/7687_pack_0_0_es_es_box_arroz_redondo_2026_cw25",
      "brand": "BON-RI®",
-     "format": "pack de 2 x 125 g",
+     "format": "1 kg unidad",
      "fecha": "2026-10-18"
     },
     "alcampo": {
@@ -717,15 +741,15 @@
      "fecha": "2026-10-18"
     },
     "aldi": {
-     "product_id": "601584801",
-     "name": "Spaghetti de trigo duro",
-     "price": 1.65,
+     "product_id": "793700",
+     "name": "Spaghetti",
+     "price": 1.15,
      "unit": "kg",
-     "unit_price": 3.3,
-     "url": "https://www.aldi.es/producto/spaghetti-de-trigo-duro-601584801.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/6015848_pack_1_0_es_es_surt_eco_pasta_spaghetti_durum_2025_cw36",
-     "brand": "BIO®",
-     "format": "500 g unidad",
+     "unit_price": 1.15,
+     "url": "https://www.aldi.es/producto/spaghetti-793700.html",
+     "image": "https://s7g10.scene7.com/is/image/aldinord/7937_pack_0_0_es_es_box_spaghetti_1kg_2480_2025_cw19",
+     "brand": "CUCINA®",
+     "format": "1 kg unidad",
      "fecha": "2026-10-18"
     },
     "alcampo": {
@@ -786,15 +810,15 @@
      "fecha": "2026-10-18"
     },
     "aldi": {
-     "product_id": "601620801",
-     "name": "Sedanini de lentejas rojas",
-     "price": 1.65,
+     "product_id": "500200",
+     "name": "Lenteja",
+     "price": 1.49,
      "unit": "kg",
-     "unit_price": 6.6,
-     "url": "https://www.aldi.es/producto/sedanini-de-lentejas-rojas-601620801.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/6016208_pack_1_0_es_es_pasta_de_legumbres_250_g_lentejas_rojas_2025_cw20",
-     "brand": "LA VILLA®",
-     "format": "250 g unidad",
+     "unit_price": 1.49,
+     "url": "https://www.aldi.es/producto/lenteja-500200.html",
+     "image": "https://s7g10.scene7.com/is/image/aldinord/5002_pack_0_0_es_es_lenteja_bolsa_2026_cw35",
+     "brand": "EL CULTIVADOR®",
+     "format": "1 kg unidad",
      "fecha": "2026-10-18"
     },
     "alcampo": {
@@ -1256,6 +1280,18 @@
      "format": null,
      "fecha": "2026-10-18"
     },
+    "aldi": {
+     "product_id": "70000",
+     "name": "Harina de trigo",
+     "price": 0.69,
+     "unit": "kg",
+     "unit_price": 0.69,
+     "url": "https://www.aldi.es/producto/harina-de-trigo-70000.html",
+     "image": "https://s7g10.scene7.com/is/image/aldinord/700_pack_0_0_es_es_harina_1_kg_2025_cw32",
+     "brand": "LA VILLA®",
+     "format": "1 kg unidad",
+     "fecha": "2026-10-18"
+    },
     "alcampo": {
      "product_id": "835648",
      "name": "PRODUCTO ALCAMPO Harina de trigo 1kg",
@@ -1451,18 +1487,6 @@
      "format": null,
      "fecha": "2026-10-18"
     },
-    "aldi": {
-     "product_id": "601052801",
-     "name": "Flan de dulce de leche y plátano",
-     "price": 2.29,
-     "unit": "kg",
-     "unit_price": 5.73,
-     "url": "https://www.aldi.es/producto/flan-de-dulce-de-leche-y-platano-601052801.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/6010528_pack_1_1_es_es_flan_sabor_dulce_de_leche_platano_2024_cw44",
-     "brand": "SPECIAL®",
-     "format": "pack de 4 x 100 g",
-     "fecha": "2026-10-18"
-    },
     "alcampo": {
      "product_id": "55452",
      "name": "Plátano Canario IGP extra bolsa.",
@@ -1518,18 +1542,6 @@
      "image": "https://www.dia.es/product_images/11466/11466_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-10-18"
-    },
-    "aldi": {
-     "product_id": "828301",
-     "name": "Strudel de manzana",
-     "price": 2.99,
-     "unit": "kg",
-     "unit_price": 4.98,
-     "url": "https://www.aldi.es/producto/strudel-de-manzana-828301.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/8283_pack_1_0_es_es_strudel_de_manzana_2020_cw13",
-     "brand": "FLETE®",
-     "format": "600 g unidad",
      "fecha": "2026-10-18"
     },
     "alcampo": {
@@ -1703,18 +1715,6 @@
      "format": null,
      "fecha": "2026-10-18"
     },
-    "aldi": {
-     "product_id": "450903",
-     "name": "Aperitivo de patata",
-     "price": 1.39,
-     "unit": "kg",
-     "unit_price": 7.94,
-     "url": "https://www.aldi.es/producto/aperitivo-de-patata-450903.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/4509_pack_3_1_es_es_aperitivo_de_patata_original_2026_cw30",
-     "brand": "SUN SNACKS®",
-     "format": "175 g unidad",
-     "fecha": "2026-10-18"
-    },
     "ahorramas": {
      "product_id": "68080",
      "name": "Patata malla 5kg",
@@ -1817,18 +1817,6 @@
      "format": null,
      "fecha": "2026-10-18"
     },
-    "aldi": {
-     "product_id": "601094906",
-     "name": "Hummus con zanahoria y jengibre",
-     "price": 1.49,
-     "unit": "kg",
-     "unit_price": 7.45,
-     "url": "https://www.aldi.es/producto/hummus-con-zanahoria-y-jengibre-601094906.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/6010949_pack_7_0_es_es_hummus_sabores_calabaza_curcuma_2026_cw22",
-     "brand": "DAYLICIOUS®",
-     "format": "200 g unidad",
-     "fecha": "2026-10-18"
-    },
     "ahorramas": {
      "product_id": "68717",
      "name": "Zanahoria 1kg",
@@ -1929,18 +1917,6 @@
      "image": "https://www.dia.es/product_images/261238/261238_ISO_0_ES.jpg",
      "brand": "Selección de Dia",
      "format": null,
-     "fecha": "2026-10-18"
-    },
-    "aldi": {
-     "product_id": "115500",
-     "name": "Carne picada de vacuno ecológica",
-     "price": 5.79,
-     "unit": "kg",
-     "unit_price": 17.03,
-     "url": "https://www.aldi.es/producto/carne-picada-de-vacuno-ecologica-115500.html",
-     "image": "https://s7g10.scene7.com/is/image/aldinord/1155_pack_0_0_es_es_carne_picada_de_vacuno_2025_cw06",
-     "brand": "GUTBIO®",
-     "format": "340 g unidad",
      "fecha": "2026-10-18"
     },
     "ahorramas": {

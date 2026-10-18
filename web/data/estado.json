@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T20:27:23+00:00",
+ "generado": "2026-10-18T20:33:08+00:00",
  "supermercados": {
   "aldi": {
    "id": "aldi",
@@ -7,55 +7,23 @@
    "errores": 0,
    "mensaje": null,
    "muestra": null,
-   "encontrados": 26,
-   "duracion_s": 214.0
+   "encontrados": 24,
+   "duracion_s": 171.8
   }
  },
  "articulos": {
   "leche-semidesnatada": {
    "aldi": {
     "resultados": 2,
-    "validos": 0,
-    "elegido": null,
-    "descartados": [
-     {
-      "nombre": "Leche semidesnatada",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": null,
-      "motivo": "unidad ?"
-     },
-     {
-      "nombre": "Leche fresca semidesnatada",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": null,
-      "motivo": "unidad ?"
-     }
-    ]
+    "validos": 2,
+    "elegido": "Leche semidesnatada"
    }
   },
   "leche-entera": {
    "aldi": {
     "resultados": 2,
-    "validos": 0,
-    "elegido": null,
-    "descartados": [
-     {
-      "nombre": "Leche entera",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": null,
-      "motivo": "unidad ?"
-     },
-     {
-      "nombre": "Leche fresca entera",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": null,
-      "motivo": "unidad ?"
-     }
-    ]
+    "validos": 2,
+    "elegido": "Leche entera"
    }
   },
   "huevos": {
@@ -64,34 +32,6 @@
     "validos": 0,
     "elegido": null,
     "descartados": []
-   }
-  },
-  "yogur-natural": {
-   "aldi": {
-    "resultados": 8,
-    "validos": 5,
-    "elegido": "Yogur natural sin lactosa"
-   }
-  },
-  "mantequilla": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 2,
-    "elegido": "Mantequilla ligera"
-   }
-  },
-  "queso-rallado": {
-   "aldi": {
-    "resultados": 6,
-    "validos": 6,
-    "elegido": "Queso rallado especial para fundir"
-   }
-  },
-  "aceite-oliva-virgen-extra": {
-   "aldi": {
-    "resultados": 7,
-    "validos": 3,
-    "elegido": "Aceite de oliva virgen extra"
    }
   },
   "aceite-girasol": {
@@ -110,69 +50,6 @@
     ]
    }
   },
-  "arroz-redondo": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 1,
-    "elegido": "Arroz redondo en tarrina"
-   }
-  },
-  "macarrones": {
-   "aldi": {
-    "resultados": 1,
-    "validos": 1,
-    "elegido": "Macarrón rayado"
-   }
-  },
-  "espaguetis": {
-   "aldi": {
-    "resultados": 5,
-    "validos": 4,
-    "elegido": "Spaghetti de trigo duro"
-   }
-  },
-  "lentejas": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 1,
-    "elegido": "Sedanini de lentejas rojas"
-   }
-  },
-  "garbanzos-cocidos": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 2,
-    "elegido": "Garbanzos cocidos extra"
-   }
-  },
-  "tomate-triturado": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 2,
-    "elegido": "Tomate triturado extra"
-   }
-  },
-  "tomate-frito": {
-   "aldi": {
-    "resultados": 5,
-    "validos": 5,
-    "elegido": "Tomate frito en brik"
-   }
-  },
-  "atun-aceite": {
-   "aldi": {
-    "resultados": 7,
-    "validos": 7,
-    "elegido": "Atún en aceite de girasol"
-   }
-  },
-  "cafe-molido": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 2,
-    "elegido": "Café molido Gold"
-   }
-  },
   "azucar": {
    "aldi": {
     "resultados": 0,
@@ -184,59 +61,8 @@
   "harina-trigo": {
    "aldi": {
     "resultados": 2,
-    "validos": 0,
-    "elegido": null,
-    "descartados": [
-     {
-      "nombre": "Harina de trigo",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": null,
-      "motivo": "unidad ?"
-     },
-     {
-      "nombre": "Harina de trigo de fuerza",
-      "unidad": null,
-      "precio_unidad": null,
-      "unidad_original": null,
-      "motivo": "unidad ?"
-     }
-    ]
-   }
-  },
-  "galletas-maria": {
-   "aldi": {
-    "resultados": 1,
-    "validos": 1,
-    "elegido": "Galletas María Dorada"
-   }
-  },
-  "pan-molde": {
-   "aldi": {
-    "resultados": 3,
-    "validos": 3,
-    "elegido": "Pan de molde blanco"
-   }
-  },
-  "platanos": {
-   "aldi": {
-    "resultados": 6,
-    "validos": 5,
-    "elegido": "Flan de dulce de leche y plátano"
-   }
-  },
-  "manzanas": {
-   "aldi": {
-    "resultados": 2,
     "validos": 2,
-    "elegido": "Strudel de manzana"
-   }
-  },
-  "naranjas": {
-   "aldi": {
-    "resultados": 7,
-    "validos": 6,
-    "elegido": "Naranja de mesa"
+    "elegido": "Harina de trigo"
    }
   },
   "tomates": {
@@ -245,55 +71,6 @@
     "validos": 0,
     "elegido": null,
     "descartados": []
-   }
-  },
-  "patatas": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 1,
-    "elegido": "Aperitivo de patata"
-   }
-  },
-  "cebollas": {
-   "aldi": {
-    "resultados": 3,
-    "validos": 3,
-    "elegido": "Cebollas"
-   }
-  },
-  "zanahorias": {
-   "aldi": {
-    "resultados": 2,
-    "validos": 1,
-    "elegido": "Hummus con zanahoria y jengibre"
-   }
-  },
-  "pechuga-pollo": {
-   "aldi": {
-    "resultados": 3,
-    "validos": 3,
-    "elegido": "Pechuga entera de pollo"
-   }
-  },
-  "carne-picada": {
-   "aldi": {
-    "resultados": 1,
-    "validos": 1,
-    "elegido": "Carne picada de vacuno ecológica"
-   }
-  },
-  "merluza": {
-   "aldi": {
-    "resultados": 6,
-    "validos": 6,
-    "elegido": "Tronquitos de merluza"
-   }
-  },
-  "agua-mineral": {
-   "aldi": {
-    "resultados": 3,
-    "validos": 1,
-    "elegido": "Agua mineral natural"
    }
   },
   "papel-higienico": {
@@ -340,10 +117,206 @@
     ]
    }
   },
-  "lavavajillas-mano": {
+  "yogur-natural": {
    "aldi": {
     "resultados": 5,
     "validos": 4,
+    "elegido": "Yogur natural"
+   }
+  },
+  "mantequilla": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Mantequilla ligera"
+   }
+  },
+  "queso-rallado": {
+   "aldi": {
+    "resultados": 6,
+    "validos": 6,
+    "elegido": "Queso rallado especial para fundir"
+   }
+  },
+  "aceite-oliva-virgen-extra": {
+   "aldi": {
+    "resultados": 3,
+    "validos": 3,
+    "elegido": "Aceite de oliva virgen extra"
+   }
+  },
+  "arroz-redondo": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Arroz redondo"
+   }
+  },
+  "macarrones": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Macarrón rayado"
+   }
+  },
+  "espaguetis": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Spaghetti"
+   }
+  },
+  "lentejas": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Lenteja"
+   }
+  },
+  "garbanzos-cocidos": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Garbanzos cocidos extra"
+   }
+  },
+  "tomate-triturado": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Tomate triturado extra"
+   }
+  },
+  "tomate-frito": {
+   "aldi": {
+    "resultados": 5,
+    "validos": 5,
+    "elegido": "Tomate frito en brik"
+   }
+  },
+  "atun-aceite": {
+   "aldi": {
+    "resultados": 7,
+    "validos": 7,
+    "elegido": "Atún en aceite de girasol"
+   }
+  },
+  "cafe-molido": {
+   "aldi": {
+    "resultados": 2,
+    "validos": 2,
+    "elegido": "Café molido Gold"
+   }
+  },
+  "galletas-maria": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Galletas María Dorada"
+   }
+  },
+  "pan-molde": {
+   "aldi": {
+    "resultados": 3,
+    "validos": 3,
+    "elegido": "Pan de molde blanco"
+   }
+  },
+  "platanos": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 0,
+    "elegido": null,
+    "descartados": [
+     {
+      "nombre": "Smoothie de plátano, mango, naranja y maracuyá",
+      "unidad": "l",
+      "precio_unidad": 5.96,
+      "unidad_original": "l",
+      "motivo": "unidad l"
+     }
+    ]
+   }
+  },
+  "manzanas": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 0,
+    "elegido": null,
+    "descartados": [
+     {
+      "nombre": "Friegasuelos manzana verde",
+      "unidad": "l",
+      "precio_unidad": 0.59,
+      "unidad_original": "l",
+      "motivo": "unidad l"
+     }
+    ]
+   }
+  },
+  "naranjas": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Naranja de mesa"
+   }
+  },
+  "patatas": {
+   "aldi": {
+    "resultados": 0,
+    "validos": 0,
+    "elegido": null,
+    "descartados": []
+   }
+  },
+  "cebollas": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Cebollas"
+   }
+  },
+  "zanahorias": {
+   "aldi": {
+    "resultados": 0,
+    "validos": 0,
+    "elegido": null,
+    "descartados": []
+   }
+  },
+  "pechuga-pollo": {
+   "aldi": {
+    "resultados": 3,
+    "validos": 3,
+    "elegido": "Pechuga entera de pollo"
+   }
+  },
+  "carne-picada": {
+   "aldi": {
+    "resultados": 0,
+    "validos": 0,
+    "elegido": null,
+    "descartados": []
+   }
+  },
+  "merluza": {
+   "aldi": {
+    "resultados": 6,
+    "validos": 6,
+    "elegido": "Tronquitos de merluza"
+   }
+  },
+  "agua-mineral": {
+   "aldi": {
+    "resultados": 1,
+    "validos": 1,
+    "elegido": "Agua mineral natural"
+   }
+  },
+  "lavavajillas-mano": {
+   "aldi": {
+    "resultados": 5,
+    "validos": 5,
     "elegido": "Lavavajillas a mano"
    }
   }
