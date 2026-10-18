@@ -1,0 +1,26 @@
+name: Explorar Aldi
+
+on:
+  push:
+    branches: [explorar-aldi]
+    paths: ["explorar/*.py", ".github/workflows/explorar.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  explorar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python explorar/explorar_aldi.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f explorar/salida
+          git commit -m "chore: resultados de la sonda de Aldi" || exit 0
+          git push
