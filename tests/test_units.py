@@ -1,0 +1,63 @@
+import pytest
+
+from scraper.units import normalize_unit, parse_price_text, parse_unit_price_text, to_base
+
+
+@pytest.mark.parametrize(
+    "text, expected",
+    [
+        ("kg", ("kg", 1.0)),
+        ("KILO", ("kg", 1.0)),
+        ("L", ("l", 1.0)),
+        ("LITRO", ("l", 1.0)),
+        ("ud", ("ud", 1.0)),
+        ("UNIDAD", ("ud", 1.0)),
+        ("100 GR.", ("kg", 10.0)),
+        ("100 ML.", ("l", 10.0)),
+        ("PER_LITRE", ("l", 1.0)),
+        ("PER_1KG", ("kg", 1.0)),
+        ("KG.PESO ESC", ("kg", 1.0)),
+    ],
+)
+def test_normalize_known_units(text, expected):
+    assert normalize_unit(text) == expected
+
+
+def test_dozen_is_converted_to_units():
+    unit, factor = normalize_unit("DOCENA")
+    assert unit == "ud"
+    assert factor == pytest.approx(1 / 12)
+
+
+@pytest.mark.parametrize("text", [None, "", "LAVADO", "PER_METRE"])
+def test_unknown_units(text):
+    assert normalize_unit(text) is None
+
+
+def test_to_base_scales_price():
+    assert to_base(0.5, "100 GR.") == ("kg", 5.0)
+    assert to_base(3.0, "DOCENA") == ("ud", 0.25)
+    assert to_base(None, "kg") == (None, None)
+    assert to_base(1.0, "LAVADO") == (None, None)
+
+
+@pytest.mark.parametrize(
+    "text, expected",
+    [("1,65 €", 1.65), ("1.234,50€", 1234.5), ("0.99", 0.99), ("12", 12.0), ("gratis", None)],
+)
+def test_parse_price_text(text, expected):
+    assert parse_price_text(text) == expected
+
+
+@pytest.mark.parametrize(
+    "text, expected",
+    [
+        ("2,50€/KG.PESO ESC", ("kg", 2.5)),
+        (" 0,99 €/L ", ("l", 0.99)),
+        ("1,20€/Kg", ("kg", 1.2)),
+        ("0,25 €/UNIDAD", ("ud", 0.25)),
+        ("3,25€", (None, None)),
+    ],
+)
+def test_parse_unit_price_text(text, expected):
+    assert parse_unit_price_text(text) == expected

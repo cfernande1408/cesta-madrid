@@ -1,0 +1,8 @@
+[project]
+name = "cesta-madrid"
+version = "0.1.0"
+description = "Compara el precio de tu cesta de la compra en supermercados de Madrid"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
