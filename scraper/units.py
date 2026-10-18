@@ -37,6 +37,8 @@ _UNIT_TABLE: dict[str, tuple[str, float]] = {
     "unit": ("ud", 1.0),
     "docena": ("ud", 1 / 12),
     "dozen": ("ud", 1 / 12),
+    "dz": ("ud", 1 / 12),  # Mercadona
+    "dc": ("ud", 1 / 12),  # Mercadona
 }
 
 # Unidades de Alcampo (campo `unitPrice.unitName`).

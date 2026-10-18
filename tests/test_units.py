@@ -23,8 +23,9 @@ def test_normalize_known_units(text, expected):
     assert normalize_unit(text) == expected
 
 
-def test_dozen_is_converted_to_units():
-    unit, factor = normalize_unit("DOCENA")
+@pytest.mark.parametrize("text", ["DOCENA", "dz", "dc"])
+def test_dozen_is_converted_to_units(text):
+    unit, factor = normalize_unit(text)
     assert unit == "ud"
     assert factor == pytest.approx(1 / 12)
 
