@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19T05:50:15+00:00",
+ "generado": "2026-10-20T05:49:34+00:00",
  "supermercados": {
   "mercadona": {
    "id": "mercadona",
@@ -26,7 +26,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 24,
-   "duracion_s": 171.2
+   "duracion_s": 177.6
   },
   "alcampo": {
    "id": "alcampo",
@@ -45,7 +45,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 120.6
+   "duracion_s": 134.7
   }
  },
  "articulos": {
@@ -64,6 +64,11 @@
     "resultados": 2,
     "validos": 2,
     "elegido": "Leche semidesnatada"
+   },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 38,
+    "elegido": "L.R. Leche de vaca semidesnatada 1 l."
    },
    "ahorramas": {
     "resultados": 26,
@@ -86,6 +91,11 @@
     "resultados": 2,
     "validos": 2,
     "elegido": "Leche entera"
+   },
+   "alcampo": {
+    "resultados": 47,
+    "validos": 37,
+    "elegido": "L.R. Leche de vaca entera 1l."
    },
    "ahorramas": {
     "resultados": 22,
@@ -111,7 +121,7 @@
     "descartados": []
    },
    "ahorramas": {
-    "resultados": 19,
+    "resultados": 20,
     "validos": 14,
     "elegido": "Huevos de gallinas sueltas en el gallinero Alipende 24u \"clase m\""
    }
@@ -194,7 +204,7 @@
     "elegido": "Aceite de oliva virgen extra Dia La Almazara del Olivar 3 L"
    },
    "aldi": {
-    "resultados": 3,
+    "resultados": 4,
     "validos": 3,
     "elegido": "Aceite de oliva virgen extra"
    },
@@ -211,7 +221,7 @@
     "elegido": "Aceite de girasol refinado 0,2º Hacendado"
    },
    "dia": {
-    "resultados": 32,
+    "resultados": 33,
     "validos": 6,
     "elegido": "Aceite refinado de girasol Diasol 5 L"
    },
@@ -396,8 +406,8 @@
     "elegido": "Atún en aceite de girasol Hacendado"
    },
    "dia": {
-    "resultados": 18,
-    "validos": 17,
+    "resultados": 19,
+    "validos": 18,
     "elegido": "Atún claro en aceite de oliva Dia Mari Marinera 6 x 60 g"
    },
    "aldi": {
@@ -518,7 +528,7 @@
    },
    "ahorramas": {
     "resultados": 51,
-    "validos": 18,
+    "validos": 17,
     "elegido": "Pan de molde Alipende 820g Familiar"
    }
   },
@@ -575,7 +585,7 @@
    },
    "dia": {
     "resultados": 50,
-    "validos": 7,
+    "validos": 8,
     "elegido": "Naranja de mesa malla 1.5 Kg"
    },
    "aldi": {
@@ -606,11 +616,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 16,
-    "elegido": "Tomate rama al peso."
-   },
    "ahorramas": {
     "resultados": 48,
     "validos": 6,
@@ -634,13 +639,8 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 15,
-    "elegido": "Patatas malla de 5 kg."
-   },
    "ahorramas": {
-    "resultados": 50,
+    "resultados": 49,
     "validos": 7,
     "elegido": "Patata malla 5kg"
    }
@@ -661,11 +661,6 @@
     "validos": 0,
     "elegido": null,
     "descartados": []
-   },
-   "alcampo": {
-    "resultados": 47,
-    "validos": 15,
-    "elegido": "Cebolla malla de 2 kg."
    },
    "ahorramas": {
     "resultados": 14,
@@ -690,11 +685,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 19,
-    "elegido": "Zanahoria bolsa de1 kg."
-   },
    "ahorramas": {
     "resultados": 10,
     "validos": 5,
@@ -708,19 +698,14 @@
     "elegido": "Pechugas de pollo enteras congeladas"
    },
    "dia": {
-    "resultados": 25,
-    "validos": 7,
+    "resultados": 26,
+    "validos": 8,
     "elegido": "Pechuga de pollo entera formato familiar Selección de Dia 1.3 Kg aprox."
    },
    "aldi": {
     "resultados": 2,
     "validos": 2,
     "elegido": "Pechuga de pollo"
-   },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 22,
-    "elegido": "AUCHAN Pechuga pollo XXL. Producto Alcampo"
    },
    "ahorramas": {
     "resultados": 24,
@@ -745,11 +730,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 12,
-    "elegido": "EL POZO Bandeja con preparado de carne picada mixta (cerdo-vacuno), sin gluten ni lactosa 800 g."
-   },
    "ahorramas": {
     "resultados": 19,
     "validos": 1,
@@ -765,12 +745,17 @@
    "dia": {
     "resultados": 6,
     "validos": 4,
-    "elegido": "Filetes de merluza Argentina sin piel Dia Mari Marinera 400 g"
+    "elegido": "Filetes de merluza del cabo sin piel MSC Dia Mari Marinera 600 g"
    },
    "aldi": {
     "resultados": 6,
     "validos": 6,
     "elegido": "Tronquitos de merluza"
+   },
+   "alcampo": {
+    "resultados": 35,
+    "validos": 20,
+    "elegido": "Merluza fina al corte. - Filetes"
    },
    "ahorramas": {
     "resultados": 9,
@@ -793,6 +778,11 @@
     "resultados": 1,
     "validos": 1,
     "elegido": "Agua mineral natural"
+   },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 47,
+    "elegido": "FUENTE PRIMAVERA Agua mineral botella de 2 l."
    },
    "ahorramas": {
     "resultados": 12,
@@ -853,6 +843,11 @@
      }
     ]
    },
+   "alcampo": {
+    "resultados": 49,
+    "validos": 39,
+    "elegido": "RENOVA Papel higiénico Active 12 rollos"
+   },
    "ahorramas": {
     "resultados": 18,
     "validos": 12,
@@ -874,6 +869,11 @@
     "resultados": 5,
     "validos": 5,
     "elegido": "Lavavajillas a mano"
+   },
+   "alcampo": {
+    "resultados": 42,
+    "validos": 32,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Detergente lavavajillas a mano 1,5 l."
    },
    "ahorramas": {
     "resultados": 12,
