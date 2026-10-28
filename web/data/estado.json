@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T05:51:45+00:00",
+ "generado": "2026-10-28T05:57:51+00:00",
  "supermercados": {
   "mercadona": {
    "id": "mercadona",
@@ -8,7 +8,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 186.7
+   "duracion_s": 155.9
   },
   "dia": {
    "id": "dia",
@@ -17,7 +17,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 49.8
+   "duracion_s": 52.0
   },
   "aldi": {
    "id": "aldi",
@@ -26,7 +26,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 21,
-   "duracion_s": 173.6
+   "duracion_s": 171.8
   },
   "alcampo": {
    "id": "alcampo",
@@ -36,7 +36,7 @@
    "muestra": null,
    "http": 202,
    "encontrados": 6,
-   "duracion_s": 42.2
+   "duracion_s": 42.3
   },
   "ahorramas": {
    "id": "ahorramas",
@@ -45,7 +45,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 136.7
+   "duracion_s": 120.7
   }
  },
  "articulos": {
@@ -66,7 +66,7 @@
     "elegido": "Leche semidesnatada"
    },
    "ahorramas": {
-    "resultados": 27,
+    "resultados": 26,
     "validos": 12,
     "elegido": "Leche semidesnatada Alipende 1L"
    }
@@ -154,11 +154,6 @@
     "validos": 3,
     "elegido": "Pollo con salsa de mantequilla"
    },
-   "alcampo": {
-    "resultados": 45,
-    "validos": 30,
-    "elegido": "HARMONY Pastilla de mantequilla con sal 250 g."
-   },
    "ahorramas": {
     "resultados": 24,
     "validos": 18,
@@ -181,11 +176,6 @@
     "validos": 6,
     "elegido": "Queso rallado especial para fundir"
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 44,
-    "elegido": "Queso rallado en hilo, especial para fundir OGGI 200 g."
-   },
    "ahorramas": {
     "resultados": 16,
     "validos": 6,
@@ -207,11 +197,6 @@
     "resultados": 4,
     "validos": 3,
     "elegido": "Aceite de oliva virgen extra"
-   },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 50,
-    "elegido": "LA MASÍA Aceite de oliva Virgen Extra garrafa 5 l."
    },
    "ahorramas": {
     "resultados": 25,
@@ -244,11 +229,6 @@
      }
     ]
    },
-   "alcampo": {
-    "resultados": 20,
-    "validos": 14,
-    "elegido": "PRODUCTO ALCAMPO Aceite de girasol garrafa de 5 l."
-   },
    "ahorramas": {
     "resultados": 3,
     "validos": 3,
@@ -270,11 +250,6 @@
     "resultados": 1,
     "validos": 1,
     "elegido": "Arroz redondo"
-   },
-   "alcampo": {
-    "resultados": 35,
-    "validos": 15,
-    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg."
    },
    "ahorramas": {
     "resultados": 9,
@@ -298,13 +273,8 @@
     "validos": 1,
     "elegido": "Macarrón rayado"
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 15,
-    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Pasta macarrón paquete 1 kg."
-   },
    "ahorramas": {
-    "resultados": 14,
+    "resultados": 15,
     "validos": 2,
     "elegido": "Macarrones Garofalo 500g"
    }
@@ -325,8 +295,13 @@
     "validos": 3,
     "elegido": "Spaghetti"
    },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 32,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Pasta spaguetti paquete 1 kg"
+   },
    "ahorramas": {
-    "resultados": 12,
+    "resultados": 13,
     "validos": 6,
     "elegido": "Spaghetti Alipende 1kg"
    }
@@ -346,6 +321,11 @@
     "resultados": 1,
     "validos": 1,
     "elegido": "Lenteja"
+   },
+   "alcampo": {
+    "resultados": 48,
+    "validos": 32,
+    "elegido": "RUBIO GARCIA Lenteja tipo castellana 1 kg"
    },
    "ahorramas": {
     "resultados": 16,
@@ -369,6 +349,11 @@
     "validos": 2,
     "elegido": "Garbanzos cocidos extra"
    },
+   "alcampo": {
+    "resultados": 41,
+    "validos": 12,
+    "elegido": "LA COCHURA Garbanzo cocido frasco de 400 g."
+   },
    "ahorramas": {
     "resultados": 13,
     "validos": 6,
@@ -391,6 +376,11 @@
     "validos": 2,
     "elegido": "Tomate triturado extra"
    },
+   "alcampo": {
+    "resultados": 44,
+    "validos": 13,
+    "elegido": "PRODUCTO ALCAMPO Tomate triturado lata de 800 g."
+   },
    "ahorramas": {
     "resultados": 13,
     "validos": 6,
@@ -409,9 +399,14 @@
     "elegido": "Tomate frito Dia Vegecampo 3 x 390 g"
    },
    "aldi": {
-    "resultados": 5,
-    "validos": 5,
-    "elegido": "Tomate frito en brik"
+    "resultados": 4,
+    "validos": 4,
+    "elegido": "Tomate frito"
+   },
+   "alcampo": {
+    "resultados": 49,
+    "validos": 46,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Tomate frito elaborado sin gluten brik de 390 g."
    },
    "ahorramas": {
     "resultados": 29,
@@ -434,6 +429,11 @@
     "resultados": 7,
     "validos": 7,
     "elegido": "Atún en aceite de girasol"
+   },
+   "alcampo": {
+    "resultados": 49,
+    "validos": 49,
+    "elegido": "BAYMAR Atún en aceite de girasol en bolsa 1 kg."
    },
    "ahorramas": {
     "resultados": 19,
@@ -607,7 +607,7 @@
    },
    "dia": {
     "resultados": 50,
-    "validos": 6,
+    "validos": 7,
     "elegido": "Naranja de mesa malla 1.5 Kg"
    },
    "aldi": {
@@ -630,7 +630,7 @@
    },
    "dia": {
     "resultados": 50,
-    "validos": 16,
+    "validos": 15,
     "elegido": "Tomate canario malla 750 g"
    },
    "aldi": {
@@ -654,7 +654,7 @@
    "dia": {
     "resultados": 50,
     "validos": 7,
-    "elegido": "Patatas para freir 2 Kg"
+    "elegido": "Patatas 4 Kg"
    },
    "aldi": {
     "resultados": 0,
@@ -663,7 +663,7 @@
     "descartados": []
    },
    "ahorramas": {
-    "resultados": 50,
+    "resultados": 52,
     "validos": 7,
     "elegido": "Patata malla 5kg"
    }
@@ -677,7 +677,7 @@
    "dia": {
     "resultados": 36,
     "validos": 9,
-    "elegido": "Cebolla malla 1 kg"
+    "elegido": "Cebolla malla 1.5 Kg"
    },
    "aldi": {
     "resultados": 0,
