@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-31T10:58:25+00:00",
+ "generado": "2026-11-01T11:54:04+00:00",
  "supermercados": {
   "mercadona": {
    "id": "mercadona",
@@ -8,7 +8,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 153.7
+   "duracion_s": 154.9
   },
   "dia": {
    "id": "dia",
@@ -17,7 +17,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 49.8
+   "duracion_s": 49.7
   },
   "aldi": {
    "id": "aldi",
@@ -26,7 +26,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 26,
-   "duracion_s": 169.8
+   "duracion_s": 168.8
   },
   "alcampo": {
    "id": "alcampo",
@@ -36,7 +36,7 @@
    "muestra": null,
    "http": 202,
    "encontrados": 6,
-   "duracion_s": 42.1
+   "duracion_s": 42.0
   },
   "ahorramas": {
    "id": "ahorramas",
@@ -45,13 +45,13 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 120.2
+   "duracion_s": 131.9
   }
  },
  "articulos": {
   "leche-semidesnatada": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 10,
     "elegido": "Leche semidesnatada Hacendado"
    },
@@ -73,7 +73,7 @@
   },
   "leche-entera": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 10,
     "elegido": "Leche entera Hacendado"
    },
@@ -95,7 +95,7 @@
   },
   "huevos": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 7,
     "elegido": "Huevos"
    },
@@ -110,11 +110,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 30,
-    "elegido": "LOS FRESQUITOS Huevos de gallinas en jaulas acondicionadas de categoría A y clase M 10 uds."
-   },
    "ahorramas": {
     "resultados": 20,
     "validos": 14,
@@ -123,7 +118,7 @@
   },
   "yogur-natural": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 2,
     "elegido": "Yogur natural Hacendado"
    },
@@ -137,11 +132,6 @@
     "validos": 4,
     "elegido": "Yogur natural"
    },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 15,
-    "elegido": "AUCHAN Yogur natural 4 x 125 g. Producto Alcampo"
-   },
    "ahorramas": {
     "resultados": 50,
     "validos": 10,
@@ -150,7 +140,7 @@
   },
   "mantequilla": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 7,
     "elegido": "Mantequilla con sal Hacendado"
    },
@@ -164,6 +154,11 @@
     "validos": 3,
     "elegido": "Pollo con salsa de mantequilla"
    },
+   "alcampo": {
+    "resultados": 49,
+    "validos": 33,
+    "elegido": "HARMONY Pastilla de mantequilla con sal 250 g."
+   },
    "ahorramas": {
     "resultados": 24,
     "validos": 18,
@@ -172,7 +167,7 @@
   },
   "queso-rallado": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 5,
     "elegido": "Queso rallado especial fundir mezcla Hacendado"
    },
@@ -186,6 +181,11 @@
     "validos": 1,
     "elegido": "Queso rallado especial para fundir"
    },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 44,
+    "elegido": "Queso rallado en hilo, especial para fundir OGGI 200 g."
+   },
    "ahorramas": {
     "resultados": 16,
     "validos": 6,
@@ -194,7 +194,7 @@
   },
   "aceite-oliva-virgen-extra": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 6,
     "elegido": "Aceite de oliva virgen extra Hacendado"
    },
@@ -216,7 +216,7 @@
   },
   "aceite-girasol": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 2,
     "elegido": "Aceite de girasol refinado 0,2º Hacendado"
    },
@@ -238,7 +238,7 @@
   },
   "arroz-redondo": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 5,
     "elegido": "Arroz redondo Hacendado"
    },
@@ -260,7 +260,7 @@
   },
   "macarrones": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 5,
     "elegido": "Macarrón Hacendado"
    },
@@ -282,7 +282,7 @@
   },
   "espaguetis": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 5,
     "elegido": "Spaghetti Hacendado"
    },
@@ -304,7 +304,7 @@
   },
   "lentejas": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 5,
     "elegido": "Lenteja pardina Hacendado"
    },
@@ -326,7 +326,7 @@
   },
   "garbanzos-cocidos": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 3,
     "elegido": "Garbanzo cocido Hacendado"
    },
@@ -348,7 +348,7 @@
   },
   "tomate-triturado": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 2,
     "elegido": "Tomate triturado Hacendado"
    },
@@ -370,7 +370,7 @@
   },
   "tomate-frito": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 9,
     "elegido": "Tomate frito Hacendado"
    },
@@ -392,7 +392,7 @@
   },
   "atun-aceite": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 7,
     "elegido": "Atún en aceite de girasol Hacendado"
    },
@@ -414,7 +414,7 @@
   },
   "cafe-molido": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 10,
     "elegido": "Café molido fuerte Hacendado"
    },
@@ -436,7 +436,7 @@
   },
   "azucar": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 1,
     "elegido": "Azúcar blanco Hacendado"
    },
@@ -459,7 +459,7 @@
   },
   "harina-trigo": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 3,
     "elegido": "Harina de trigo grande Hacendado"
    },
@@ -481,7 +481,7 @@
   },
   "galletas-maria": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 3,
     "elegido": "Galletas María Hacendado"
    },
@@ -503,7 +503,7 @@
   },
   "pan-molde": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 6,
     "elegido": "Pan de molde blanco familiar Hacendado"
    },
@@ -525,7 +525,7 @@
   },
   "platanos": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 3,
     "elegido": "Plátano macho"
    },
@@ -548,7 +548,7 @@
   },
   "manzanas": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 8,
     "elegido": "Manzanas Golden"
    },
@@ -570,7 +570,7 @@
   },
   "naranjas": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 3,
     "elegido": "Naranjas"
    },
@@ -592,7 +592,7 @@
   },
   "tomates": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 19,
     "elegido": "Tomates"
    },
@@ -615,7 +615,7 @@
   },
   "patatas": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 12,
     "elegido": "Patatas"
    },
@@ -637,7 +637,7 @@
   },
   "cebollas": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 12,
     "elegido": "Cebollas"
    },
@@ -652,11 +652,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 15,
-    "elegido": "Cebolla malla de 2 kg."
-   },
    "ahorramas": {
     "resultados": 14,
     "validos": 8,
@@ -665,7 +660,7 @@
   },
   "zanahorias": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 6,
     "elegido": "Zanahorias"
    },
@@ -680,11 +675,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 17,
-    "elegido": "Zanahoria bolsa de1 kg."
-   },
    "ahorramas": {
     "resultados": 10,
     "validos": 5,
@@ -693,7 +683,7 @@
   },
   "pechuga-pollo": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 8,
     "elegido": "Pechugas de pollo enteras congeladas"
    },
@@ -707,11 +697,6 @@
     "validos": 3,
     "elegido": "Filetes de pechuga de pollo certificado"
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 23,
-    "elegido": "AUCHAN Pechuga pollo XXL. Producto Alcampo"
-   },
    "ahorramas": {
     "resultados": 23,
     "validos": 10,
@@ -720,7 +705,7 @@
   },
   "carne-picada": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 7,
     "elegido": "Preparado de carne picada cerdo"
    },
@@ -735,11 +720,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 50,
-    "validos": 12,
-    "elegido": "EL POZO Bandeja con preparado de carne picada mixta (cerdo-vacuno), sin gluten ni lactosa 800 g."
-   },
    "ahorramas": {
     "resultados": 19,
     "validos": 1,
@@ -748,7 +728,7 @@
   },
   "merluza": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 10,
     "elegido": "Medallones de merluza del Cabo Hacendado ultracongelados"
    },
@@ -762,6 +742,11 @@
     "validos": 6,
     "elegido": "Tronquitos de merluza"
    },
+   "alcampo": {
+    "resultados": 36,
+    "validos": 21,
+    "elegido": "SEASTAR Filetes de merluza extra grandes congelados 900 g."
+   },
    "ahorramas": {
     "resultados": 9,
     "validos": 5,
@@ -770,7 +755,7 @@
   },
   "agua-mineral": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 29,
     "elegido": "Agua mineral grande Aguadoy"
    },
@@ -784,6 +769,11 @@
     "validos": 1,
     "elegido": "Agua mineral natural"
    },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 47,
+    "elegido": "FUENTE PRIMAVERA Agua mineral botella de 2 l."
+   },
    "ahorramas": {
     "resultados": 12,
     "validos": 7,
@@ -792,7 +782,7 @@
   },
   "papel-higienico": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 4,
     "elegido": "Papel higiénico doble hoja Bosque Verde"
    },
@@ -843,6 +833,11 @@
      }
     ]
    },
+   "alcampo": {
+    "resultados": 48,
+    "validos": 37,
+    "elegido": "RENOVA Papel higiénico Active 12 rollos"
+   },
    "ahorramas": {
     "resultados": 18,
     "validos": 12,
@@ -851,7 +846,7 @@
   },
   "lavavajillas-mano": {
    "mercadona": {
-    "resultados": 4347,
+    "resultados": 4358,
     "validos": 6,
     "elegido": "Lavavajillas a mano Bosque Verde"
    },
@@ -864,6 +859,11 @@
     "resultados": 4,
     "validos": 4,
     "elegido": "Lavavajillas a mano"
+   },
+   "alcampo": {
+    "resultados": 36,
+    "validos": 31,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Detergente lavavajillas a mano 1,5 l."
    },
    "ahorramas": {
     "resultados": 11,
