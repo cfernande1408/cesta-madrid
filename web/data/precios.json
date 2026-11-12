@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-11T12:47:36+00:00",
+ "generado": "2026-11-12T13:50:00+00:00",
  "supermercados": [
   {
    "id": "mercadona",
    "nombre": "Mercadona",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-11-11T12:47:36+00:00",
+   "actualizado": "2026-11-12T13:50:00+00:00",
    "encontrados": 34
   },
   {
@@ -14,15 +14,15 @@
    "nombre": "Dia",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-11-11T12:47:36+00:00",
+   "actualizado": "2026-11-12T13:50:00+00:00",
    "encontrados": 34
   },
   {
    "id": "aldi",
    "nombre": "Aldi",
    "ok": true,
-   "parcial": true,
-   "actualizado": "2026-11-11T12:47:36+00:00",
+   "parcial": false,
+   "actualizado": "2026-11-12T13:50:00+00:00",
    "encontrados": 27
   },
   {
@@ -30,7 +30,7 @@
    "nombre": "Alcampo",
    "ok": true,
    "parcial": true,
-   "actualizado": "2026-11-11T12:47:36+00:00",
+   "actualizado": "2026-11-12T13:50:00+00:00",
    "encontrados": 34
   },
   {
@@ -38,7 +38,7 @@
    "nombre": "Ahorramás",
    "ok": true,
    "parcial": false,
-   "actualizado": "2026-11-11T12:47:36+00:00",
+   "actualizado": "2026-11-12T13:50:00+00:00",
    "encontrados": 34
   }
  ],
@@ -60,7 +60,7 @@
      "image": "https://prod-mercadona.imgix.net/images/da2348eb6ffa595fbfdbe66367bcad3c.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Brik 1 l",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "504",
@@ -72,7 +72,7 @@
      "image": "https://www.dia.es/product_images/504/504_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "601131600",
@@ -84,7 +84,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/6011316_pack_0_0_es_es_leche_semidesnatada_2024_cw01",
      "brand": null,
      "format": "1 l unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "99235",
@@ -108,7 +108,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwafbab369/Assets/070865_C1C1/large/b/2/0/b/b20b3016bdba1f1b2c393daf1fd36cf75730af50_070865_C1C1.JPG?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -129,7 +129,7 @@
      "image": "https://prod-mercadona.imgix.net/images/a731a91252722a3a9cb5856ae8f7d282.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Brik 1 l",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "608",
@@ -141,7 +141,7 @@
      "image": "https://www.dia.es/product_images/608/608_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "80000",
@@ -153,7 +153,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/800_pack_0_0_es_es_leche_entera_brick_2026_cw07",
      "brand": "MILSANI®",
      "format": "1 l unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "99232",
@@ -177,7 +177,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw3006ac95/Assets/070864_C1C1/large/9/1/a/5/91a52f546b160f71f8a575de1c68dca53a05069c_070864_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -198,7 +198,7 @@
      "image": "https://prod-mercadona.imgix.net/images/3a0b8ec917c50794e9aed65bbfea018b.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 24 ud",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "274009",
@@ -210,7 +210,7 @@
      "image": "https://www.dia.es/product_images/274009/274009_ISO_0_ES.jpg",
      "brand": "Dia",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "99261",
@@ -234,7 +234,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw0113ef75/Assets/031201_C1C1/large/2/d/1/4/2d14283e270bda9f894744c2a6e777d1e0b9e6a2_031201_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -255,7 +255,7 @@
      "image": "https://prod-mercadona.imgix.net/images/0689561ce98dba5c0b3ad43e69be0f5f.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Pack-6 0.75 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "310847",
@@ -267,7 +267,7 @@
      "image": "https://www.dia.es/product_images/310847/310847_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "952000",
@@ -279,7 +279,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/9520_pack_0_0_es_es_yogur_natural_2026_cw13",
      "brand": "MILSANI®",
      "format": "pack de 8 x 125 g",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "51414",
@@ -303,7 +303,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw09e947f0/Assets/088166_C1C1/large/0/d/c/c/0dcc8756efd603193e100bfef462ce2edd646bef_088166_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -324,7 +324,7 @@
      "image": "https://prod-mercadona.imgix.net/images/4c4ad20a9ebac8f92af9581840223d6f.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Pastilla 0.25 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "268200",
@@ -336,7 +336,7 @@
      "image": "https://www.dia.es/product_images/268200/268200_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "731700",
@@ -348,7 +348,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/7317_pack_0_0_es_es_mantequilla_ligera_2021_cw10",
      "brand": "MILSANI®",
      "format": "250 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "627997",
@@ -372,7 +372,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw77093ab1/Assets/049516_C1C1/large/f/3/7/e/f37ebc33e982fc96d0694535a783c2b04eb544ae_049516_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -393,19 +393,19 @@
      "image": "https://prod-mercadona.imgix.net/images/aa127a068121be5a0a5dfd543ddb2fa0.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 0.4 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
-     "product_id": "16296",
-     "name": "Queso emmental rallado Dia Láctea 200 g",
-     "price": 1.6,
+     "product_id": "20423",
+     "name": "Queso rallado para gratinar Dia Láctea 200 g",
+     "price": 1.45,
      "unit": "kg",
-     "unit_price": 8.0,
-     "url": "https://www.dia.es/quesos/rallado/p/16296",
-     "image": "https://www.dia.es/product_images/16296/16296_ISO_0_ES.jpg",
+     "unit_price": 7.25,
+     "url": "https://www.dia.es/quesos/rallado/p/20423",
+     "image": "https://www.dia.es/product_images/20423/20423_ISO_0_ES.jpg",
      "brand": "Dia Láctea",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "601415200",
@@ -417,7 +417,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/6014152_pack_0_0_es_es_queso_rallado_fundir_2026_cw39",
      "brand": "MILSANI®",
      "format": "400 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "86129",
@@ -441,7 +441,7 @@
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2b4c50a7/images/attributes/sinGluten.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -462,7 +462,7 @@
      "image": "https://prod-mercadona.imgix.net/images/cd149804838dc230dad3c2a314cf2286.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Garrafa 3 l",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "266129",
@@ -474,19 +474,19 @@
      "image": "https://www.dia.es/product_images/266129/266129_ISO_0_ES.jpg",
      "brand": "Dia La Almazara del Olivar",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "662500",
      "name": "Aceite de oliva virgen extra",
-     "price": 12.15,
+     "price": 12.13,
      "unit": "l",
-     "unit_price": 4.05,
+     "unit_price": 4.04,
      "url": "https://www.aldi.es/producto/aceite-de-oliva-virgen-extra-662500.html",
      "image": "https://s7g10.scene7.com/is/image/aldinord/6625_pack_0_0_es_es_aceite_oliva_virgen_extra_2026_cw31",
      "brand": "OLEARIA DEL OLIVAR®",
      "format": "3 l unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "196394",
@@ -498,7 +498,7 @@
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/2985ab93-410d-4679-8867-b4174225b206/300x300.jpg",
      "brand": "OLINOSTRUM",
      "format": "5000ml",
-     "fecha": "2026-11-07"
+     "fecha": "2026-11-12"
     },
     "ahorramas": {
      "product_id": "39956",
@@ -510,7 +510,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwec15fd12/Assets/039956_C1C1/large/4/d/3/d/4d3d94dd9b94bd886681fe1c8ad24a1d55b17cfb_039956_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -531,7 +531,7 @@
      "image": "https://prod-mercadona.imgix.net/images/e6398afba1d032d2e1c0489fd727d2f6.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Garrafa 5 l",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "49894",
@@ -543,19 +543,19 @@
      "image": "https://www.dia.es/product_images/49894/49894_ISO_0_ES.jpg",
      "brand": "Diasol",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "112000",
      "name": "Aceite refinado de girasol",
-     "price": 8.55,
+     "price": 8.35,
      "unit": "l",
-     "unit_price": 1.71,
+     "unit_price": 1.67,
      "url": "https://www.aldi.es/producto/aceite-refinado-de-girasol-112000.html",
      "image": "https://s7g10.scene7.com/is/image/aldinord/1115_pack_0_0_es_es_acete_de_jirasol_2024_cw48",
      "brand": "OLEARIA DE SEMILLAS®",
      "format": "5 l unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "19821",
@@ -567,7 +567,7 @@
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/d1ebd77d-afcc-4533-8a5d-ae0e55a95ae2/300x300.jpg",
      "brand": "PRODUCTO ALCAMPO",
      "format": "5000ml",
-     "fecha": "2026-11-07"
+     "fecha": "2026-11-12"
     },
     "ahorramas": {
      "product_id": "84582",
@@ -579,7 +579,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwf0d69c5f/Assets/084582_C1C1/large/d/a/0/c/da0c4d208dba6eabc274cbcf4476612ad43a6614_084582_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -600,7 +600,7 @@
      "image": "https://prod-mercadona.imgix.net/images/0daf43fb5761b823ce83c985930c97c9.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "310496",
@@ -612,7 +612,7 @@
      "image": "https://www.dia.es/product_images/310496/310496_ISO_0_ES.jpg",
      "brand": "Dia Arrozona",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "768700",
@@ -624,7 +624,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/7687_pack_0_0_es_es_box_arroz_redondo_2026_cw25",
      "brand": "BON-RI®",
      "format": "1 kg unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "204978",
@@ -648,7 +648,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwdae4d51f/Assets/069384_C1C1/large/3/9/1/8/3918d18f84284acb4a06196730868e7e70759200_069384_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -669,7 +669,7 @@
      "image": "https://prod-mercadona.imgix.net/images/fb1aa0c038c08e68b8d2c7ac8900b9db.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "50973",
@@ -681,7 +681,7 @@
      "image": "https://www.dia.es/product_images/50973/50973_ISO_0_ES.jpg",
      "brand": "Dia Al Diante",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "558000",
@@ -693,7 +693,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/5580_pack_0_0_es_es_penne_rigate_500g_2025_27",
      "brand": "CUCINA®",
      "format": "500 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "27254",
@@ -717,7 +717,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw5962480a/Assets/015908_C1C1/large/f/1/e/1/f1e1d0061e609b342c707b8d7fc9635cc3ebc975_015908_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -738,7 +738,7 @@
      "image": "https://prod-mercadona.imgix.net/images/a88886e2672bdbcf24be02cb8ecddf2f.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "52208",
@@ -750,7 +750,7 @@
      "image": "https://www.dia.es/product_images/52208/52208_ISO_0_ES.jpg",
      "brand": "Dia Al Diante",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "793700",
@@ -762,7 +762,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/7937_pack_0_0_es_es_box_spaghetti_1kg_2480_2025_cw19",
      "brand": "CUCINA®",
      "format": "1 kg unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "28148",
@@ -786,7 +786,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw650d7670/Assets/073146_C1C1/large/e/4/c/2/e4c29e96b042e54121e440708c4afcf532cdbfc8_073146_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -807,7 +807,7 @@
      "image": "https://prod-mercadona.imgix.net/images/80c08ddcd236321ea41242268903726b.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "158",
@@ -819,7 +819,7 @@
      "image": "https://www.dia.es/product_images/158/158_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "500200",
@@ -831,7 +831,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/5002_pack_0_0_es_es_lenteja_bolsa_2026_cw35",
      "brand": "EL CULTIVADOR®",
      "format": "1 kg unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "212313",
@@ -855,7 +855,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwb650fda7/Assets/077272_C1C1/large/e/c/b/5/ecb5b376e965e4746e6c850b045ef3fe266f9f3d_077272_C1C1.JPG?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -876,7 +876,7 @@
      "image": "https://prod-mercadona.imgix.net/images/b8b807948038c4b64791632f799e9bd8.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Tarro 0.57 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "1232",
@@ -888,7 +888,7 @@
      "image": "https://www.dia.es/product_images/1232/1232_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "501000",
@@ -900,7 +900,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/5010_pack_0_0_es_es_box_garbanzos_cocidos_extra_2026_cw17",
      "brand": "ALL SEASONS®",
      "format": "400 g peso esc. unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "432567",
@@ -924,7 +924,7 @@
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2b4c50a7/images/attributes/sinGluten.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -945,7 +945,7 @@
      "image": "https://prod-mercadona.imgix.net/images/117a2a2230b103f17b50e07a73a8fc38.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Bote 0.8 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "13105",
@@ -957,7 +957,7 @@
      "image": "https://www.dia.es/product_images/13105/13105_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "505200",
@@ -969,7 +969,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/5052_pack_0_0_es_es_tomate_triturado_800_2025_cw10",
      "brand": "ALL SEASONS®",
      "format": "800 g peso esc. unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "10074",
@@ -993,7 +993,7 @@
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2b4c50a7/images/attributes/sinGluten.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1014,7 +1014,7 @@
      "image": "https://prod-mercadona.imgix.net/images/e589c8259daf4b9335098fb9ade7ee09.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Pack-3 1.2 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "128657",
@@ -1026,7 +1026,7 @@
      "image": "https://www.dia.es/product_images/128657/128657_ISO_0_ES.jpg",
      "brand": "Dia Vegecampo",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "506400",
@@ -1038,7 +1038,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/5064_pack_0_0_es_es_tomate_frito_frasco_550ml_2025_cw25",
      "brand": "ALL SEASONS®",
      "format": "550 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "431131",
@@ -1055,14 +1055,14 @@
     "ahorramas": {
      "product_id": "54138",
      "name": "Tomate frito origen nacional sin gluten Alipende p3 400g",
-     "price": 1.35,
+     "price": 1.25,
      "unit": "kg",
-     "unit_price": 1.13,
+     "unit_price": 1.04,
      "url": "https://www.ahorramas.com/tomate-frito-origen-nacional-sin-gluten-alipende-p3-400g-54138.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2b4c50a7/images/attributes/sinGluten.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1083,7 +1083,7 @@
      "image": "https://prod-mercadona.imgix.net/images/2c06dcbb4643e6b4447d5d064c4eb6a5.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Lata 0.9 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "262432",
@@ -1095,7 +1095,7 @@
      "image": "https://www.dia.es/product_images/262432/262432_ISO_0_ES.jpg",
      "brand": "Dia Mari Marinera",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "522200",
@@ -1107,7 +1107,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/5222_pack_0_0_es_es_atun_en_aceite_de_girasol_2019_cw40",
      "brand": "SAL DE PLATA®",
      "format": "650 g peso esc. unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "905338",
@@ -1124,14 +1124,14 @@
     "ahorramas": {
      "product_id": "83612",
      "name": "Atún claro Alipende pack 6 en aceite girasol",
-     "price": 4.2,
+     "price": 3.99,
      "unit": "kg",
-     "unit_price": 13.46,
+     "unit_price": 12.79,
      "url": "https://www.ahorramas.com/atun-claro-alipende-pack-6-en-aceite-girasol-83612.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwee5bed43/Assets/083612_C1C1/large/8/5/2/c/852c18fe279723303233cf82a5e5734024519d20_083612_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1152,19 +1152,19 @@
      "image": "https://prod-mercadona.imgix.net/images/cd28fdbaf0215b0189a06883c7e5262f.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 0.5 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
-     "product_id": "218159",
-     "name": "Café molido natural Dia Cafetería 2 x 250 g",
-     "price": 4.5,
+     "product_id": "120826",
+     "name": "Café molido mezcla Dia Cafetería 2 x 250 g",
+     "price": 4.49,
      "unit": "kg",
-     "unit_price": 9.0,
-     "url": "https://www.dia.es/cafe-cacao-e-infusiones/cafe-molido/p/218159",
-     "image": "https://www.dia.es/product_images/218159/218159_ISO_0_ES.jpg",
+     "unit_price": 8.98,
+     "url": "https://www.dia.es/cafe-cacao-e-infusiones/cafe-molido/p/120826",
+     "image": "https://www.dia.es/product_images/120826/120826_ISO_0_ES.jpg",
      "brand": "Dia Cafetería",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "601790100",
@@ -1176,7 +1176,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/6017901_pack_0_0_es_es_cafe_natural_molido_gold_2025_cw50",
      "brand": "BARISSIMO®",
      "format": "250 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "839193",
@@ -1200,7 +1200,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw3c62bccd/Assets/048072_C1C1/large/2/9/5/6/29569cc87642f4822e9f15101677449755870b40_048072_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1221,7 +1221,7 @@
      "image": "https://prod-mercadona.imgix.net/images/782bc97fd2960e24b4505e25b384a2d4.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "81798",
@@ -1233,7 +1233,7 @@
      "image": "https://www.dia.es/product_images/81798/81798_ISO_0_ES.jpg",
      "brand": "Dia",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "13662",
@@ -1257,7 +1257,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw7e830efa/Assets/054770_C1C1/large/1/0/3/7/10376488c51a4e63d0c608231db344b48bbb27d2_054770_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1278,7 +1278,7 @@
      "image": "https://prod-mercadona.imgix.net/images/0b290f38cd41af97c0c02d623a6ae539.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 5 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "505",
@@ -1290,7 +1290,7 @@
      "image": "https://www.dia.es/product_images/505/505_ISO_0_ES.jpg",
      "brand": "El Molino de Dia",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "70000",
@@ -1302,7 +1302,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/700_pack_0_0_es_es_harina_1_kg_2025_cw32",
      "brand": "HARICAMAN®",
      "format": "1 kg unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "835648",
@@ -1326,7 +1326,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwbc7ddc06/Assets/088185_C1C1/large/5/4/4/8/5448cc0d3a19d41b57d72f30394dca19557fcb18_088185_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1347,7 +1347,7 @@
      "image": "https://prod-mercadona.imgix.net/images/11fb16cd4d93c1d07149041ae474faff.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 0.8 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "149293",
@@ -1359,7 +1359,7 @@
      "image": "https://www.dia.es/product_images/149293/149293_ISO_0_ES.jpg",
      "brand": "Dia Galleteca",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "181100",
@@ -1371,7 +1371,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/1811_pack_0_0_es_es_galletas_maria_dorada_800g_2025_cw40",
      "brand": "BISCOTTO®",
      "format": "800 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "526872",
@@ -1395,7 +1395,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwf7375996/Assets/038118_C1C1/large/4/d/d/3/4dd3d140072c3c518f86d52addb95975ad4c2ba5_038118_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1416,7 +1416,7 @@
      "image": "https://prod-mercadona.imgix.net/images/f26045084b08d8792979df13779e97d3.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 0.82 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "77955",
@@ -1428,7 +1428,7 @@
      "image": "https://www.dia.es/product_images/77955/77955_ISO_0_ES.jpg",
      "brand": "El Molino de Dia",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "249200",
@@ -1440,7 +1440,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/2492_pack_0_0_es_es_pan_de_molde_blanco_2024_cw19",
      "brand": "EL HORNO®",
      "format": "820 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "11739",
@@ -1464,7 +1464,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw17db922a/Assets/086818_C1C1/large/f/7/b/8/f7b8b77152d0cf5fc415bf9de365f1e1c834b743_086818_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1485,7 +1485,7 @@
      "image": "https://prod-mercadona.imgix.net/images/c22baa2a17de06fbf8477ef25392b7ca.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Pieza 0.3 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "53584",
@@ -1497,7 +1497,7 @@
      "image": "https://www.dia.es/product_images/53584/53584_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "56644",
@@ -1512,16 +1512,16 @@
      "fecha": "2026-11-10"
     },
     "ahorramas": {
-     "product_id": "75248",
-     "name": "Plátano canario Gabaceras",
-     "price": 2.59,
+     "product_id": "44085",
+     "name": "Plátano macho",
+     "price": 2.99,
      "unit": "kg",
-     "unit_price": 2.59,
-     "url": "https://www.ahorramas.com/platano-canario-gabaceras-75248.html",
+     "unit_price": 2.99,
+     "url": "https://www.ahorramas.com/platano-macho-44085.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw89ca78a5/images/weight.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1542,7 +1542,7 @@
      "image": "https://prod-mercadona.imgix.net/images/022fa8e1cd6c9d9ee18a41ed06d71c35.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "1.55 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "171233",
@@ -1554,7 +1554,7 @@
      "image": "https://www.dia.es/product_images/171233/171233_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "43000",
@@ -1566,7 +1566,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/430_granel_0_1_es_es_manzana_royal_2025_cw49",
      "brand": null,
      "format": "precio kg (a granel)",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "56761",
@@ -1590,7 +1590,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw7c60fb75/Assets/018961_C1C1/large/d/6/d/8/d6d8a38e3f675a3b020e812eca7ebc7abea8b953_018961_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1611,7 +1611,7 @@
      "image": "https://prod-mercadona.imgix.net/images/77c6cfe5e86c514637493c47c429101d.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Malla 5 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "13627",
@@ -1623,7 +1623,7 @@
      "image": "https://www.dia.es/product_images/13627/13627_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "983100",
@@ -1635,7 +1635,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/9831_9905_oranges",
      "brand": null,
      "format": "2 kg unidad",
-     "fecha": "2026-11-10"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "96004",
@@ -1659,7 +1659,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwa4c411ee/Assets/068728_C1C1/large/6/7/b/4/67b4accfded365c262b1ae895bf5d4eaaf82e95c_068728_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1680,7 +1680,7 @@
      "image": "https://prod-mercadona.imgix.net/images/8d8b0344fdd594338795d6d4e7f496aa.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Malla 2 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "272686",
@@ -1692,7 +1692,7 @@
      "image": "https://www.dia.es/product_images/272686/272686_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "55530",
@@ -1716,7 +1716,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwa5926f3b/Assets/090286_C1C1/large/8/c/7/9/8c79379d9b44d0de0eaf2ff6741948b971d709e6_090286_C1C1.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1737,7 +1737,7 @@
      "image": "https://prod-mercadona.imgix.net/images/a66b8d4177a91f7f219903267291e071.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Malla 5 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "296356",
@@ -1749,7 +1749,7 @@
      "image": "https://www.dia.es/product_images/296356/296356_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "50421",
@@ -1766,14 +1766,14 @@
     "ahorramas": {
      "product_id": "68080",
      "name": "Patata malla 5kg",
-     "price": 3.95,
+     "price": 5.3,
      "unit": "kg",
-     "unit_price": 0.79,
+     "unit_price": 1.06,
      "url": "https://www.ahorramas.com/patata-malla-5kg-68080.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw9f8ab5df/Assets/068080_C1C1/large/0/a/f/c/0afc557bcb083d0c4a2141cea9f824810b9e54de_068080_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1794,7 +1794,7 @@
      "image": "https://prod-mercadona.imgix.net/images/d950590e426dca5e9531e1ff2809edb4.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Malla 1 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "11459",
@@ -1806,7 +1806,7 @@
      "image": "https://www.dia.es/product_images/11459/11459_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "986000",
@@ -1818,7 +1818,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/9860_granel_0_0_es_es_cebolla_dulce_2026_cw06",
      "brand": null,
      "format": "1 kg unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "74004",
@@ -1830,19 +1830,19 @@
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/244f320a-708b-4a72-90d1-86b0824f642f/300x300.jpg",
      "brand": "HORTALIZA",
      "format": "2000g",
-     "fecha": "2026-11-06"
+     "fecha": "2026-11-12"
     },
     "ahorramas": {
      "product_id": "99248",
      "name": "Cebolla 2k",
-     "price": 2.68,
+     "price": 2.98,
      "unit": "kg",
-     "unit_price": 1.34,
+     "unit_price": 1.49,
      "url": "https://www.ahorramas.com/cebolla-2k-99248.html",
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw6106cad9/Assets/099248/large/7/3/f/4/73f4a2697f584582980a64ca6607b5e73d096e09_f530c406bffe1a73577e974a87f6d73aab709553_099248.png?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1863,7 +1863,7 @@
      "image": "https://prod-mercadona.imgix.net/images/b41923237e0611a8847a8b3c38e8abea.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "11421",
@@ -1875,7 +1875,7 @@
      "image": "https://www.dia.es/product_images/11421/11421_ISO_0_ES.jpg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "981900",
@@ -1887,19 +1887,19 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/9819_granel_0_0_es_es_zanahoria_2025_cw49",
      "brand": null,
      "format": "1 kg unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "73734",
      "name": "Zanahoria bolsa de1 kg.",
-     "price": 0.89,
+     "price": 1.09,
      "unit": "kg",
-     "unit_price": 0.89,
+     "unit_price": 1.09,
      "url": "https://www.compraonline.alcampo.es/products/zanahoria-bolsa-de1-kg/73734",
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/14a13075-4607-4d18-99df-e2f107b61c82/300x300.jpg",
      "brand": "HORTALIZA",
      "format": "1000g",
-     "fecha": "2026-11-06"
+     "fecha": "2026-11-12"
     },
     "ahorramas": {
      "product_id": "68717",
@@ -1911,7 +1911,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw6820cf3b/Assets/068717_C1C1/large/c/f/2/b/cf2bddba02844faf456125d5c8dbe2653763c2f2_068717_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -1932,7 +1932,7 @@
      "image": "https://prod-mercadona.imgix.net/images/fea380fa4ffc015ccfd6e774ff0986bd.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1.2 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "261371",
@@ -1944,7 +1944,7 @@
      "image": "https://www.dia.es/product_images/261371/261371_ISO_0_ES.jpg",
      "brand": "Selección de Dia",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "746800",
@@ -1956,7 +1956,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/7468_pack_0_0_es_es_pechuga_familiar_pollo_blanco_2026_cw26",
      "brand": null,
      "format": "1 kg  aprox. / unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "23871",
@@ -1968,19 +1968,19 @@
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/98c9c93a-a00d-43fc-82ae-dc6bedf59010/300x300.jpg",
      "brand": "PRODUCTO ALCAMPO",
      "format": "1275g - 2125g",
-     "fecha": "2026-11-06"
+     "fecha": "2026-11-12"
     },
     "ahorramas": {
      "product_id": "26211",
      "name": "Pechuga de pollo entera XXL Alipende 1,1kg aproximadamente",
-     "price": 6.82,
+     "price": 6.14,
      "unit": "kg",
-     "unit_price": 6.2,
+     "unit_price": 5.58,
      "url": "https://www.ahorramas.com/pechuga-de-pollo-entera-xxl-alipende-11kg-aproximadamente-26211.html",
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw89ca78a5/images/weight.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -2001,7 +2001,7 @@
      "image": "https://prod-mercadona.imgix.net/images/2781547566ca8d299f1e2e0d9cdccd4f.jpeg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Bandeja 0.5 kg",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "261238",
@@ -2013,7 +2013,7 @@
      "image": "https://www.dia.es/product_images/261238/261238_ISO_0_ES.jpg",
      "brand": "Selección de Dia",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "76688",
@@ -2025,7 +2025,7 @@
      "image": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/f9ef48a5-77dd-456e-a7ee-c3d36d7e1ab2/300x300.jpg",
      "brand": "ROLER",
      "format": "800g",
-     "fecha": "2026-11-06"
+     "fecha": "2026-11-12"
     },
     "ahorramas": {
      "product_id": "10810",
@@ -2037,7 +2037,7 @@
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw2b4c50a7/images/attributes/sinGluten.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -2058,7 +2058,7 @@
      "image": "https://prod-mercadona.imgix.net/images/8169558ae5888d1de5b676bef2853d9d.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "72170",
@@ -2070,7 +2070,7 @@
      "image": "https://www.dia.es/product_images/72170/72170_ISO_0_ES.jpg",
      "brand": "Dia Mari Marinera",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "819800",
@@ -2082,7 +2082,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/8198_pack_0_0_es_es_pescadilla_720g_2025_cw21",
      "brand": "GOLDEN SEAFOOD®",
      "format": "720 g unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "72928-FILETES",
@@ -2106,7 +2106,7 @@
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dw76fc774a/images/attributes/congelado.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -2127,7 +2127,7 @@
      "image": "https://prod-mercadona.imgix.net/images/e9984763951d5050c403b877a78dcd34.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Garrafa 8 l",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "26996",
@@ -2139,7 +2139,7 @@
      "image": "https://www.dia.es/product_images/26996/26996_ISO_0_ES.jpg",
      "brand": "Dia",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "16900",
@@ -2151,7 +2151,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/169_pack_0_0_es_es_agua_mineral_sport_2026_cw216019930_pack_0_0_es_es_agua_mineral_sport_2026_cw21",
      "brand": "AQUA®",
      "format": "330 ml unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "34935",
@@ -2175,7 +2175,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw6545c2f6/Assets/064183_C1C1/large/c/a/f/8/caf8e224207e896241dfc0bebff9e71df3d7106d_064183_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -2196,7 +2196,7 @@
      "image": "https://prod-mercadona.imgix.net/images/8629429b287c46d53db4df0f83fee72a.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Paquete 1 ud",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "276676",
@@ -2208,7 +2208,7 @@
      "image": "https://www.dia.es/product_images/276676/276676_ISO_0_ES.jpg",
      "brand": "Dia La Llama",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "36141",
@@ -2232,7 +2232,7 @@
      "image": "https://www.ahorramas.com/on/demandware.static/Sites-Ahorramas-Site/-/default/dwe95761eb/images/attributes/bioEcoOrganico.svg",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -2253,7 +2253,7 @@
      "image": "https://prod-mercadona.imgix.net/images/3e62ec30bdde1f0ec0cb84da981affcd.jpg?fit=crop&h=300&w=300",
      "brand": null,
      "format": "Botella 1.3 l",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "dia": {
      "product_id": "151954",
@@ -2265,7 +2265,7 @@
      "image": "https://www.dia.es/product_images/151954/151954_ISO_0_ES.jpg",
      "brand": "Flota",
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "aldi": {
      "product_id": "601226000",
@@ -2277,7 +2277,7 @@
      "image": "https://s7g10.scene7.com/is/image/aldinord/6012260_pack_0_0_es_es_lavavajillas_diluido_2026_cw16",
      "brand": "POWER FORCE®",
      "format": "1,3 l unidad",
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     },
     "alcampo": {
      "product_id": "42492",
@@ -2301,7 +2301,7 @@
      "image": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwb93379d5/Assets/043268_C1C1/large/e/5/9/d/e59d8b766f807e8f09bbcf549793a9cc4e52a316_043268_C1C1.jpg?sw=400&sh=900&sm=fit&sw=260&sh=260&sm=fit",
      "brand": null,
      "format": null,
-     "fecha": "2026-11-11"
+     "fecha": "2026-11-12"
     }
    }
   }
