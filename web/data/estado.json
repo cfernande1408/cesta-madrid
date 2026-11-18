@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T14:35:54+00:00",
+ "generado": "2026-11-18T14:12:22+00:00",
  "supermercados": {
   "mercadona": {
    "id": "mercadona",
@@ -8,7 +8,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 154.5
+   "duracion_s": 154.0
   },
   "dia": {
    "id": "dia",
@@ -26,7 +26,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 25,
-   "duracion_s": 188.2
+   "duracion_s": 185.7
   },
   "alcampo": {
    "id": "alcampo",
@@ -36,7 +36,7 @@
    "muestra": null,
    "http": 202,
    "encontrados": 6,
-   "duracion_s": 42.1
+   "duracion_s": 42.2
   },
   "ahorramas": {
    "id": "ahorramas",
@@ -45,7 +45,7 @@
    "mensaje": null,
    "muestra": null,
    "encontrados": 34,
-   "duracion_s": 129.0
+   "duracion_s": 145.1
   }
  },
  "articulos": {
@@ -56,8 +56,8 @@
     "elegido": "Leche semidesnatada Hacendado"
    },
    "dia": {
-    "resultados": 36,
-    "validos": 22,
+    "resultados": 34,
+    "validos": 20,
     "elegido": "Leche semidesnatada Dia Láctea 1 L"
    },
    "aldi": {
@@ -88,7 +88,7 @@
     "elegido": "Leche entera"
    },
    "ahorramas": {
-    "resultados": 22,
+    "resultados": 23,
     "validos": 15,
     "elegido": "Leche entera Alipende 1L"
    }
@@ -119,7 +119,7 @@
     ]
    },
    "ahorramas": {
-    "resultados": 20,
+    "resultados": 21,
     "validos": 14,
     "elegido": "Huevos de gallinas sueltas en el gallinero Alipende 24u \"clase m\""
    }
@@ -206,11 +206,6 @@
     "validos": 5,
     "elegido": "Aceite de oliva virgen extra"
    },
-   "alcampo": {
-    "resultados": 47,
-    "validos": 47,
-    "elegido": "SAETA Aceite de oliva virgen extra 1L"
-   },
    "ahorramas": {
     "resultados": 27,
     "validos": 21,
@@ -232,11 +227,6 @@
     "resultados": 2,
     "validos": 2,
     "elegido": "Aceite refinado de girasol"
-   },
-   "alcampo": {
-    "resultados": 21,
-    "validos": 14,
-    "elegido": "PRODUCTO ALCAMPO Aceite de girasol garrafa de 5 l."
    },
    "ahorramas": {
     "resultados": 3,
@@ -260,6 +250,11 @@
     "validos": 1,
     "elegido": "Arroz redondo"
    },
+   "alcampo": {
+    "resultados": 42,
+    "validos": 18,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg."
+   },
    "ahorramas": {
     "resultados": 11,
     "validos": 4,
@@ -281,6 +276,11 @@
     "resultados": 1,
     "validos": 1,
     "elegido": "Macarrón rayado"
+   },
+   "alcampo": {
+    "resultados": 50,
+    "validos": 14,
+    "elegido": "PRODUCTO ECONÓMICO ALCAMPO Pasta macarrón paquete 1 kg."
    },
    "ahorramas": {
     "resultados": 15,
@@ -349,8 +349,8 @@
     "elegido": "Garbanzos cocidos"
    },
    "ahorramas": {
-    "resultados": 13,
-    "validos": 6,
+    "resultados": 14,
+    "validos": 7,
     "elegido": "Garbanzo cocido Alipende 400g"
    }
   },
@@ -570,13 +570,8 @@
     "validos": 1,
     "elegido": "Manzana"
    },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 30,
-    "elegido": "Manzanas gala 1 kg."
-   },
    "ahorramas": {
-    "resultados": 35,
+    "resultados": 38,
     "validos": 18,
     "elegido": "Manzana roja bolsa 1.5kg"
    }
@@ -589,18 +584,13 @@
    },
    "dia": {
     "resultados": 50,
-    "validos": 8,
+    "validos": 7,
     "elegido": "Naranja malla 4 Kg"
    },
    "aldi": {
-    "resultados": 2,
-    "validos": 2,
+    "resultados": 1,
+    "validos": 1,
     "elegido": "Naranja"
-   },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 8,
-    "elegido": "Naranjas, malla 5 kg."
    },
    "ahorramas": {
     "resultados": 48,
@@ -616,7 +606,7 @@
    },
    "dia": {
     "resultados": 50,
-    "validos": 17,
+    "validos": 18,
     "elegido": "Tomate canario malla 750 g"
    },
    "aldi": {
@@ -624,11 +614,6 @@
     "validos": 0,
     "elegido": null,
     "descartados": []
-   },
-   "alcampo": {
-    "resultados": 49,
-    "validos": 25,
-    "elegido": "Tomate pera al peso."
    },
    "ahorramas": {
     "resultados": 48,
@@ -653,11 +638,6 @@
     "elegido": null,
     "descartados": []
    },
-   "alcampo": {
-    "resultados": 45,
-    "validos": 18,
-    "elegido": "Patatas malla de 5 kg."
-   },
    "ahorramas": {
     "resultados": 49,
     "validos": 7,
@@ -680,6 +660,11 @@
     "validos": 0,
     "elegido": null,
     "descartados": []
+   },
+   "alcampo": {
+    "resultados": 47,
+    "validos": 14,
+    "elegido": "Cebolla malla de 2 kg."
    },
    "ahorramas": {
     "resultados": 14,
@@ -704,6 +689,11 @@
     "elegido": null,
     "descartados": []
    },
+   "alcampo": {
+    "resultados": 47,
+    "validos": 14,
+    "elegido": "Zanahoria bolsa de1 kg."
+   },
    "ahorramas": {
     "resultados": 10,
     "validos": 5,
@@ -726,8 +716,13 @@
     "validos": 3,
     "elegido": "Pechuga de pollo marinada extratierna"
    },
+   "alcampo": {
+    "resultados": 48,
+    "validos": 24,
+    "elegido": "AUCHAN Pechuga pollo XXL. Producto Alcampo"
+   },
    "ahorramas": {
-    "resultados": 24,
+    "resultados": 23,
     "validos": 9,
     "elegido": "Pechuga de pollo entera XXL Alipende 1,1kg aproximadamente"
    }
@@ -739,7 +734,7 @@
     "elegido": "Preparado de carne picada cerdo"
    },
    "dia": {
-    "resultados": 28,
+    "resultados": 12,
     "validos": 7,
     "elegido": "Carne picada de cerdo Selección de Dia 500 g"
    },
@@ -748,6 +743,11 @@
     "validos": 0,
     "elegido": null,
     "descartados": []
+   },
+   "alcampo": {
+    "resultados": 49,
+    "validos": 15,
+    "elegido": "EL POZO Bandeja con preparado de carne picada mixta (cerdo-vacuno), sin gluten ni lactosa 800 g."
    },
    "ahorramas": {
     "resultados": 19,
